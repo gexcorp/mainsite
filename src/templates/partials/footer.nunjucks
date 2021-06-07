@@ -1,0 +1,129 @@
+<!-- ********* LARGE FOOTER ********* -->
+<footer class="footer footer-white footer-big">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+          <hr>
+          <div class="copyright pull-center">
+            <p>&#xA9;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              GEX Corporation. All Rights Reserved. Photo by Luana Azevedo on Unsplash.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Company</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./company.html#contactus">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#location">
+                Location
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#relationship">
+                Working With Us
+              </a>
+            </li>
+            <li>
+              <a href="./quality.html">
+                Quality
+              </a>
+            </li>
+            <li>
+              <a href="./support.html">
+                Customer Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Purchase</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./purchase.html#howto">
+                How To
+              </a>
+            </li>
+            <li>
+              <a href="./purchase.html#shipping">
+                Shipping
+              </a>
+            </li>
+            <li>
+              <a href="./pricelist.html">
+                Pricelist
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Library</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./faq.html">
+                Fundamentals
+              </a>
+            </li>
+            <li>
+              <a href="./doclibrary.html">
+                Document Library
+              </a>
+            </li>
+            <li>
+              <a href="./videolibrary.html">
+                Video Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Products</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./systems.html">
+                Dosimetry Systems
+              </a>
+            </li>
+            <li>
+              <a href="./dosimeters.html">
+                Dosimeters
+              </a>
+            </li>
+            <li>
+              <a href="./indicators.html">
+                Radiation Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./temperature.html">
+                Temperature Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./calibrations.html">
+                Calibration Services
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>

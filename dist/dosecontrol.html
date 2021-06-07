@@ -1,0 +1,968 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+ =========================================================
+ Material Kit PRO - v2.2.0
+ =========================================================
+
+ Product Page: https://www.creative-tim.com/product/material-kit-pro
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ Coded by Creative Tim
+
+ =========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+  <meta
+    name="keywords"
+    content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+  <meta name="msvalidate.01" content="65AA01A3161EE872D7D09D23458BB5CE"/>
+  <meta name="yandex-verification" content="6980595247a97dc7"/>
+  <title>
+    GEX Corporation - the Dosimetry Company
+  </title>
+  <!-- *** Global site tag (gtag.js) - Google Analytics *** -->
+  
+   <!-- *** END Global site tag (gtag.js) - Google Analytics *** -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <!-- custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet"/>
+  <!-- vertical nav CSS -->
+  <link href="./assets/css/vertical-nav.css" rel="stylesheet"/>
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- *** cookie banner *** -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#edeff5",
+            "text": "#838391"
+          },
+          "button": {
+            "background": "#4b81e8"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+          "link": "Learn More...",
+          "href": "./policies.html"
+        }
+      })
+    });
+  </script>
+  <!-- *** google structured data *** -->
+  <script type="application/ld+json">
+    {
+      "@type": "Company",
+      "name": "GEX Corporation",
+      "description": "The Dosimetry Company",
+      "url": "https://www.gexcorp.com",
+      "logo": "https://www.gexcorp.com/assets/img/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-303-400-9640",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+
+</head>
+
+
+
+
+
+
+</head>
+
+<body class="about-us ">
+
+  <!-- navigation.nunjucks -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+  <div class="container">
+    <div class="navbar-translate">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt="GEX Corp logo" class="img-fluid"></a>
+      <a class="navbar-brand" href="./index.html">GEX CORPORATION</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a href="./company.html" class="nav-link">
+            Company
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./support.html" class="nav-link">
+            Support
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./purchase.html" class="nav-link">
+            Purchase
+          </a>
+        </li>
+
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Products
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./systems.html" class="dropdown-item">
+              <i class="material-icons">horizontal_split</i>
+              Dosimetry Systems
+            </a>
+            <a href="./dosimeters.html" class="dropdown-item">
+              <i class="material-icons">dashboard</i>
+              Dosimeters
+            </a>
+            <a href="./indicators.html" class="dropdown-item">
+              <i class="material-icons">picture_in_picture</i>
+              Radiation Indicators
+            </a>
+            <a href="./temperature.html" class="dropdown-item">
+              <i class="material-icons">warning</i>
+              Temperature Indicators
+            </a>
+            <a href="./calibrations.html" class="dropdown-item">
+              <i class="material-icons">timeline</i>
+              Calibrations
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Library
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./faq.html" class="dropdown-item">
+              <i class="material-icons">info</i>
+              Fundamentals
+            </a>
+            <a href="https://library.gexcorp.com/" class="dropdown-item">
+              <i class="material-icons">view_list</i>
+              Document Library
+            </a>
+            <a href="./videolibraryTable.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Instruction Videos
+            </a>
+            <a href="./videolibrary.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Product Gallery
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="main">
+
+    <div class="cd-section" id="headers">
+
+      <!-- ********* HEADER 1 ********* -->
+      <div class="header-1">
+        <div class="page-header header-filter header-small"
+          style="background-image: url(./assets/img/background_greygrid.jpg);">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 ml-auto mr-auto text-center">
+                <h1 class="title">DoseControl<sup>&reg;</sup>
+                  Dosimetry System</h1>
+                <h4>The ideal solution for industrial radiation processing applications. For use with B3 radiochromic, FWT radiochromic, CTA film, and Harwell PMMA dosimeters. Dose range 1-150 kGy for B3, 1-100 kGy for FWT, 1-55 kGy for Amber/Red Perspex PMMA, 10-300 kGy for CTA. Use outside these dose ranges may be possible.</h4>
+                <br>
+                <a href="mailto:infogex@gexcorp.com" target="_blank" class="btn btn-danger btn-lg">
+                  Contact Sales
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********* END HEADER 1 ********* -->
+      <div class="main main-raised">
+        <div class="container">
+          <!-- ********* FEATURES 3 OVERVIEW ********* -->
+          <div class="features-3">
+            <div class="row">
+              <div class="col-md-6 ml-auto">
+                <img src="./assets/img/DoseControl_system_pg.jpg" alt="DoseControl dosimetry system"
+                  class="img-raised rounded img-fluid">
+                <br>
+                <br>
+                <h5 class="description">
+                  The DoseControl<sup>&reg;</sup>
+                  dosimetry system integrates a powerful 21CFR Part 11 conforming dosimetry software with a Thermo
+                  Scientific spectrophotometer, controlling the measurement process and making it simple to create and
+                  maintain dosimetry records. This system is a
+                  versatile solution for industrial routine dosimetry applications, and can accommodate several
+                  different types of dosimeters, such as B3, FWT, CTA and PMMA (Red and Amber Perspex).
+                </h5>
+              </div>
+              <div class="col-md-6">
+                <!-- Some <br /> tags to push the text to align with the image, you can remove it if you have more text on the right side :-) -->
+                <h2 class="title">Makes operations efficient and audits easy.</h2>
+                <div class="info info-horizontal">
+                  <div class="icon icon-info">
+                    <i class="material-icons">dashboard</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Powerful Software</h4>
+                    <p>Provides step-by-step management of the dosimetry workflow.</p>
+                    <p>Designed to meet the needs of industrial dosimetry.</p>
+                    <p>Combines speed and reliability.</p>
+                    <p>21 CFR part 11 compliant.</p>
+                  </div>
+                </div>
+                <div class="info info-horizontal">
+                  <div class="icon icon-success">
+                    <i class="material-icons">done_outline</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Uniformity of measurements</h4>
+                    <p>Every measurement follows the same process.</p>
+                    <p>Eliminates user error.</p>
+                  </div>
+                </div>
+                <div class="info info-horizontal">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">verified_user</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Ensures Measurement Integrity</h4>
+                    <p>B3 DoseStix dosimeter measurements linked simultaneously to scanned barcode ID number.</p>
+                    <p>Absorbance and thickness of Red and Amber Perspex are linked because they are measured
+                      simultaneously in the same holder.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- ********* END FEATURES 3 OVERVIEW ********* -->
+          <!-- ********* BEGIN VIDEO MEASUREMENTS ********* -->
+          <div class="features-3">
+            <div class="row">
+              <div class="col-md-12 ml-auto mr-auto">
+                <h2 class="title">Quick, controlled, traceable dose measurements.</h2>
+                <br>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video src="./assets/G30-Dosecontrol-measurement-demo.mp4" autoplay loop muted></video>
+                </div>
+                <h5 class="description">
+                  The DoseControl<sup>&reg;</sup>
+                  dosimetry system scans the dosimeter ID at the time of measurement, assuring the dose is traceable to
+                  a specific dosimeter.
+                </h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="description">
+                  <h4 class="info-title">1. Easy to Use</h4>
+                  <ul>
+                    <li>
+                      <p>Simply place the dosimeter in the holder and press the <b>"Measure" </b>button.</p>
+                    </li>
+                    <li>
+                      <p>The system automatically captures all the information related to the measurement.</p>
+                    </li>
+                    <li>
+                      <p>DoseControl prompts the user through each step.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">2. Controlled Measurement Process</h4>
+                  <p>DoseControl enforces a consistent measurement routine for each user.</p>
+                  <ul>
+                    <li>
+                      <p>Configure measurement and process parameters in advance, and then lock in this process in place
+                        for other users. </p>
+                    </li>
+                    <li>
+                      <p>Limit the number of re-reads (re-measurement of dosimeters), and enforce specific reasons and
+                        methods for re-reads.</p>
+                    </li>
+                    <li>
+                      <p>Reduces user error and minimizes risk.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="description">
+                  <h4 class="info-title">3. Permanent Record of Measurement Data</h4>
+                  <p>DoseControl captures all information related to the process, dosimeter measurements, user logins,
+                    dates/time. This information cannot be deleted or removed. Any changes are recorded.</p>
+                  <ul>
+                    <li>
+                      <p>Dosimeter absorbance</p>
+                    </li>
+                    <li>
+                      <p>Dose calculation</p>
+                    </li>
+                    <li>
+                      <p>Dosimeter ID</p>
+                    </li>
+                    <li>
+                      <p>Who made the measurement - User ID</p>
+                    </li>
+                    <li>
+                      <p>Date/time of the measurement</p>
+                    </li>
+                    <li>
+                      <p>Measurement metadata - the calibration, the spectrophotometer S/N, the dosimeter batch, the
+                        irradiation pathway.</p>
+                    </li>
+                    <li>
+                      <p>All activities - any re-measurements, any comments, any changes.</p>
+                    </li>
+                    <li>
+                      <p>Any process parameters - as defined by you.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- ********* END VIDEO MEASUREMENTS ********* -->
+          <!-- ********* BEGIN VIDEO 2 AUDIT TRAIL ********* -->
+          <div class="features-3">
+            <div class="row">
+              <div class="col-md-9 ml-auto">
+                <h2 class="title">Complete Audit Trail Capabilities</h2>
+              </div>
+              <div class="col-md-3">
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-9 ml-auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video src="./assets/Audit trail overview.mp4" autoplay loop muted></video>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <h5 class="description">
+                  DoseControl<sup>&reg;</sup>
+                  features a filterable audit trail which allows you to find any record of any historical activity in
+                  the software. Save and print your audit in a secure PDF format.
+                </h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10">
+                <div class="description">
+                  <h4 class="info-title">1. Filter Audit Trail</h4>
+                  <ul>
+                    <li>
+                      <p>Dosimeter ID - Filter and list any and all measurements, re-reads, edits, etc. for a specific
+                        dosimeter.</p>
+                    </li>
+                    <li>
+                      <p>User - Find and list all activities performed by a user.</p>
+                    </li>
+                    <li>
+                      <p>Instrument, Pathway - Find a complete history of activities for a specific spectrophotometer or
+                        irradiation pathway (such as a specific E-beam).</p>
+                    </li>
+                    <li>
+                      <p>Date range - Find a complete history of activities for a given date range.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">2. Quickly Save/Print an Audit Report</h4>
+                  <p>DoseControl enforces a consistent measurement routine for each user.</p>
+                  <ul>
+                    <li>
+                      <p>Click the "Print" icon to produce a report of your filtered audit trail.</p>
+                    </li>
+                    <li>
+                      <p>Save or print the secure (non-alterable) PDF report.</p>
+                    </li>
+                    <li>
+                      <p>Excellent way to investigate issues in your dosimetry process or a specific measurement.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ********* END VIDEO AUDIT TRAIL ********* -->
+          <!--     *********     VIDEO FEATURES 5 REPORTS    *********      -->
+          <div class="features-5" style="background-image: url('./assets/img/b3-dosimeters.jpg')">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+              <h2 class="title">Dosimetry Reports Designed for the Radiation Processing Industry. </h2>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10 ml-auto mr-auto text-center">
+                  <h4>Flexible and configurable. Secure PDF and MS Excel formats.</h4>
+                  <br>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video src="./assets/Wedge test demo short.mp4" autoplay loop muted></video>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                  <br>
+                  <ul>
+                    <li>
+                      <p>You control what types of reports are output from DoseControl, and what information is
+                        contained in a
+                        report.</p>
+                    </li>
+                    <li>
+                      <p>Multiple types of reports can be output from DoseControl: Routine dosimetry, Dose Mapping,
+                        Ebeam and
+                        Gamma Calibrations, Ebeam testing, etc.</p>
+                    </li>
+                    <li>
+                      <p>Output secure PDF reports as a permanent, uneditable record.</p>
+                    </li>
+                    <li>
+                      <p>Modify the Excel report template to meet the needs of your specific process.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--     *********    END VIDEO FEATURES 5 REPORT    *********      -->
+          <!-- ********* BEGIN DETAILS HARDWARE ********* -->
+          <div class="features-3">
+          <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+              <h2 class="title">Your choice of Spectrophotometer</h2>
+              <p>Powerful and flexible software to create and maintain FDA 21 CFR Part 11 compliant dosimetry records.</p>
+              <br>
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card-header card-header-image">
+                      <img class="img img-raised" src="./assets/img/evo220.jpg" alt="Evolution 220 Spectrophotometer">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h6 class="card-category text-info">B3, FWT, CTA and Perspex dosimeters</h6>
+                    <h3 class="card-title">
+                      Thermo Scientific Evolution 220 Spectrophotometer
+                    </h3>
+                    <p class="card-description">
+                      High performance, state-of-the-art spectrophotometer, with specialized dosimeter holders and internal
+                      barcode reader. Ideal for high volume dosimetry users. Excellent choice for users that want on-site serviceability.
+                    </p>
+                    <ul>
+                      <li>
+                        <p>Performance verification (P.V.) Module in DoseControl - automated daily P.V. checks of
+                          instrument with audit trail and PDF reports.</p>
+                      </li>
+                      <li>
+                        <p>You can leave the lid open during measurements. The dosimeter holder system is designed to block stray light.</p>
+                      </li>
+                      <li>
+                        <p>Long-life xenon lamp, which means limited downtime. (3 year guarantee, average life 5 years
+                          with 24/7/365 operation.) No changing the lamp. Done by Thermo technician.</p>
+                      </li>
+                      <li>
+                        <p>No instrument warm up time. You can begin measurements after a 3 minute initialization from a cold start.</p>
+                      </li>
+                      <li>
+                        <p>Comprehensive calibration and performance verification capabilities - empowers you to do this
+                          yourself without needing to call a tech or send the unit to Thermo. Re-calibrate the
+                          wavelength using the internal Xenon lamp, a Mercury Lamp accessory, or automated CVC
+                          accessory. Use the Thermo INSIGHT for complete performance verification testing.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card-header card-header-image">
+                      <img class="img img-raised" src="./assets/img/genesys30.jpg" alt="Genesys 30 Spectrophotometer">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h6 class="card-category text-info">B3 and FWT dosimeters</h6>
+                    <h3 class="card-title">
+                      Thermo Scientific Genesys 30 Spectrophotometer
+                    </h3>
+                    <p class="card-description">
+                      High quality spectrophotometer with specialized dosimeter holders and internal barcode scanner.
+                      Next generation instrument for dosimetry, replacing the Genesys 20 model. Stable and durable, the
+                      GENESYS 30 is an ideal, high-performing instrument for dosimetry.
+                    </p>
+                    <ul>
+                      <li>
+                        <p>You can leave the lid open during measurements. The dosimeter holder system is designed to block stray light.</p>
+                      </li>
+                      <li>
+                        <p>Simplified lamp change process. Lamp is pre-aligned and you simply insert it into place.</p>
+                      </li>
+                      <li>
+                        <p>Tungsten-halogen lamp rated at 1000 hours of use. </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <hr>
+          <!-- ********* END DETAILS HARDWARE ********* -->
+          <!-- ********* BEGIN DETAILS SOFTWARE REV ********* -->
+          <div class="features-3">
+              <div class="row">
+                  <div class="col-md-6 ml-auto">
+                      <img src="./assets/img/Report Summary Screen_03.PNG" alt="DoseControl report summary screenshot"
+                          class="img-raised rounded img-fluid">
+                      <br>
+                      <br>
+                      <h5 class="description">
+                          Powerful and flexible software to create and maintain FDA 21 CFR Part 11 compliant dosimetry
+                          records.
+                      </h5>
+                      <br>
+                      <div class="info info-horizontal">
+                          <div class="icon icon-success">
+                              <i class="material-icons">done_outline</i>
+                          </div>
+                          <div class="description">
+                              <h4 class="info-title">Electronic Audit Trail</h4>
+                              <ul>
+                                  <li>
+                                      <p>Permanent, no-editable records.</p>
+                                  </li>
+                                  <li>
+                                      <p>System records all measurement activity - who did what, when, and why.</p>
+                                  </li>
+                                  <li>
+                                      <p>Filterable audit trail reports - filter and itemize a history of dosimetry activity by
+                                          dates, dosimeter ID, user login, reader, etc.</p>
+                                  </li>
+                                  <li>
+                                      <p>Create secure PDF report of Audit Trail results.</p>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                                            <div class="info info-horizontal">
+                          <div class="icon icon-success">
+                              <i class="material-icons">done_outline</i>
+                          </div>
+                          <div class="description">
+                              <h4 class="info-title">Quality Dosimetry Reports</h4>
+                              <ul>
+                                  <li>
+                                      <p>Version control of dosimetry measurement reports (print, export data). </p>
+                                  </li>
+                                  <li>
+                                      <p>Secure, non-editable PDF reports.</p>
+                                  </li>
+                                  <li>
+                                      <p>Standard or customizable reports formats.</p>
+                                  </li>
+                                  <li>
+                                      <p>Flexible Excel report templates - create your own templates specific to your
+                                          process. Easily upload new template into the software.</p>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+
+                  </div>
+                  <div class="col-md-6">
+                      <!-- Some <br /> tags to push the text to align with the image, you can remove it if you have more text on the right side :-) -->
+                      <h2 class="title">About DoseControl<sup>&reg;</sup> Software</h2>
+                      <div class="info info-horizontal">
+                          <div class="icon icon-success">
+                              <i class="material-icons">done_outline</i>
+                          </div>
+                          <div class="description">
+                              <h4 class="info-title">Controls User Activity</h4>
+                              <ul>
+                                  <li>
+                                      <p>Uniformity in measurement results – Every measurement follows the same process,
+                                          as defined by your software administrator.</p>
+                                  </li>
+                                  <li>
+                                      <p>Eliminates user error by controlling workflow and eliminating decisions. Easy
+                                          to use with a modern user interface in Windows&reg;.</p>
+                                  </li>
+                                  <li>
+                                      <p>Verification of spectrophotometer serial number, wavelength, and spectral
+                                          bandwidth with each measurement to match dosimeter batch calibration
+                                          configuration.</p>
+                                  </li>
+                                  <li>
+                                      <p>User access and permissions control via local admin or LDAP with active
+                                          directory.</p>
+                                  </li>
+                                  <li>
+                                      <p>Dosimeter re-read policy controlled by the admin.</p>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="info info-horizontal">
+                          <div class="icon icon-success">
+                              <i class="material-icons">done_outline</i>
+                          </div>
+                          <div class="description">
+                              <h4 class="info-title">Powerful Modules and Integration Capabilities</h4>
+                              <ul>
+                                  <li>
+                                      <p>Integrate DoseControl with your other systems. Import data into DoseControl, or export data from DoseControl - no expensive customizations necessary. For Enterprise License users. </p>
+                                  </li>
+                                  <li>
+                                      <p>Performance Verification Module: Guides the user step-by-step to perform a "daily check" of the Evolution 220 instrument, to verify the reader's wavelength and photometric accuracy.</p>
+                                  </li>
+                                  <li>
+                                      <p>Product Specification Module: The user simply chooses a product name from the drop-down list, and the software automatically populates the report header information with your process information for that product. The admin can setup process specifications for hundreds of various products. Prevents user error and makes dosimetry report setup easy for your technicians.</p>
+                                  </li>
+                                
+                              </ul>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+
+            <!-- ********* END DETAILS SOFTWARE REV ********* -->
+
+          <!-- ********* BEGIN PRODUCT DOCS ********* -->
+          <div class="page-header header-filter" style="background-image: url('./assets/img/background_greygrid.jpg');">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                  <h1 class="title"> Need more information?</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 ml-auto mr-auto">
+                  <div class="card card-raised card-form-horizontal">
+                    <div class="card-body ">
+                      <div class="icon icon-info">
+                        <i class="material-icons">description</i>
+                      </div>
+                      <div class="description">
+                        <h4 class="info-title">Brochure: DoseControl System</h4>
+                        <p>Details about spectrophotometers, dosimeter holders, hardware and software.</p>
+                        <a href="pdf/100-365 DoseControl Dosimetry System brochure_1118.pdf" target="_blank">Download
+                          PDF...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 ml-auto mr-auto">
+                  <div class="card card-raised card-form-horizontal">
+                    <div class="card-body ">
+                      <div class="icon icon-info">
+                        <i class="material-icons">description</i>
+                      </div>
+                      <div class="description">
+                        <h4 class="info-title">Brochure: DoseControl Software</h4>
+                        <p>Find out more details specifically about DoseControl Software.</p>
+                        <a href="pdf/100-364 DoseControl Software_1118.pdf" target="_blank">Download PDF...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 ml-auto mr-auto">
+                  <div class="card card-raised card-form-horizontal">
+                    <div class="card-body ">
+                      <div class="icon icon-danger">
+                        <i class="material-icons">video_library</i>
+                      </div>
+                      <div class="description">
+                        <h4 class="info-title">Video Library</h4>
+                        <p>Take a look at more videos about using DoseControl.</p>
+                        <a href="./videolibrary.html">Go to Video Library...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ********* END PROD DOCS ********* -->
+        </div>
+      </div>
+      <!-- ********* END MAIN RAISED ********* -->
+    </div>
+  </div>
+  <!-- ********* END SECTION ********* -->
+
+
+
+<!-- ********* LARGE FOOTER ********* -->
+<footer class="footer footer-white footer-big">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+          <hr>
+          <div class="copyright pull-center">
+            <p>&#xA9;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              GEX Corporation. All Rights Reserved. Photo by Luana Azevedo on Unsplash.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Company</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./company.html#contactus">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#location">
+                Location
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#relationship">
+                Working With Us
+              </a>
+            </li>
+            <li>
+              <a href="./quality.html">
+                Quality
+              </a>
+            </li>
+            <li>
+              <a href="./support.html">
+                Customer Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Purchase</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./purchase.html#howto">
+                How To
+              </a>
+            </li>
+            <li>
+              <a href="./purchase.html#shipping">
+                Shipping
+              </a>
+            </li>
+            <li>
+              <a href="./pricelist.html">
+                Pricelist
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Library</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./faq.html">
+                Fundamentals
+              </a>
+            </li>
+            <li>
+              <a href="./doclibrary.html">
+                Document Library
+              </a>
+            </li>
+            <li>
+              <a href="./videolibrary.html">
+                Video Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Products</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./systems.html">
+                Dosimetry Systems
+              </a>
+            </li>
+            <li>
+              <a href="./dosimeters.html">
+                Dosimeters
+              </a>
+            </li>
+            <li>
+              <a href="./indicators.html">
+                Radiation Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./temperature.html">
+                Temperature Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./calibrations.html">
+                Calibration Services
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- ********* BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+<footer class="footer footer-black">
+  <div class="container">
+    <a class="footer-brand" href="#pablo">GEX Corporation</a>
+    <ul class="pull-center">
+      <li>
+        <a href="./policies.html#cookie">
+          Cookies Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#privacy">
+          Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#terms">
+          Terms &amp; Conditions
+        </a>
+      </li>
+
+    </ul>
+    <ul class="social-buttons float-right">
+
+      <li>
+        <a class="btn btn-link btn-linkedin" href="https://www.linkedin.com/company/gex-corporation" role="button">
+          <i class="fa fa-linkedin-square"></i>
+          Connect with Linkedin
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-link btn-youtube" href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q/" role="button">
+        
+          <i class="fa fa-youtube-play"></i>
+          Youtube Channel
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!-- ********* END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+
+<!-- endscripts.nunjucks -->
+<!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+  <!--	Plugin for Small Gallery in Product Page -->
+  <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+  </script>
+<!-- *** END MATERIAL DESIGN CORE -->
+<!-- google -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- List.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<!-- custom -->
+<script src="./assets/js/custom.js"></script>
+<script src="./assets/js/table-custom.js"></script>
+<!-- html5shiv -->
+<script src="./assets/js/pluins/html5shiv.min.js"></script>
+
+
+
+
+
+</body>
+</html>

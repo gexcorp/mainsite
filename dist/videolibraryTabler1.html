@@ -1,0 +1,921 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+ =========================================================
+ Material Kit PRO - v2.2.0
+ =========================================================
+
+ Product Page: https://www.creative-tim.com/product/material-kit-pro
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ Coded by Creative Tim
+
+ =========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+  <meta
+    name="keywords"
+    content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+  <meta name="msvalidate.01" content="65AA01A3161EE872D7D09D23458BB5CE"/>
+  <meta name="yandex-verification" content="6980595247a97dc7"/>
+  <title>
+    GEX Corporation - the Dosimetry Company
+  </title>
+  <!-- *** Global site tag (gtag.js) - Google Analytics *** -->
+  
+   <!-- *** END Global site tag (gtag.js) - Google Analytics *** -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <!-- custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet"/>
+  <!-- vertical nav CSS -->
+  <link href="./assets/css/vertical-nav.css" rel="stylesheet"/>
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- *** cookie banner *** -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#edeff5",
+            "text": "#838391"
+          },
+          "button": {
+            "background": "#4b81e8"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+          "link": "Learn More...",
+          "href": "./policies.html"
+        }
+      })
+    });
+  </script>
+  <!-- *** google structured data *** -->
+  <script type="application/ld+json">
+    {
+      "@type": "Company",
+      "name": "GEX Corporation",
+      "description": "The Dosimetry Company",
+      "url": "https://www.gexcorp.com",
+      "logo": "https://www.gexcorp.com/assets/img/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-303-400-9640",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+
+</head>
+
+
+
+
+
+
+</head>
+
+<body class="about-us " id="quicklinks">
+
+    <!-- navigation.nunjucks -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+  <div class="container">
+    <div class="navbar-translate">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt="GEX Corp logo" class="img-fluid"></a>
+      <a class="navbar-brand" href="./index.html">GEX CORPORATION</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a href="./company.html" class="nav-link">
+            Company
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./support.html" class="nav-link">
+            Support
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./purchase.html" class="nav-link">
+            Purchase
+          </a>
+        </li>
+
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Products
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./systems.html" class="dropdown-item">
+              <i class="material-icons">horizontal_split</i>
+              Dosimetry Systems
+            </a>
+            <a href="./dosimeters.html" class="dropdown-item">
+              <i class="material-icons">dashboard</i>
+              Dosimeters
+            </a>
+            <a href="./indicators.html" class="dropdown-item">
+              <i class="material-icons">picture_in_picture</i>
+              Radiation Indicators
+            </a>
+            <a href="./temperature.html" class="dropdown-item">
+              <i class="material-icons">warning</i>
+              Temperature Indicators
+            </a>
+            <a href="./calibrations.html" class="dropdown-item">
+              <i class="material-icons">timeline</i>
+              Calibrations
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Library
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./faq.html" class="dropdown-item">
+              <i class="material-icons">info</i>
+              Fundamentals
+            </a>
+            <a href="https://library.gexcorp.com/" class="dropdown-item">
+              <i class="material-icons">view_list</i>
+              Document Library
+            </a>
+            <a href="./videolibraryTable.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Instruction Videos
+            </a>
+            <a href="./videolibrary.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Product Gallery
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="page-header header-filter header-small" data-parallax="true"
+        style=" background-image: url('./assets/img/background_greygrid.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h1 class="title">Video Library</h1>
+                    <h4>Current selection of videos for the DoseControl dosimetry system. Find out how to install,
+                        configuration and use DoseControl, or watch a demostration of the system. </h4>
+
+                    <a class="btn btn-link btn-youtube"
+                        href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q?sub_confirmation=1"
+                        role="button">
+
+                        <i class="fa fa-youtube-play"></i>
+                        Youtube Channel - Subscribe and Follow!
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main main-raised">
+        <div class="container">
+            <!--buttons at top -->
+            <div class="about-description text-center">
+            <h6>Quick links:</h6>
+            <div class="row">
+                <div class="col-md-10 ml-auto mr-auto text-center">
+                
+                    <a href="#b1" class="btn btn-default btn-round">Install & Upgrade</a>
+                    <a href="#b2" class="btn btn-primary btn-round">Configure DoseControl</a>
+                    <a href="#b3" class="btn btn-info btn-round">Setup Reports</a>
+                    <a href="#b4" class="btn btn-success btn-round">Use DoseControl</a>
+                    <a href="#b5" class="btn btn-danger btn-round">Demos</a>
+                    <hr>
+                    
+                     
+                </div>
+            </div>
+            </div>
+            <!-- subhead section 1-->
+            <div id="b1" class="about-description text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h3 id="installup" class="title">Install and Upgrade Dosecontrol</h3>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- begin videoinstall -->
+            <div id="videoinstall">
+                <!-- table seach and sort controls -->
+                <div class="row justify-content-center">
+                <a href="#quicklinks" class="sort btn btn-default btn-link" >Return to top</a>
+                </div>
+                <!-- search -->
+                
+                        <!-- video grid navigation -->
+                        <!-- video grid -->
+
+                <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-center link">Link</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th class="text-center">Date</th>
+                        </tr>
+                    </thead>
+                    <!-- IMPORTANT, class="list" have to be at tbody -->
+                    <tbody class="list">
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/qSKv_pk6dOU">Watch</a></td>
+                            <td class="title_I">SQL Server 2017 Express Edition Installation</td>
+                            <td class="description">For DoseControl Basic License Users: The basic setup requires MS SQL
+                                Server Express installed on the same PC workstation on which you will install
+                                DoseControl. Installing MS SQL Server Express takes only a few minutes.
+
+                                After you install MS SQL Express, you should install SSMS (SQL Server Management
+                                Studio), which will allow you to access your SQL Server on your PC.</td>
+                            <td class="text-center rev">18-Jan-2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/qSKv_pk6dOU">Watch</a></td>
+                            <td class="title_I">SSMS (SQL Server Management Studio) Installation</td>
+                            <td class="description">For DoseControl Basic License Users: In this video, we show you how
+                                to install SSMS (SQL Server Management Studio). You should have MS SQL Server Express
+                                installed on your PC.</td>
+                            <td class="rev">Jan. 18, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/tnjUOetRO0Q">Watch</a></td>
+                            <td class="title_I">DoseControl Software Installation</td>
+                            <td class="description">DoseControl software installation for Basic License: In this video,
+                                we show you how to install DoseControl software. Prior to this, you should have MS SQL
+                                Server Express and SSMS installed on your PC.</td>
+                            <td class="rev">Jan. 18, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/2dEF8yHqhlw">Watch</a></td>
+                            <td class="title_I">DoseControl First Launch: Connecting to the SQL database</td>
+                            <td class="description">In this video, we show you how to connect DoseControl to your SQL
+                                database. After installing DoseControl software for the first time, when you launch the
+                                application you will be prompted to enter a connection string for your SQL Server.</td>
+                            <td class="rev">Jan. 18, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/rbNbyw8ENUQ">Watch</a></td>
+                            <td class="title_I">Backup and Restore Databases in SSMS</td>
+                            <td class="description">In this video, we show you how to backup and restore a database in
+                                SSMS (SQL Server Management Studio). You should have MS SQL Server Express and SSMS
+                                installed on your PC.
+
+                                You should backup your DoseControl database on a regular basis. When you upgrade to a
+                                new version of DoseControl, you should always make a backup copy of your database prior
+                                to upgrading. If there is any issue you can simply restore your original database.</td>
+                            <td class="rev">Jan. 18, 2021</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <!-- end video grid -->
+            </div>
+            <!-- end video install -->
+            <br id="b2">
+            <!-- subhead section 2-->
+            <div class="about-description text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h3 class="title" id="videoconfig">How To Configure Dosecontrol</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- begin videoconfigure -->
+            <div id="videoconfigure">
+                <!-- table seach and sort controls -->
+                <div class="row justify-content-center">
+                <a href="#quicklinks" class="sort btn btn-default btn-link" >Return to top</a>
+                </div>
+                
+                    <!-- sort buttons -->
+                    
+                <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Link</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th class="text-center">Date</th>
+                        </tr>
+                    </thead>
+                    <!-- IMPORTANT, class="list" have to be at tbody -->
+                    <tbody class="list">
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/r_fTsa8KpkI">Watch</a></td>
+                            <td class="title_C">How to setup Pathways, Dosimeter Types and Batches</td>
+                            <td class="description">This video describes how to configure DoseControl dosimetry
+                                software. Before you can use DoseControl to measure dosimeters, you must first set up
+                                all your information. This video is Part 1 of a series about how to setup your dosimetry
+                                process information the software, and covers the following:
+                                <ul>
+                                    <li>Pathways (Irradiation pathways)</li>
+                                    <li>Dosimeter Types (B3, FWT, Harwell Red/Amber Perspex, CTA)</li>
+                                    <li>Batches (Dosimeter batches)</li>
+                                </ul>
+                            </td>
+                            <td class="rev">Jan 01, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/BocPeB9E76E">Watch</a></td>
+                            <td class="title_C">How to set up Readers (Spectrophotometers)</td>
+                            <td class="description">This video is Part 2 of a series about how to setup your dosimetry
+                                process in DoseControl software, and covers how to configure your readers
+                                (spectrophotometers) in DoseControl.
+                            </td>
+                            <td class="rev">Jan 01, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/7P2tVpb7eR8"></a></td>
+                            <td class="title_C">How to Configure Calibrations</td>
+                            <td class="description">This video is Part 3 of a series about how to setup your dosimetry
+                                process in DoseControl software, and covers how to configure Calibrations (dosimeter
+                                batch calibrations) in DoseControl.</td>
+                            <td class="rev">Not available</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/hCIl07_GdMg">Watch</a></td>
+                            <td class="title_C">Configure Dosimeter Re-Reads</td>
+                            <td class="description">This video is Part 4 of a series about how to setup your dosimetry
+                                process in DoseControl software, and covers how to configure Calibrations (dosimeter
+                                batch calibrations) in DoseControl.
+                                DoseControl gives you the ability to set up how a user re-reads a dosimeter, and for
+                                what reason. Sometimes it is necessary to re-read a dosimeter, such as a user error,
+                                dirty dosimeter, damaged dosimeter, etc. In the event a user needs to re-read
+                                (re-measure) a dosimeter, they can select from the list of reasons that you setup in a
+                                drop-down menu. You can also define the number of re-reads that can be executed, and the
+                                method of the re-read (simple or statistical).</td>
+                            <td class="rev">Jan 01, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/zou_uAP1ypo"></a></td>
+                            <td class="title_C">Configure Report Types and Data Fields</td>
+                            <td class="description">This video demonstrates how to configure dosimetry report headers in
+                                DoseControl software. Before using DoseControl to measure dosimeters, you must set up at
+                                least one report type. In this video, we demonstrate the setup of a routine dosimetry
+                                report with several headers for a specific process. </td>
+                            <td class="rev">Not available</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <!-- end video grid -->
+            </div>
+            <!-- end video configure -->
+            <br id="b3">
+            <!-- subhead section 3-->
+            <div class="about-description text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h3 class="title" id="videorep">How to Configure and Use Reports in DoseControl</h3>
+
+                    </div>
+                </div>
+            </div>
+            <!-- begin videoreports -->
+            <div id="videoreports">
+                <!-- table seach and sort controls -->
+                <div class="row justify-content-center">
+                <a href="#quicklinks" class="sort btn btn-default btn-link" >Return to top</a>
+                </div>
+                <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Link</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th class="text-center">Date</th>
+                        </tr>
+                    </thead>
+                    <!-- IMPORTANT, class="list" have to be at tbody -->
+                    <tbody class="list">
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/BRYQCp5E8Ww"></a></td>
+                            <td class="title_R">Overview - Dosimetry Reports in Dosecontrol</td>
+                            <td class="description">In this video, we show how dosimetry reports work:
+                                <ul>
+                                    <li>how to process a complete report, </li>
+                                    <li>how to export or print a report to Excel and PDF, </li>
+                                    <li>how to add a comment to a report</li>
+                                    <li>how to make changes to the report information</li>
+                                </ul>
+                            </td>
+                            <td class="rev">Not available</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/1wirpxJUtYs">Watch</a></td>
+                            <td class="title_R">How to Setup an E-beam Energy Test Report for Excel</td>
+                            <td class="description">In this video, I demonstrate how to create an Excel dosimetry report
+                                in the DoseControl software.
+
+                                Next, I show how to setup the software so that you can create dosimetry report with
+                                specialized fields specifically for an E-beam energy test using a Ris&Oslash; wedge.
+                            </td>
+                            <td class="rev">Jan 18, 2021</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <!-- end video grid -->
+            </div>
+            <!-- end video reports-->
+            <br id="b4">
+            <!-- begin video usage -->
+            <!-- subhead section 4-->
+            <div class="about-description text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h3 class="title" id="videouse">Using the DoseControl Dosimetry System</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div id="videousage">
+                <!-- table seach and sort controls -->
+                <div class="row justify-content-center">
+                <a href="#quicklinks" class="sort btn btn-default btn-link" >Return to top</a>
+                </div>
+                <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Link</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th class="text-center">Date</th>
+                        </tr>
+                    </thead>
+                    <!-- IMPORTANT, class="list" have to be at tbody -->
+                    <tbody class="list">
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/EK-jm8m2R4c">Watch</a></td>
+                            <td class="title_U">Procedure for Dosimeter Measurement, Re-reads, and Skips</td>
+                            <td class="description">This video provides the basic instructions for how to measure a
+                                dosimeter using the DoseControl system. We show how to:
+                                <ul>
+                                    <li>Create a new report</li>
+                                    <li>Open the measurement screen and zero the reader (spectrophotometer)</li>
+                                    <li>Enter the dosimeter ID or scan the barcode of the dosimeter's ID</li>
+                                    <li>Press the measure button to get the absorbance and dose</li>
+                                    <li>Enter a position and tote ID for the dosimeter</li>
+                                    <li>Re-read the dosimeter</li>
+                                    <li>Skip a dosimeter measurement</li>
+                                </ul>
+                            </td>
+                            <td class="rev">Jan 01, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/5R95JAQ0Nqg">Watch</a></td>
+                            <td class="title_U">Using the Performance Verification Test Module in DoseControl</td>
+                            <td class="description">This video shows how to use the Performance Verification (P.V.)
+                                module in DoseControl to do a P.V. test for the Evolution 220 spectrophotometer.
+
+                                This PV module is intended as a fast, convenient way to monitor the spectrophotometer's
+                                performance, and is part of the DoseControl software. Final PV reports are secure PDFs
+                                that can be saved or printed.
+
+                                The PV module is configured by the application admin to be used as a 'daily check' or
+                                other timeframe to test the spectrophotometer's photometric and wavelength accuracy. It
+                                uses a single photometric standard and takes 1-3 minutes to complete.</td>
+                            <td class="rev">Dec 1, 2019</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <!-- end video grid -->
+            </div>
+            <!--end video usage-->
+            <br id="b5">
+            <!-- begin video demos -->
+            <!-- subhead section 5-->
+            <div class="about-description text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h3 class="title" id="videodem">Demos of the DoseControl Dosimetry System</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div id="videodemos">
+                <!-- table seach and sort controls -->
+                <div class="row justify-content-center">
+                <a href="#quicklinks" class="sort btn btn-default btn-link" >Return to top</a>
+                </div>
+                <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Link</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th class="text-center">Date</th>
+                        </tr>
+                    </thead>
+                    <!-- IMPORTANT, class="list" have to be at tbody -->
+                    <tbody class="list">
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/IfbVTr6xu-c">Watch</a></td>
+                            <td class="title_D">Demo: Measuring DoseStix dosimeters on Evo220-DoseControl system</td>
+                            <td class="description">This video demonstrates how to use the new Evolution 220-DoseControl
+                                dosimetry system to measure B3DoseStix dosimeters.
+
+                                You can see details about the Evo220 spectrophotometer, including how the custom
+                                dosimeter holders work and how to insert a dosimeter. Also, you will see details about
+                                the DoseControl software's measurement screen and how the measurement information is
+                                recorded.</td>
+                            <td class="rev">Sep 26, 2017</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/xS9ONSReAho">Watch</a></td>
+                            <td class="title_D">Demo: Measuring Harwell Red/Amber Perspex on the Evo220-DoseControl
+                                system</td>
+                            <td class="description">A quick overview of the process for measuring Harwell Red/Amber
+                                Perspex dosimeters on GEX's new Evolution200-DoseControl dosimetry system. The
+                                measurement hardware includes an integrated laser micrometer so that it collects
+                                dosimeter thickness data while it reads the absorbance. The DoseControl software
+                                maintains all the measurement information (21CFR Part 11 compliant software).</td>
+                            <td class="rev">Oct 5, 2017</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/KRNhyBSf9zE">Watch</a></td>
+                            <td class="title_D">Demo: Measuring B3 DoseStix on the Gen 30-DoseControl system
+                                system</td>
+                            <td class="description">This video demonstrates how to use the new Gen 30-DoseControl dosimetry system to measure B3DoseStix dosimeters (as well as B3 WINdose or FWT dosimeters). You can see details about the Genesys 30 spectrophotometer, including how the custom dosimeter holders work and how to insert a dosimeter. Also, you will see details about the DoseControl software's measurement screen and how the measurement information is recorded.</td>
+                            <td class="rev">Sep 26, 2017</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/ZC4BfW2Mo0g">Watch</a></td>
+                            <td class="title_D">Quick Demo: G30-DoseControl system to measure dosimeters</td>
+                            <td class="description">This is a short demo of showing the the G30-Dosecontrol dosimetry
+                                system to measure dosimeters. When you press the "Measure" button in the software, the
+                                internal barcode scanner reads the dosimeter ID and the spectrophotometer measures the
+                                dosimeter's absorbance. This provides measurement traceability for each individual
+                                dosimeter.</td>
+                            <td class="rev">Dec 23, 2020</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/Fsh8GYGMenY">Watch</a></td>
+                            <td class="title_D">Quick Demo - Closeup of DoseControl's internal barcode scanner</td>
+                            <td class="description">In this video we are measuring B3 DoseStix dosimeters in a GENESYS
+                                30 spectrophotometer using the DoseControl dosimetry system. DoseControl captures
+                                dosimeter absorbance while reading the dosimeter's ID with an internal barcode scanner.
+                            </td>
+                            <td class="rev">Dec 23, 2020</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/km3sWQ1d2rg">Watch</a></td>
+                            <td class="title_D">Quick Demo - Using the Audit Trail</td>
+                            <td class="description">This video provides a short demonstration of DoseControl's audit
+                                trail feature. 
+                                <ul>
+                                <li>DoseControl permanently records all actions and dosimeter activities. </li>
+                                <li>You
+                                can filter by many different types of events, such as User Access, Date Range, Dosimeter
+                                ID, Spectrophotometer, and more. </li>
+                                <li>Create Audit Trail report of your filtered results.</li>
+                                </ul>
+                            </td>
+                            <td class="rev">Jan 18, 2021</td>
+                        </tr>
+
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/pAhWgjbqxV0">Watch</a></td>
+                            <td class="title_D">Performance Verification (P.V.) of the Evo 220 Reader (Passing the test)
+                            </td>
+                            <td class="description">In this video, we demonstrate the use of the Performance
+                                Verification module (P.V.) in DoseControl. The P.V. module is used for "daily checks" of
+                                the Evolution 220 spectrophotometer, and tests that the instrument is performing within
+                                the acceptable range for photometric and wavelength accuracy.
+
+                                We demonstrate how a user opens the P.V. module and executes a test. In this example,
+                                all the test passes within the parameters, and the final result of the test is "PASS".
+                                Next, the user can begin dosimeter measurements. </td>
+                            <td class="rev">Jan 01, 2021</td>
+                        </tr>
+                        <tr>
+                            <td class="number"><a target="_blank" rel="noopener noreferrer"
+                                    href="https://youtu.be/1wirpxJUtYs">Watch</a></td>
+                            <td class="title_D">Performance Verification (P.V.) of the Evo 220 Reader (FAILED TEST)</td>
+                            <td class="description">In this video, we demonstrate the use of the Performance
+                                Verification module (P.V.) in DoseControl. The P.V. module is used for "daily checks" of
+                                the Evolution 220 spectrophotometer, and tests that the instrument is performing within
+                                the acceptable range for photometric and wavelength accuracy.
+
+                                We demonstrate how a user opens the P.V. module and executes a test. In this example,
+                                all the test passes within the parameters, and the final result of the test is "FAIL".
+                                If the P.V. test fails, the user cannot measure dosimeters with the Evo220 until the
+                                test has been passed 2 additional times. If the reader continues to fail the P.V. test,
+                                further investigation is needed.</td>
+                            <td class="rev">Jan 01, 2021</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <!-- end video grid -->
+            </div>
+            <!--end video demos-->
+            <br>
+            <br>
+        </div>
+    </div>
+
+    
+<!-- ********* LARGE FOOTER ********* -->
+<footer class="footer footer-white footer-big">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+          <hr>
+          <div class="copyright pull-center">
+            <p>&#xA9;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              GEX Corporation. All Rights Reserved. Photo by Luana Azevedo on Unsplash.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Company</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./company.html#contactus">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#location">
+                Location
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#relationship">
+                Working With Us
+              </a>
+            </li>
+            <li>
+              <a href="./quality.html">
+                Quality
+              </a>
+            </li>
+            <li>
+              <a href="./support.html">
+                Customer Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Purchase</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./purchase.html#howto">
+                How To
+              </a>
+            </li>
+            <li>
+              <a href="./purchase.html#shipping">
+                Shipping
+              </a>
+            </li>
+            <li>
+              <a href="./pricelist.html">
+                Pricelist
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Library</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./faq.html">
+                Fundamentals
+              </a>
+            </li>
+            <li>
+              <a href="./doclibrary.html">
+                Document Library
+              </a>
+            </li>
+            <li>
+              <a href="./videolibrary.html">
+                Video Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Products</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./systems.html">
+                Dosimetry Systems
+              </a>
+            </li>
+            <li>
+              <a href="./dosimeters.html">
+                Dosimeters
+              </a>
+            </li>
+            <li>
+              <a href="./indicators.html">
+                Radiation Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./temperature.html">
+                Temperature Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./calibrations.html">
+                Calibration Services
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- ********* BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+<footer class="footer footer-black">
+  <div class="container">
+    <a class="footer-brand" href="#pablo">GEX Corporation</a>
+    <ul class="pull-center">
+      <li>
+        <a href="./policies.html#cookie">
+          Cookies Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#privacy">
+          Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#terms">
+          Terms &amp; Conditions
+        </a>
+      </li>
+
+    </ul>
+    <ul class="social-buttons float-right">
+
+      <li>
+        <a class="btn btn-link btn-linkedin" href="https://www.linkedin.com/company/gex-corporation" role="button">
+          <i class="fa fa-linkedin-square"></i>
+          Connect with Linkedin
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-link btn-youtube" href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q/" role="button">
+        
+          <i class="fa fa-youtube-play"></i>
+          Youtube Channel
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!-- ********* END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+
+<!-- endscripts.nunjucks -->
+<!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+  <!--	Plugin for Small Gallery in Product Page -->
+  <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+  </script>
+<!-- *** END MATERIAL DESIGN CORE -->
+<!-- google -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- List.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<!-- custom -->
+<script src="./assets/js/custom.js"></script>
+<script src="./assets/js/table-custom.js"></script>
+<!-- html5shiv -->
+<script src="./assets/js/pluins/html5shiv.min.js"></script>
+
+
+
+
+
+</body>
+</html>

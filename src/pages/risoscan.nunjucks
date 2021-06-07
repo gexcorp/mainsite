@@ -1,0 +1,76 @@
+<!-- risoscan.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">B3 Ris&oslash;Scan Dosimetry System</h1>
+          <h6>B3 dosimetry solution to analyze B3 film using a flatbed scanner</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+
+    <!-- start product section -->
+    <!-- ********* FEATURES 3 ********* -->
+    <div class="features-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="basic-product">
+            <img src="./assets/img/risoscan-system_web2018.jpg" alt="RisoScan dosimetry system" class="img-raised rounded img-fluid">
+
+          </div>
+
+        </div>
+        <div id="product-details" class="col-md-6">
+          <div>
+            <h6>Ideal for IQ/OQ and PQ dose mapping</h6>
+            <p>The B3 RisøScan system provides a 5.0 kGy to 80 kGy dose range capability for B3 radiochromic film dosimeters. This system is typically used in IQ/OQ and PQ dose mapping applications, as well as other testing and research. Developed at Risø HDRL,
+              the B3 RisøScan system uses a MS Windows-based software program that estimates dose from bitmap image files specially designed for high-resolution dose mapping.</p>
+          </div>
+
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Ris&oslash;Scan Software</h4>
+              <ul>
+                <li>Useful and convenient tool for B3 dosimetry.</li>
+                <li>Excellent for depth dose curves, surface dose profiles, and 3D surface dose profiles.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Optimized for B3 film</h4>
+              <ul>
+                <li>For analyzing B3 film strips and sheets.</li>
+                <li>B3 dosimeters provide unsurpassed quality assurance.</li>
+                <li>B3 dosimeters are completely stable before irradiation, and can be used right off the shelf.</li>
+                <li>Because the B3 dosimeter is thin, it can be used in a wide variety of electron beam processes.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ********* END FEATURES 3 ********* -->
+
+  </div>
+
+{% endblock %}

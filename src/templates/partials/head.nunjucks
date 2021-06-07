@@ -1,0 +1,103 @@
+<!--
+ =========================================================
+ Material Kit PRO - v2.2.0
+ =========================================================
+
+ Product Page: https://www.creative-tim.com/product/material-kit-pro
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ Coded by Creative Tim
+
+ =========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+  <meta
+    name="keywords"
+    content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+  <meta name="msvalidate.01" content="65AA01A3161EE872D7D09D23458BB5CE"/>
+  <meta name="yandex-verification" content="6980595247a97dc7"/>
+  <title>
+    GEX Corporation - the Dosimetry Company
+  </title>
+  <!-- *** Global site tag (gtag.js) - Google Analytics *** -->
+  {# <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-31720310-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-31720310-1');
+
+    function onSubmit(token) {
+         document.getElementById("contact-form").submit();
+    }
+  </script> #}
+   <!-- *** END Global site tag (gtag.js) - Google Analytics *** -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <!-- custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet"/>
+  <!-- vertical nav CSS -->
+  <link href="./assets/css/vertical-nav.css" rel="stylesheet"/>
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- *** cookie banner *** -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#edeff5",
+            "text": "#838391"
+          },
+          "button": {
+            "background": "#4b81e8"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+          "link": "Learn More...",
+          "href": "./policies.html"
+        }
+      })
+    });
+  </script>
+  <!-- *** google structured data *** -->
+  <script type="application/ld+json">
+    {
+      "@type": "Company",
+      "name": "GEX Corporation",
+      "description": "The Dosimetry Company",
+      "url": "https://www.gexcorp.com",
+      "logo": "https://www.gexcorp.com/assets/img/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-303-400-9640",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+
+</head>

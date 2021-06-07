@@ -1,0 +1,120 @@
+<!-- ********* CONTACT US FORM ********* -->
+<div class="contactus-1">
+  <div class="container">
+    <div class="row">
+      <!-- FORM in left column -->
+      <div class="col-md-7 ml-auto">
+        <div class="card card-contact">
+          <form id="contact-form" action="https://formspree.io/f/mzbrdrnk" method="POST" data-toggle="validator">
+            
+            <div class="card-header card-header-raised card-header-primary text-center">
+              <h4 class="card-title">Contact Us Today</h4>
+            </div>
+            <div class="card-body">
+              <small id="emailHelp" class="form-text text-muted text-center">We'll never share your information with anyone else.</small>
+              <div class="row">
+                <div class="col-md-6">
+
+                  <div class="form-group label-floating is-empty">
+                    <label class="bmd-label-floating">First name</label>
+                    <input type="text" name="firstname" class="form-control" required="required">
+                    <span class="material-input"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group label-floating is-empty">
+                    <label class="bmd-label-floating">Last name</label>
+                    <input type="text" name="lastname" class="form-control" required="required">
+                    <span class="material-input"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group label-floating is-empty">
+                    <label class="bmd-label-floating">Company</label>
+                    <input type="text" name="company" class="form-control">
+                    <span class="material-input"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group label-floating is-empty">
+                    <label class="bmd-label-floating">Your Email</label>
+                    <input type="email" name="_replyto" class="form-control" required="required">
+                    <span class="material-input"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group label-floating is-empty">
+                <label for="Message" class="bmd-label-floating">How can we help you?</label>
+                <textarea name="message" class="form-control" id="Message" rows="6"></textarea>
+                <span class="material-input"></span>
+              </div>
+            </div>
+
+            <div class="card-footer justify-content-between">
+              <div class="form-check">
+                <input type="hidden" name="_subject" value="New Contact Us form submission from website!"/>
+                
+                <input type="hidden" name="_next" value="https://gexcorp.com/thankyou.html"/>
+              
+                <button id="salesBtn" type="submit" class="btn btn-primary pull-right">Send Message</button>
+                </div>
+               
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Other contact methods in right column -->
+      <div class="col-md-4 mr-auto">
+        <!-- Call -->
+        <div class="info info-horizontal">
+          <div class="icon icon-primary">
+            <i class="material-icons">phone</i>
+          </div>
+          <div class="description">
+            <h4 class="info-title">Give us a call</h4>
+            <p>
+              <a href="tel:+1-303-400-9640">+1 303.400.9640</a>
+              <br>
+              Mon - Fri, 8:00-16:00 MST
+            </p>
+          </div>
+        </div>
+        <!-- email -->
+        {# <div class="info info-horizontal">
+          <div class="icon icon-primary">
+            <i class="material-icons">mail</i>
+          </div>
+          <div class="description">
+            <h4 class="info-title" id="email-link">Send us an
+              <a href="mailto:sales@gexcorp.com" target="_blank">email</a>
+            </h4>
+          </div>
+        </div> #}
+
+        <br>
+        <hr>
+        <h4 class="description text-primary">Are You an Existing GEX Customer?
+        </h4>
+
+        <div class="info info-horizontal">
+          <div class="icon icon-info">
+            <i class="material-icons">build</i>
+          </div>
+          <div class="description">
+            <h4 class="info-title">Contact GEX Support</h4>
+            <h4 class="description">Customer Support can help
+              <strong>existing customers</strong>
+              with your questions and product support.</h4>
+            <p>
+              <a href="./support.html">...go to Customer Support</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

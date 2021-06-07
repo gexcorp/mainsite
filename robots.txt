@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /unify/
+Disallow: /OLD-SITE-BACKUP/
+Disallow: /admin/
+Sitemap: https://www.gexcorp.com/sitemap.xml

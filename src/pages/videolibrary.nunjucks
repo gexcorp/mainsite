@@ -1,0 +1,227 @@
+<!-- videolibrary.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/cleanroom-manufacturing.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Product Demonstration Video Gallery</h1>
+          <h4>DoseControl<small><sup>&reg;</sup></small> Dosimetry System</h4>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+    <div class="container">
+      <!-- video grid navigation -->
+      <!-- <div id="grid-nav" class="row"> <div id="grid-nav-items" class="col-md-8 ml-auto mr-auto text-center"> <button class="btn btn-primary btn-sm" data-sort-by="name">Name</button> <button class="btn btn-primary btn-sm"
+      data-sort-by="category">Category</button> </div> </div> -->
+      <!-- end video grid navigation -->
+      <!-- video grid -->
+      <div class="section">
+        <!-- <h3 class="title text-center">You may also be interested in</h3> <br> -->
+        <div class="grid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-plain card-blog b3" data-category="b3">
+                <div class="card-header card-header-image">
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IfbVTr6xu-c?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                  <!-- 4:3 aspect ratio -->
+                  <!-- <div class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/IfbVTr6xu-c" frameborder="0" allowfullscreen></iframe> </div> -->
+                </div>
+                <div class="card-body">
+                  <h6 class="card-category text-info">Evo220-DoseControl</h6>
+                  <h4 class="card-title">
+                    <a href="#pablo">Measure B3 DoseStix on the Evo220-DoseControl</a>
+                  </h4>
+                  <p class="card-description">
+                    A short demonstration of the measurement process for using the Evo220-DoseControl dosimetry system to measure B3 DoseStix dosimeters. The system has an internal barcode reader, and integrates seamlessly with the 21-CFR part 11 compliant software.
+                    <br>
+                    <a href="https://youtu.be/IfbVTr6xu-c?rel=0" target="_blank">
+                      Watch on YouTube...
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-plain card-blog pmma" data-category="pmma">
+                <div id="video-card-header" class="card-header card-header-image">
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xS9ONSReAho?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                  <!-- 4:3 aspect ratio -->
+                  <!-- <div class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/xS9ONSReAho" frameborder="0" allowfullscreen></iframe> </div> -->
+                </div>
+                <div class="card-body">
+                  <h6 class="card-category text-info">
+                    Evo220-DoseControl
+                  </h6>
+                  <h4 class="card-title">
+                    Measure PMMA dosimeters on the Evo220-DoseControl
+                  </h4>
+                  <p class="card-description">
+                    Another demonstration of the measurement process for using the Evo220-DoseControl dosimetry system, this time to measure Harwell Red and Amber Perspex dosimeters. This system has an internal laser micrometer, and integrates seamlessly with the 21-CFR
+                    part 11 compliant software.
+                    <a href="https://youtu.be/xS9ONSReAho" target="_blank">
+                      Watch on YouTube...
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-plain card-blog b3" data-category="b3">
+                <div class="card-header card-header-image">
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KRNhyBSf9zE?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                  <!-- 4:3 aspect ratio -->
+                  <!-- <div class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/KRNhyBSf9zE" frameborder="0" allowfullscreen></iframe> </div> -->
+                </div>
+                <div class="card-body">
+                  <h6 class="card-category text-danger">
+                    Gen30-DoseControl
+                  </h6>
+                  <h4 class="card-title">
+                    <a href="#pablo">Measure B3 DoseStix on the Gen30-DoseControl</a>
+                  </h4>
+                  <p class="card-description">
+                    This video shows the measurement process for B3 DoseStix on the Genesys30-DoseControl dosimetery system. This system has an external barcode reader and integrates seamlessly with the 21-CFR part 11 compliant software.
+                    <a href="https://youtu.be/KRNhyBSf9zE" target="_blank">
+                      Watch on YouTube...
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-plain card-blog b3" data-category="b3">
+                <div class="card-header card-header-image">
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5R95JAQ0Nqg?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                  <!-- 4:3 aspect ratio -->
+                  <!-- <div class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/KRNhyBSf9zE" frameborder="0" allowfullscreen></iframe> </div> -->
+                </div>
+                <div class="card-body">
+                  <h6 class="card-category text-info">
+                    Evo220-DoseControl
+                  </h6>
+                  <h4 class="card-title">
+                    <a href="#pablo">Using the Perfomance Verification Module in DoseControl software</a>
+                  </h4>
+                  <p class="card-description">
+                    A short demonstration of how the Performance Verification module works in GEX DoseControl software. This PV module is intended as a fast, convenient way to monitor the spectrophotometer's performance, and is part of the 21 CFR part 11 compliant software. Final PV reports are secure PDFs that can be saved or printed.
+                    <a href="https://youtu.be/5R95JAQ0Nqg" target="_blank">
+                      Watch on YouTube...
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-plain card-blog b3" data-category="b3">
+                <div class="card-header card-header-image">
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/km3sWQ1d2rg?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                  <!-- 4:3 aspect ratio -->
+                  <!-- <div class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/KRNhyBSf9zE" frameborder="0" allowfullscreen></iframe> </div> -->
+                </div>
+                <div class="card-body">
+                  <h6 class="card-category text-success">
+                    DoseControl
+                  </h6>
+                  <h4 class="card-title">
+                    <a href="#pablo">Quick Demo: Using the Audit Trail</a>
+                  </h4>
+                  <p class="card-description">
+                    A short demonstration of how the audit trail feature works in GEX DoseControl software. View the complete history of all activity recorded by DoseControl. Filter, search, and create secure PDF reports of filtered audit results.
+                    <a href="https://youtu.be/km3sWQ1d2rg" target="_blank">
+                      Watch on YouTube...
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-plain card-blog b3" data-category="b3">
+                <div class="card-header card-header-image">
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZC4BfW2Mo0g?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                  <!-- 4:3 aspect ratio -->
+                  <!-- <div class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/KRNhyBSf9zE" frameborder="0" allowfullscreen></iframe> </div> -->
+                </div>
+                <div class="card-body">
+                  <h6 class="card-category text-danger">
+                    Gen30-DoseControl
+                  </h6>
+                  <h4 class="card-title">
+                    <a href="#pablo">Quick Demo: Using the GENESYS 30-DoseControl System</a>
+                  </h4>
+                  <p class="card-description">
+                    A short demonstration of measuring B3 Dosestix dosimeters with the GENESYS 30-Dosecontrol dosimetry system. The new version of Dosecontrol software (available 2021) allows you to have a barcode scanner inside the GENESYS 30, which captures the dosimeter barcode at the time of measurement. 
+                    <a href="https://youtu.be/ZC4BfW2Mo0g" target="_blank">
+                      Watch on YouTube...
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-plain card-blog b3" data-category="b3">
+                <div class="card-header card-header-image">
+                  <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Fsh8GYGMenY?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                  </div>
+                  <!-- 4:3 aspect ratio -->
+                  <!-- <div class="embed-responsive embed-responsive-4by3"> <iframe width="560" height="315" src="https://www.youtube.com/embed/KRNhyBSf9zE" frameborder="0" allowfullscreen></iframe> </div> -->
+                </div>
+                <div class="card-body">
+                  <h6 class="card-category text-danger">
+                    Gen30-DoseControl
+                  </h6>
+                  <h4 class="card-title">
+                    <a href="#pablo">Quick Demo: Barcode scanner inside the spectrophotometer</a>
+                  </h4>
+                  <p class="card-description">
+                    A quick video of how the internal barcode scanner works inside the spectrophotometer. Both the Evolution 220 and GENESYS 30 systems can accomodate an internal barcode scanner, which captures the Dosestix dosimeter's barcode ID at the time of measurement. 
+                    <a href="https://youtu.be/Fsh8GYGMenYin" target="_blank">
+                      Watch on YouTube...
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end video grid -->
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,109 @@
+<!-- indicators.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/P8100productJumble_web2018.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Radiation Indicators</h1>
+          <h6>A visual indicator for quality control</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+
+    <!-- start product section -->
+    <!-- ********* FEATURES 3 ********* -->
+    <div class="features-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="basic-product">
+            <img src="./assets/img/P8101_1000roll_web2018.jpg" alt="GEX P8101 Radiation Indicators" class="img-raised rounded img-fluid">
+            <p>
+              <small>P8101 radiation indicators</small>
+            </p>
+          </div>
+          <div class="basic-product">
+            <img src="./assets/img/P8102_5000roll_web2018.jpg" alt="GEX P8102 Radiation Indicators" class="img-raised rounded img-fluid">
+            <p>
+              <small>P8102 radiation indicators</small>
+            </p>
+          </div>
+          <div class="basic-product">
+            <img src="./assets/img/P8104_doubles_web2018.jpg" alt="GEX P8104Radiation Indicators" class="img-raised rounded img-fluid">
+            <p>
+              <small>P8104 radiation indicators</small>
+            </p>
+          </div>
+        </div>
+        <div id="product-details" class="col-md-6">
+
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Type 1 process chemical indicators</h4>
+              <p>Quickly allows user to visually determine whether or not the Indicator has been irradiated. Radiation Indicators are not dosimeters, and do not provide a quantitative measurement of absorbed dose. They are not recommended to be used as the sole
+                verification method to assess product conformity to specification.</p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Reaction begins at 3 kGy</h4>
+              <p>Obvious, visual color change from yellow to purple when exposed to radiation.</p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Meets all industry standards</h4>
+              <p>Meets AAMI ST60, ISO 11140 and ISO/ASTM 51539 guidance document standards. This product is ideal for maintaining inventory and quality control. For use in gamma, electron beam and X-ray sterilization applications.</p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Easy to Use</h4>
+              <p>Easy to remove from peel-off paper backing. Various quantities, styles and custom formats available to suit your needs.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="info info-horizontal">
+            <!-- <div class="icon icon-primary"> <i class="material-icons">check_circle</i> </div> -->
+            <div class="description">
+              <!-- <h4 class="info-title">Easy to Use</h4> -->
+              <h6>
+                <a class="btn btn-info btn-just-icon" href="https://library.gexcorp.com/?wpdmdl=589" target="_blank" role="button">
+                  <i class="material-icons">description</i>
+                </a>
+
+                &nbsp;&nbsp;Product Information Sheet
+
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ********* END FEATURES 3 ********* -->
+
+  </div>
+
+{% endblock %}

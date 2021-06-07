@@ -1,0 +1,83 @@
+<!-- b3-dosimeters.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">CTA Dosimeters (FUJIFILM RADIATION FILM, FTR-125)</h1>
+
+          <h6>Dose range of 10-300kGy</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+
+    <!-- start product section -->
+    <!-- ********* FEATURES 3 ********* -->
+    <div class="features-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="basic-product">
+            <img src="./assets/img/cta-dosimeters.jpg" alt="CTA dosimeters" class="img-raised rounded img-fluid">
+
+          </div>
+
+        </div>
+        <div id="product-details" class="col-md-6">
+
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+
+              <p>CTA film dosimeters are used for measuring radiation dose in gamma, electron beam, or X-ray applications and industrial processes such as medical device sterilization, surface sterilization, crosslinking and curing of inks and coatings, and food
+                irradiation.</p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+
+              <p>CTA has a dose range of 10-300kGy, and is a colorless, transparent film. The radiation absorbance is determined using a spectrophotometer; ideally used with the
+                <a href="./dosASAP.html">Dos'ASAP CTA Dosimetry System</p>
+              </div>
+            </div>
+
+            <hr>
+            <div class="info info-horizontal">
+
+              <div class="description">
+
+                <h6>
+                  <a class="btn btn-info btn-just-icon" href="pdf/CTA%20-%20Fuji%20Product%20Insert.pdf" target="_blank" role="button">
+                    <i class="material-icons">description</i>
+                  </a>
+
+                  &nbsp;&nbsp;Product Information Sheet
+
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ********* END FEATURES 3 ********* -->
+
+    </div>
+  {% endblock %}

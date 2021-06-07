@@ -1,0 +1,261 @@
+<!-- dosecontrol.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+
+</head>
+
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="main">
+
+    <div class="cd-section" id="headers">
+
+      <!-- ********* HEADER 1 ********* -->
+      <div class="header-1">
+        <div class="page-header header-filter" style="background-image: url(./assets/img/background_greygrid.jpg);">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h1 class="title">DoseControl<sup>&reg;</sup>
+                  Dosimetry System</h1>
+                <h4>The ideal solution for industrial radiation processing applications.</h4>
+                <br>
+                <a href="mailto:infogex@gexcorp.com" target="_blank" class="btn btn-danger btn-lg">
+                  Contact Sales
+                </a>
+              </div>
+              {# <div class="col-md-5 ml-auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/IfbVTr6xu-c" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+              </div> #}
+              {# embed video #}
+              <div class="col-md-5 ml-auto">
+                <video width="560" height="315" class="embed-responsive embed-responsive-16by9" autoplay loop muted>
+                   <source src="./assets/img/G30-Dosecontrol measurement demo.mp4" type="video/mp4" />
+                </video>   
+              </div>
+              {# end embed video #}
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********* END HEADER 1 ********* -->
+      <div class="main main-raised">
+        <div class="container">
+          <!-- ********* FEATURES 3 ********* -->
+          <div class="features-3">
+            <div class="row">
+              <div class="col-md-6 ml-auto">
+
+                <img src="./assets/img/DoseControl_system_pg.jpg" alt="DoseControl dosimetry system" class="img-raised rounded img-fluid">
+                <br>
+                <br>
+                <h5 class="description">
+                  The DoseControl<sup>&reg;</sup>
+                  dosimetry system integrates a powerful 21CFR Part 11 conforming dosimetry software with a Thermo Scientific spectrophotometer, controlling the measurement process and making it simple to create and maintain dosimetry records. This system is a
+                  versatile solution for industrial routine dosimetry applications, and can accommodate several different types of dosimeters, such as B3, FWT, and PMMA.
+                </h5>
+
+              </div>
+              <div class="col-md-6">
+                <!-- Some <br /> tags to push the text to align with the image, you can remove it if you have more text on the right side :-) -->
+                <h2 class="title">Makes operations efficient and audits easy.</h2>
+
+                <div class="info info-horizontal">
+                  <div class="icon icon-info">
+                    <i class="material-icons">dashboard</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Powerful Software</h4>
+                    <p>Provides step-by-step management of the dosimetry workflow.</p>
+                    <p>Designed to meet the needs of industrial dosimetry.</p>
+                    <p>Combines speed and reliability.</p>
+                    <p>21 CFR part 11 compliant.</p>
+                  </div>
+                </div>
+                <div class="info info-horizontal">
+                  <div class="icon icon-success">
+                    <i class="material-icons">done_outline</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Uniformity of measurements</h4>
+                    <p>Every measurement follows the same process.</p>
+                    <p>Eliminates user error.</p>
+                  </div>
+                </div>
+                <div class="info info-horizontal">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">verified_user</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Ensures Measurement Integrity</h4>
+                    <p>B3 DoseStix dosimeter measurements linked simultaneously to scanned barcode ID number.</p>
+                    <p>Absorbance and thickness of Red and Amber Perspex are linked because they are measured simultaneously in the same holder.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- ********* END FEATURES 3 ********* -->
+          <!-- ********* BEGIN PRODUCT DOCS ********* -->
+          <div class="about-services features-2">
+            <div class="row">
+              <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 class="description">Need more information?</h2>
+              </div>
+            </div>
+            <div class="row">
+
+              <div class="col-md-4">
+                <div class="info info-horizontal">
+                  <div class="icon icon-info">
+                    <i class="material-icons">description</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Brochure: DoseControl System</h4>
+                    <p>Find out more about the DoseControl Dosimetry System. Includes information about hardware and software.</p>
+                    <a href="pdf/100-365 DoseControl Dosimetry System brochure_1118.pdf" target="_blank">Download PDF...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="info info-horizontal">
+                  <div class="icon icon-info">
+                    <i class="material-icons">description</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Brochure: DoseControl Software</h4>
+                    <p>Find out more about the DoseControl Software, used with the complete dosimetry system</p>
+                    <a href="pdf/100-364 DoseControl Software_1118.pdf" target="_blank">Download PDF...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="info info-horizontal">
+                  <div class="icon icon-danger">
+                    <i class="material-icons">video_library</i>
+                  </div>
+                  <div class="description">
+                    <h4 class="info-title">Video Library</h4>
+                    <p>Take a look at more videos about using DoseControl.
+                    </p>
+                    <a href="./videolibrary.html">Go to...</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <hr>
+          <!-- ********* END PROD DOCS ********* -->
+          <!-- ********* BEGIN DETAILS HARDWARE ********* -->
+          <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+              <h2 class="title">Your choice of Spectrophotometer</h2>
+              <p>Both options fully integrate with DoseControl software to make a complete dosimetry system.</p>
+
+              <br>
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card-header card-header-image">
+                      <img class="img img-raised" src="./assets/img/evo220.jpg" alt="Evolution 220 Spectrophotometer">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h6 class="card-category text-info">B3, FWT, and Perspex dosimeters</h6>
+                    <h3 class="card-title">
+                      Thermo Scientific Evolution 220 Spectrophotometer
+                    </h3>
+                    <p class="card-description">
+                      High performance, state-of-the-art spectrophotometer, with specialized dosimeter holders, internal barcode reader and laser micrometer (depending on system setup). Fastest performing instrument for dosimetry, each measurement takes only seconds.
+                      Features such as automated performance verification, sealed optical bench, and long-life xenon lamp, which means limited downtime.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card-header card-header-image">
+                      <img class="img img-raised" src="./assets/img/genesys30.jpg" alt="Genesys 30 Spectrophotometer">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h6 class="card-category text-info">B3, FWT dosimeters</h6>
+                    <h3 class="card-title">
+                      Thermo Scientific Genesys 30 Spectrophotometer
+                    </h3>
+                    <p class="card-description">
+                      High quality spectrophotometer with specialized dosimeter holders for the B3 DoseStix, B3 Windose and FWT dosimeters. Next generation instrument for dosimetry, replacing the Genesys 20 model. External barcode reader and enclosed light tube so you can
+                      keep the lid open during measurements.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <hr>
+          <!-- ********* END DETAILS HARDWARE ********* -->
+          <!-- ********* BEGIN DETAILS SOFTWARE ********* -->
+          <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+              <h2 class="title">About DoseControl<sup>&reg;</sup>
+                Software</h2>
+              <p>Powerful and flexible software to create and maintain 21 CFR compliant dosimetry records.</p>
+
+              <br>
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card-header card-header-image">
+                      <img class="img img-raised" src="./assets/img/dosecontrol-screenshot.jpg" alt="DoseControl software screenshot">
+                    </div>
+                    <h6 class="text-center">
+                      <small>Measurement page screenshot</small>
+                    </h6>
+                  </div>
+                  <div class="col-md-8">
+                    <p class="card-description">
+                      DoseControl makes it simple to create and maintain dosimetry records and provides step-by-step management of the dosimetry workflow. The software integrates with a spectrophotometer to accurately record dosimeter measurements and related data,
+                      prepare electronic and paper reports, and provide traceable and auditable electronic records.
+                    </p>
+                    <p class="card-description">
+                      DoseControl manages many aspects of dosimetry, such as
+                      <ul>
+                        <li>tracking multiple dosimeter batches and calibrations
+                        </li>
+                        <li>managing multiple irradiation pathways
+                        </li>
+                      </ul>
+
+                    </p>
+                    <p class="card-description">
+                      Users can set up and configure the software application to meet their specific needs. Enterprise level license allows users to share data with your enterprise software (SAP, SQL, Oracle).
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <br>
+
+            </div>
+          </div>
+          <!-- ********* END DETAILS SOFTWARE ********* -->
+
+        </div>
+      </div>
+      <!-- ********* END MAIN RAISED ********* -->
+    </div>
+  </div>
+</div>
+<!-- ********* END SECTION ********* -->
+
+{% endblock %}

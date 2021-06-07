@@ -1,0 +1,713 @@
+<!-- videolibrary.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+</head>
+
+<body class="about-us " id="quicklinks">
+
+    {% include "partials/navigation.nunjucks" %}
+
+    <div class="page-header header-filter header-small" data-parallax="true"
+        style=" background-image: url('./assets/img/background_greygrid.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h1 class="title">Instructional Video Library</h1>
+                    <h4>Current selection of how-to videos for the DoseControl dosimetry system. Find out how to install,
+                        configure and use DoseControl.</h4>
+
+                    <a class="btn btn-link btn-youtube"
+                        href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q?sub_confirmation=1"
+                        role="button">
+
+                        <i class="fa fa-youtube-play"></i>
+                        Youtube Channel - Subscribe and Follow!
+                    </a>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <div class="main main-raised">
+    <!--subnav -->
+        <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container">
+              {# <div class="collapse navbar-collapse" id="example-navbar-transparent"> #}
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="#b1" class="nav-link"><i class="material-icons">download</i>
+                      Install &amp; Upgrade 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#b2" class="nav-link"><i class="material-icons">settings_applications</i>
+                    Configure Software
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#b3" class="nav-link"><i class="material-icons">summarize</i>
+                    Setup Reports
+                    </a>
+                  </li>
+                  {# <li class="nav-item">
+                    <a href="#b4" class="nav-link"><i class="material-icons">supervisor_account</i>
+                    User Management
+                    </a>
+                  </li> #}
+                  <li class="nav-item">
+                    <a href="#b5" class="nav-link"><i class="material-icons">explore</i>
+                    How to Use DoseControl
+                    </a>
+                  </li>
+                </ul>
+              {# </div> #}
+            </div>
+          </nav>
+       <!--end subnav --> 
+    <div class="container">
+        <!--Section b1 --> 
+          <div id="b1" class="row">
+          <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title text-center">Install &amp; Upgrade DoseControl Software</h2>
+              <br>
+              <!-- 3-001 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/SQL-Express-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/SQL-Express-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">SQL Server 2019 Express Edition Installation</h4>
+                    <p class="card-description">
+                      For DoseControl Basic License Users: The basic setup requires MS SQL Server Express installed on the same PC workstation on which you will install DoseControl. Installing MS SQL Server Express takes only a few minutes. After you install MS SQL Express, you should install SSMS (SQL Server Management Studio), which will allow you to access your SQL Server on your PC.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/LIxmspgClhI"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 3-002 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/SSMS-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/SSMS-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">SSMS (SQL Server Management Studio) Installation</h4>
+                    <p class="card-description">
+                      For DoseControl Basic License Users: In this video, we show you how to install SSMS (SQL Server Management Studio). You should have MS SQL Server Express installed on your PC.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/Opn3CIf5R7w"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 3-004 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/install-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/install-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">DoseControl Software Installation: First-time Installation</h4>
+                    <p class="card-description">
+                      DoseControl software installation for Basic License: In this video, we show you how to install DoseControl software. Prior to this, you should have MS SQL Server Express and SSMS installed on your PC.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/tnjUOetRO0Q"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 3-005 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/main-screen-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/main-screen-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Launching DoseControl for the First Time: Connecting to the SQL Database</h4>
+                    <p class="card-description">
+                      In this video, we show you how to connect DoseControl to your SQL database. After installing DoseControl software for the first time, when you launch the pplication you will be prompted to enter a connection string for your SQL Server.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/qsiHx7GhP1A"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 3-006 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/SSMS-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/SSMS-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Backup and Restore a SQL Databases in SSMS</h4>
+                    <p class="card-description">
+                      In this video, we show you how to backup and restore a database in
+                                SSMS (SQL Server Management Studio). You should have MS SQL Server Express and SSMS
+                                installed on your PC.
+
+                                You should backup your DoseControl database on a regular basis. When you upgrade to a
+                                new version of DoseControl, you should always make a backup copy of your database prior
+                                to upgrading. If there is any issue you can simply restore your original database.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/rbNbyw8ENUQ"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 4-002 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/main-screen-report-list-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/main-screen-report-list-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Upgrade to a New Version of DoseControl Software</h4>
+                    <p class="card-description">
+                     This video shows how to upgrade from an older version to a new version of DoseControl software. Before you upgrade, be sure to backup your database (see above video), and make a note of your connection string under Setup > Connections and Storage.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/fZRZsZ-Ln5A"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 4-002 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/main-screen-report-list-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/main-screen-report-list-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Upgrade DoseControl Software to a New Version</h4>
+                    <p class="card-description">
+                     
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href=""
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <!--Section b2 --> 
+            <div id="b2" class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title text-center">Configure Software</h2>
+              <br>
+              <!-- 6-001 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/pathways-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/pathways-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to setup Pathways, Dosimeter Types and Batches</h4>
+                    <p class="card-description">
+                      This video describes how to configure DoseControl dosimetry
+                                software. Before you can use DoseControl to measure dosimeters, you must first set up
+                                all your information. This video is Part 1 of a series about how to setup your dosimetry
+                                process information the software, and covers the following:
+                                <ul>
+                                    <li>Pathways (Irradiation pathways)</li>
+                                    <li>Dosimeter Types (B3, FWT, Harwell Red/Amber Perspex, CTA)</li>
+                                    <li>Batches (Dosimeter batches)</li>
+                                </ul>
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/r_fTsa8KpkI"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 6-002 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/reader-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/reader-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to set up Readers (Spectrophotometers)</h4>
+                    <p class="card-description">
+                      This video is part of a series about how to setup your dosimetry
+                                process in DoseControl software, and covers how to configure your each of your readers
+                                (spectrophotometers) in DoseControl.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/BocPeB9E76E"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 6-003 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/calibrations-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/calibrations-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to set up Dosimeter Batch Calibrations</h4>
+                    <p class="card-description">
+                      This video is part of a series about how to setup your dosimetry
+                                process in DoseControl software, and covers how to configure the dosimeter batch calibrations in DoseControl. Calibration functions define the mathematical relationship between the dosimeter response and dose for each spectrophotometer in the DoseControl dosimetry system. Before you can set up calibrations, you must setup your pathways, dosimeter types, batches and readers.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/Gf5bSofDZkg"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 6-004 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/rereads-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/rereads-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to set up your re-reads (dosimeter re-measurements)</h4>
+                    <p class="card-description">
+                      By default, DoseControl allows unlimited re-reads of a dosimeter, and each re-read absorbance measurement replaces the previous measurement in a dosimetry report. You can put restrictions, and define reasons for a user to perform a re-read by configuring the Rereads feature in DoseControl. This video shows how to configure Rereads.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/hCIl07_GdMg"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+               <!-- 6-005 -->
+              {# <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/report-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/report-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to upload an Excel report template</h4>
+                    <p class="card-description">
+                      
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href=""
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div> #}
+              <!-- 11-001 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/PS-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/PS-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Product Specification Module Setup</h4>
+                    <p class="card-description">
+                      This video shows how to setup the Product Specification module (optional module). This module allows you to store dosimetry specifications (such as min/max required dose, Dref:Dmin, Dref: Dmax) for multiple products, so that a Technician does not have to manually enter the product information and specifications for a new dosimetry report. 
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/Kg2kIEY5rGk"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 12-001 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/PV-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/PV-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to Setup the Performance Verification (P.V.) Module</h4>
+                    <p class="card-description">
+                      The Performance Verification (P.V.) module is an additional module for use with the Thermo Evolution 220 spectrophotometer only, and is designed to use a standard from the Thermo Spectronic Standards kit (or other NIST-traceable standards set, certified in absorbance units, for the performance verification of the Thermo Evolution 220 UV-Visible spectrophotometer). 
+
+                    The purpose of the P.V. module is to provide a short-term verification or ‘daily check’ of the reader’s absorbance measurement accuracy. The P.V. module is intended to be used as an additional check to the user’s complete performance verification protocols for the reader. It is not a replacement for a complete performance verification of the reader. 
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/rj3YSaVN_UI"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 12-001 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/PV-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/PV-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to Setup the Performance Verification (P.V.) Module</h4>
+                    <p class="card-description">
+                      The Performance Verification (P.V.) module is an additional module for use with the Thermo Evolution 220 spectrophotometer only, and is designed to use a standard from the Thermo Spectronic Standards kit (or other NIST-traceable standards set, certified in absorbance units, for the performance verification of the Thermo Evolution 220 UV-Visible spectrophotometer). 
+
+                    The purpose of the P.V. module is to provide a short-term verification or ‘daily check’ of the reader’s absorbance measurement accuracy. The P.V. module is intended to be used as an additional check to the user’s complete performance verification protocols for the reader. It is not a replacement for a complete performance verification of the reader. 
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/rj3YSaVN_UI"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+             </div>
+            </div>
+
+            <!--Section b3 --> 
+            <div id="b3" class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title text-center">Setup &amp; Using Reports</h2>
+              <br>
+              <!-- 9-001 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/pdfreport-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/pdfreport-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Overview - Dosimetry Reports in Dosecontrol</h4>
+                    <p class="card-description">
+                      In this video, we show how dosimetry reports work:
+                                <ul>
+                                    <li>how to process a complete report, </li>
+                                    <li>how to export or print a report to Excel and PDF, </li>
+                                    <li>how to add a comment to a report</li>
+                                    <li>how to make changes to the report information</li>
+                                </ul>
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/RsROtmUscaM"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 9-004 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/RefDosereport-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/RefDosereport-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to Configure Report Types and Data Fields for Report Headers</h4>
+                    <p class="card-description">
+                      This video provides a high-level overview about how to setup report types and data fields in the DoseControl software, using the Report Headers configuration. The layout and content of a dosimetry report is flexible and configurable, and the Admin can setup one or more report types to meet the needs of your process, such as a report of routine process dosimetry, E-beam testing, etc. 
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/2p-FAyzJ4UE"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 9-007 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/reports-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/reports-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to create a new Excel report &amp;  setup an E-beam energy test report</h4>
+                    <p class="card-description">
+                      In this video, we demonstrate how to create an Excel dosimetry report
+                                in the DoseControl software.
+
+                                Next, we show how to setup the software so that you can create dosimetry report with
+                                specialized fields specifically for an E-beam energy test using a Ris&oslash; wedge.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/1wirpxJUtYs"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 9-003 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/Std1Packreport-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/Std1Packreport-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">How to setup PDF reports in DoseControl</h4>
+                    <p class="card-description">
+                      In this video, we explain how to configure different PDF report types. We demonstrate the setup and usage two different standard PDF templates - a generic "standard PDF template" for routine dosimetry, and a "reference dose PDF template" for routine dosimetry with reference position information. This video does not include a demonstration of a custom PDF, with special fields specific to your process.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/HStrZCBzLEY"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+             </div>
+            </div>
+            <!--Section b4 --> 
+            {# <div id="b4" class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title text-center">User Management</h2>
+              <br>
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/report-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/report-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title"></h4>
+                    <p class="card-description">
+                      
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href=""
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+             </div>
+            </div> #}
+             <!--Section b5 --> 
+            <div id="b5" class="row">
+            <div class="col-md-12 ml-auto mr-auto">
+              <h2 class="title text-center">How to Use DoseControl</h2>
+              <br>
+              <!-- 10-001 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/measure-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/measure-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Instructions for Dosimeter Measurements, Re-reads, and Skips</h4>
+                    <p class="card-description">
+                      This video provides the basic instructions for how to measure a
+                                dosimeter using the DoseControl system. We show how to:
+                                <ul>
+                                    <li>Create a new report</li>
+                                    <li>Open the measurement screen and zero the reader (spectrophotometer)</li>
+                                    <li>Enter the dosimeter ID or scan the barcode of the dosimeter's ID</li>
+                                    <li>Press the measure button to get the absorbance and dose</li>
+                                    <li>Enter a position and tote ID for the dosimeter</li>
+                                    <li>Re-read the dosimeter</li>
+                                    <li>Skip a dosimeter measurement</li>
+                                </ul>
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/veJ4A6JeiXw"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 10-002 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/audittrail-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/audittrail-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Using the Audit Trail Feature</h4>
+                    <p class="card-description">
+                      This video shows how to use the audit trail feature to search, filter and view the historical record of events from the database. YOu can compile an audit report, and save and print a secure PDF audit trail report.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/wPA1yvsboXw"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 12-004 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/measure-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/measure-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Using the Performance Verification (P.V.) Module</h4>
+                    <p class="card-description">
+                      This video shows how to use the Performance Verification (P.V.)
+                                module in DoseControl to do a P.V. test for the Evolution 220 spectrophotometer.
+
+                                This PV module is intended as a fast, convenient way to monitor the spectrophotometer's
+                                performance, and is part of the DoseControl software. Final PV reports are secure PDFs
+                                that can be saved or printed.
+
+                                The PV module is configured by the application admin to be used as a 'daily check' or
+                                other timeframe to test the spectrophotometer's photometric and wavelength accuracy. It
+                                uses a single photometric standard and takes 1-3 minutes to complete.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/5R95JAQ0Nqg"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <!-- 12-002 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/measure-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/measure-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Using the P.V. Module - Passing a Test</h4>
+                    <p class="card-description">
+                      We demonstrate how a user opens the P.V. module and executes a test. In this example, all the test passes within the parameters, and the final result of the test is "PASS". Next, the user can begin dosimeter measurements.  
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/pAhWgjbqxV0"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 12-003 -->
+              <div class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-header card-header-image">
+                        <img class="img img-raised" src="./assets/img/measure-sq.png">
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/measure-sq.png&quot;); opacity: 1;"></div></div>
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="card-title">Using the P.V. Module - Failing a Test</h4>
+                    <p class="card-description">
+                      We demonstrate how a user opens the P.V. module and executes a test. In this example, all the test passes within the parameters, and the final result of the test is "FAIL". If the P.V. test fails, the user cannot measure dosimeters with the Evo220 until the test has been passed 2 additional times. If the reader continues to fail the P.V. test, further investigation is needed.
+                    </p>
+                    <p class="author">
+                        <a class="btn btn-link btn-youtube"
+                        target="_blank" rel="noopener noreferrer" href="https://youtu.be/1RiFe-8fL6c"
+                        role="button">
+                        <i class="fa fa-youtube-play"></i>View on Youtube</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+             </div>
+            </div>
+
+        </div>
+    </div>
+
+    {% endblock %}

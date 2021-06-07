@@ -1,0 +1,117 @@
+<!-- dosimeters.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/dosimeters_main.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Dosimeters</h1>
+          <h6>Built for the rigours of radiation process applications</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+
+    <!-- ********* PROJECTS 3 ********* -->
+    <div class="projects-3" id="projects-3">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-5 ml-auto">
+            <div class="card card-plain">
+              <a href="./b3-dosimeters.html">
+                <div class="card-header card-header-image">
+                  <img src="./assets/img/b3-dosimeters.jpg" alt="B3 dosimeter all types">
+                </div>
+              </a>
+              <div class="card-body ">
+
+                <a href="#pablo">
+                  <h4 class="card-title">B3 Radiochromic</h4>
+                </a>
+                <p class="card-description">
+                  The easiest to measure dosimeter on the market today. Our proprietary B3 radiochromic film dosimeter is a superior product choice for most applications and offer a dose range from &lt;1.0 kGy to &gt;150 kGy. Superior measurement precision and
+                  accuracy, stability, usability.
+
+                </p>
+
+                <a href="./b3-dosimeters.html" class="btn btn-rose btn-round">More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mr-auto">
+            <div class="card card-plain">
+              <a href="./calorimeters.html">
+                <div class="card-header card-header-image">
+                  <img src="./assets/img/calorimeter-dosimeters.jpg" alt="calorimeter dosimeters">
+                </div>
+              </a>
+              <div class="card-body ">
+
+                <a href="#pablo">
+                  <h4 class="card-title">Calorimeters</h4>
+                </a>
+                <p class="card-description">
+                  We offer a complete line of calorimeters, including graphite and polystyrene models for use in 3.0 MeV to 10 MeV electron beam accelerator systems. Each calorimeter is supplied with a formal certification from Ris&oslash; High Dose Reference
+                  Laboratory, along with a copy of the CalDose software.
+                </p>
+                <a href="./calorimeters.html" class="btn btn-rose btn-round">More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 ml-auto">
+            <div class="card card-plain">
+              <a href="./alanine.html">
+                <div class="card-header card-header-image">
+                  <img src="./assets/img/alanine-dosimeters.jpg" alt="alanine dosimeters">
+                </div>
+              </a>
+              <div class="card-body ">
+
+                <a href="#pablo">
+                  <h4 class="card-title">Alanine</h4>
+                </a>
+                <p class="card-description">
+                  We offer high quality alanine dosimeters for use in EPR dosimetery. Suitable for use in gamma, electron beam, or X-ray applications that require a dose range from &lt;10Gy to 150kGy.
+                </p>
+                <a href="./alanine.html" class="btn btn-rose btn-round">More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mr-auto">
+            <div class="card card-plain">
+              <a href="./cta.html">
+                <div class="card-header card-header-image">
+                  <img src="./assets/img/cta-dosimeters.jpg" alt="CTA dosimeters">
+                </div>
+              </a>
+              <div class="card-body ">
+
+                <a href="./cta.html">
+                  <h4 class="card-title">CTA (FUJIFILM Radiation Film, FTR-125)</h4>
+                </a>
+                <p class="card-description">
+                  CTA film dosimeters are used for measuring radiation dose used in industrial processes such as medical device sterilization, surface sterilization, crosslinking and curing of inks and coatings, and food irradiation. CTA is used for gamma, electron
+                  beam, or X-ray applications that require a dose range from 10-300 kGy.
+                </p>
+                <a href="./cta.html" class="btn btn-rose btn-round">More...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ********* END PROJECTS 3 ********* -->
+
+  </div>
+
+{% endblock %}

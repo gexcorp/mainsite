@@ -1,0 +1,130 @@
+<!-- alanine.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url(./assets/img/background_greygrid.jpg);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Alanine Dosimeters</h1>
+          <h6>For EPR Dosimetry</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+    <div class="container">
+
+      <!-- ********* Details Section ********* -->
+      <div class="blogs-1" id="blogs-1">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+
+              <!-- Calibration Services -->
+              <div id="cal-services" class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="card-header card-header-image">
+                      <!-- <a href="#pablito"> -->
+                      <img class="img" src="./assets/img/alanine-dosimeters.jpg" alt="Alanine Dosimeters">
+                      <!-- </a> -->
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+
+                    <h6>About alanine dosimeters</h6>
+                    <p class="card-description">
+                      Alanine dosimeters are used to measure absorbed doses of ionizing radiation. Alanine dosimeters are suitable for use in gamma, electron beam, or X-ray applications that require a dose range from &lt;10Gy to 150kGy, and are measured in an EPR
+                      spectometer. Alanine dosimeters are suitable for industrial processes such as medical device sterilization, and ideal for low dose applications such as food irradiation.</p>
+
+                    <h6>GEX offers the following alanine dosimeter products:</h6>
+
+                    <ul>
+                      <li>Individual alanine pellets.</li>
+                      <li>Packaged individual pellet in a crush-resistant plastic tube - with or without barcoding.</li>
+                    </ul>
+
+                    <p>Because alanine pellets used in routine dosimetry can be easily damaged, the pellets are available in factory-packaged crush resistant tubes that can be placed directly into the spectrometer. To ensure the highest consistency, the mass of the
+                      pellets are robotically measured &plusmn;0.05mg within the range of 35-37mg.</p>
+                    <p>The alanine pellets are manufactured by A&eacute;rial, and are best used with the
+                      <a href="./aerede.html">Aer'EDE EPR Dosimetry System</a>.</p>
+
+                    <div id="accordion" role="tablist">
+                      <div class="card card-collapse">
+                        <div class="card-header" role="tab" id="headingOne">
+                          <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Features &amp; Benefits
+                              <i class="material-icons">keyboard_arrow_down</i>
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body">
+                            <ul>
+                              <li>Higher Uniformity - Every dosimeter is robotically measured individually for mass in the factory, making it unnecessary for the user to measure each dosimeter.</li>
+                              <li>Proven History – Manufactured since 1989.</li>
+                              <li>Improved EPR References – Pre-aged, stable alanine dosimeter references available.</li>
+                              <li>
+                                Large Quantity Batches – Reduces calibration requirements.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card card-collapse">
+                        <div class="card-header" role="tab" id="headingTwo">
+                          <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Packaging Features &amp; Benefits
+                              <i class="material-icons">keyboard_arrow_down</i>
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                          <div class="card-body">
+                            <ul>
+                              <li>Alanine pellet protected from damage in crush-resistant measurement tubes.</li>
+                              <li>Dosimeter is precisely located within tube for uniform measurement positioning.</li>
+                              <li>Easy handling – packaged dosimeter tubes are placed directly into the spectrometer.</li>
+                              <li>Tub design assures consistent orientation for re-measurement.</li>
+                              <li>Barcode Option – Packaging is available with barcodes, to provide precise identification and traceability.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <h6>
+                      <a class="btn btn-info btn-just-icon" href="pdf/100-363AerialAlanineDosimeters_120915.pdf" target="_blank" role="button">
+                        <i class="material-icons">description</i>
+                      </a>
+
+                      &nbsp;&nbsp;Product Information Sheet PDF
+                    </h6>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}

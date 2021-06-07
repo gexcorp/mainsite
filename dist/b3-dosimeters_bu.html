@@ -1,0 +1,952 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+ =========================================================
+ Material Kit PRO - v2.2.0
+ =========================================================
+
+ Product Page: https://www.creative-tim.com/product/material-kit-pro
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ Coded by Creative Tim
+
+ =========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+  <meta
+    name="keywords"
+    content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+  <meta name="msvalidate.01" content="65AA01A3161EE872D7D09D23458BB5CE"/>
+  <meta name="yandex-verification" content="6980595247a97dc7"/>
+  <title>
+    GEX Corporation - the Dosimetry Company
+  </title>
+  <!-- *** Global site tag (gtag.js) - Google Analytics *** -->
+  
+   <!-- *** END Global site tag (gtag.js) - Google Analytics *** -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <!-- custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet"/>
+  <!-- vertical nav CSS -->
+  <link href="./assets/css/vertical-nav.css" rel="stylesheet"/>
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- *** cookie banner *** -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#edeff5",
+            "text": "#838391"
+          },
+          "button": {
+            "background": "#4b81e8"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+          "link": "Learn More...",
+          "href": "./policies.html"
+        }
+      })
+    });
+  </script>
+  <!-- *** google structured data *** -->
+  <script type="application/ld+json">
+    {
+      "@type": "Company",
+      "name": "GEX Corporation",
+      "description": "The Dosimetry Company",
+      "url": "https://www.gexcorp.com",
+      "logo": "https://www.gexcorp.com/assets/img/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-303-400-9640",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+
+</head>
+
+
+
+
+
+
+</head>
+<body class="about-us ">
+
+  <!-- navigation.nunjucks -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+  <div class="container">
+    <div class="navbar-translate">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt="GEX Corp logo" class="img-fluid"></a>
+      <a class="navbar-brand" href="./index.html">GEX CORPORATION</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a href="./company.html" class="nav-link">
+            Company
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./support.html" class="nav-link">
+            Support
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./purchase.html" class="nav-link">
+            Purchase
+          </a>
+        </li>
+
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Products
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./systems.html" class="dropdown-item">
+              <i class="material-icons">horizontal_split</i>
+              Dosimetry Systems
+            </a>
+            <a href="./dosimeters.html" class="dropdown-item">
+              <i class="material-icons">dashboard</i>
+              Dosimeters
+            </a>
+            <a href="./indicators.html" class="dropdown-item">
+              <i class="material-icons">picture_in_picture</i>
+              Radiation Indicators
+            </a>
+            <a href="./temperature.html" class="dropdown-item">
+              <i class="material-icons">warning</i>
+              Temperature Indicators
+            </a>
+            <a href="./calibrations.html" class="dropdown-item">
+              <i class="material-icons">timeline</i>
+              Calibrations
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Library
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./faq.html" class="dropdown-item">
+              <i class="material-icons">info</i>
+              Fundamentals
+            </a>
+            <a href="https://library.gexcorp.com/" class="dropdown-item">
+              <i class="material-icons">view_list</i>
+              Document Library
+            </a>
+            <a href="./videolibraryTable.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Instruction Videos
+            </a>
+            <a href="./videolibrary.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Product Gallery
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">B3 Radiochromic Film Dosimeters</h1>
+
+          <h6>
+            A superior dosimeter for most radiation processing applications.
+         </h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+    <div class="container">
+
+      <div class="team-1" id="team-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+
+              <h5 class="description">
+                <ul id="subtitle-list">
+                  <li>Dose range of 1.0 kGy to 150 kGy in Gamma, Electron Beam, and X-ray.</li>
+                  <li>Absorbed dose rates &gt; 0.01 Gy/s.</li>
+                  <li>Photon energy range approximately 0.1 to 50 MeV.</li>
+                  <li>Electron energy range is approximately 70 KeV to 50 MeV.</li>
+                </ul>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card card-profile card-plain">
+                <div class="card-header card-avatar">
+                  <a href="#dosestix">
+                    <img class="img" src="assets/img/dosestix-sq.jpg"/>
+                  </a>
+                </div>
+                <div class="card-body ">
+                  <h4 class="card-title">B3 DoseStix</h4>
+
+                  <p class="card-description">
+                    Simple, fast, hand-held dosimeter with unique barcode.
+                  </p>
+                </div>
+                <div class="card-footer justify-content-center">
+                  <a href="#dosestix" class="btn btn-just-icon btn-link btn-info">
+                    <i class="material-icons">details</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card card-profile card-plain">
+                <div class="card-header card-avatar">
+                  <a href="#windose">
+                    <img class="img" src="assets/img/windose-tweezers-sq.jpg"/>
+                  </a>
+                </div>
+                <div class="card-body ">
+                  <h4 class="card-title">B3 WINdose</h4>
+
+                  <p class="card-description">
+                    Small, versatile and robust. Uniquely numbered in barcoded pouch.
+                  </p>
+                </div>
+                <div class="card-footer justify-content-center">
+                  <a href="#windose" class="btn btn-just-icon btn-link btn-info">
+                    <i class="material-icons">details</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card card-profile card-plain">
+                <div class="card-header card-avatar">
+                  <a href="#specialty">
+                    <img class="img" src="./assets/img/specialty.jpg"/>
+                  </a>
+                </div>
+                <div class="card-body ">
+                  <h4 class="card-title">B3 Specialty Products</h4>
+
+                  <p class="card-description">
+                    We offer a variety of speciality products for E-beam users. Also, bulk packaging, special orders, and bare film.
+                  </p>
+                </div>
+                <div class="card-footer justify-content-center">
+                  <a href="#film" class="btn btn-just-icon btn-link btn-info">
+                    <i class="material-icons">details</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card card-profile card-plain">
+                <div class="card-header card-avatar">
+                  <a href="#faq">
+                    <img class="img" src="./assets/img/b3-product_sq.jpg"/>
+                  </a>
+                </div>
+                <div class="card-body ">
+                  <h4 class="card-title">B3 FAQ's</h4>
+
+                  <p class="card-description">
+                    Frequently asked questions about B3 film and dosimeter products.
+                  </p>
+                </div>
+                <div class="card-footer justify-content-center">
+                  <a href="#faq" class="btn btn-just-icon btn-link btn-info">
+                    <i class="material-icons">details</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********* Details Section ********* -->
+      <div class="blogs-1" id="blogs-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+              <!-- dosestix -->
+              <div id="dosestix" class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="card-header card-header-image">
+
+                      <img class="img" src="./assets/img/dosimeters_main.jpg">
+
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <h3 class="card-title">
+                      B3 DoseStix Dosimeters
+                    </h3>
+
+                    <p class="card-description">
+                      The DoseStix provides the simplest and fastest readout of any dosimeter on the market. Eliminating the need for protective gloves, forceps or small suction devices, the DoseStix can be removed from the peel-open pouch and placed directly into a
+                      spectrophotometer by hand.
+                      <p class="card-description">Each DoseStix dosimeter is uniquely numbered and barcoded for quick scanning and absolute traceability.</p>
+                      <p class="card-description">The dosimeter is packaged within a transparent pouch protecting the B3 film from stray UV radiation, allowing barcode scanning of the dosimeter through the sealed pouch, and providing a long shelf-life.</p>
+
+                      <h6>
+                        <a class="btn btn-info btn-just-icon" href="https://library.gexcorp.com/?wpdmdl=540" target="_blank" role="button">
+                          <i class="material-icons">description</i>
+                        </a>
+
+                        &nbsp;&nbsp;B3 Dosimeter Product Information Sheet PDF
+
+                      </h6>
+
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <!-- windose -->
+                <div id="windose" class="card card-plain card-blog">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h3 class="card-title">
+                        B3 WINdose Dosimeters
+                      </h3>
+
+                      <p class="card-description">
+                        Small, versatile and robust, the B3 WINdose offers all the benefits available in a radiochromic film dosimeter. Each dosimeter is uniquely numbered and pre-packaged in a barcoded, hermetically sealed foil pouch.
+                      </p>
+
+                      <h6>
+                        <a class="btn btn-info btn-just-icon" href="https://library.gexcorp.com/?wpdmdl=540" target="_blank" role="button">
+                          <i class="material-icons">description</i>
+                        </a>
+
+                        &nbsp;&nbsp;B3 Dosimeter Product Information Sheet PDF
+
+                      </h6>
+
+                    </div>
+                    <div class="col-md-5">
+                      <div class="card-header card-header-image">
+                        <img class="img img-raised" src="assets/img/windose-tweezers.jpg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+                <!-- specialty b3 -->
+                <div id="specialty" class="card card-plain card-blog">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="card-header card-header-image">
+                        <!-- <a href="#b3specialty"> -->
+                        <img class="img" src="./assets/img/b3-dosimeters.jpg">
+                        <!-- </a> -->
+                      </div>
+                    </div>
+                    <div class="col-md-7">
+                      <h3 class="card-title">
+                        B3 Specialty Products
+                      </h3>
+                      <p class="card-description">
+                        We offer a variety of B3 specialty products:
+                        <ul>
+                          <li>B3 specialty products for electron beam qualification dose mapping - Make setting up and conducting an electron beam energy test simple and highly reproducible with minimal time and effort.
+                          </li>
+                          <li>Bulk packaging and special orders - B3 dosimeters can be packaged to suit the differing needs of our clients</li>
+                          <li>B3 Film is offered bare in sheets, strips and rolls for specialty uses</li>
+                          <li>MDS Nordion - Canada</li>
+                          <li>Risø National Laboratory - Denmark</li>
+                        </ul>
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <hr>
+
+                <!-- FAQs -->
+                <div id="faq" class="card card-plain card-blog">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3 class="card-title text-center">
+                        Frequently Asked Questions
+                      </h3>
+                      <h6 class="card-title text-center">About B3 film and dosimeter products</h6>
+
+                      <p class="card-description">
+                        <div id="accordion" role="tablist">
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingOne">
+                              <h5 class="mb-0">
+                                <a class="collapse" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                  What is B3 radiochromic film?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>B3 is the trade name of a thin radiochromic film material used for measuring the radiation dose used in industrial processes. GEX Corporation uses the B3 radiochromic film in the manufacturing of its proprietary B3 dosimeters.</p>
+                                <p>The B3 film is pararosaniline cyanide dissolved in polyvinyl butyral (PVB), and is manufactured into a highly-uniform, thin film with a nominal 18&mu;m thickness.</p>
+                                <p>Upon irradiation B3 film undergoes a predictable and quantifiable chemical color change directly related to the amount of dose of ionizing radiation energy it receives.</p>
+                                <p>B3 dosimeters provide consistent, accurate and precise dose measurements. B3 dosimeters are stable after irradiation by applying a heat treatment.</p>
+                                <p>As with all routine dosimeters, calibration should be carried out with the user&rsquo;s specific instruments, environment and practices with dosimeters irradiated under conditions of actual use.</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingFifteen">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                  What is the dose range of a B3 dosimetry system?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseFifteen" class="collapse" role="tabpanel" aria-labelledby="headingFifteen" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>For routine use dosimetry systems, wide response range allows it to be calibrated from <b>below 1.0 kGy to more than 100 kGy.</b></p>
+                                <p>When used as a reference dosimetry system, the useful range of B3 is limited with a recommended calibration range of approximately 5.0 kGy to 30 kGy.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingThree">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  What types of radiation sources can be used?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>B3 film can be used to measure ionizing radiation doses from <b>gamma, X-ray and electron beam sources including low energy electron sources of 80 keV or lower.</b></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingEleven">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                  What types of applications use B3 dosimeters?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseEleven" class="collapse" role="tabpanel" aria-labelledby="headingEleven" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>B3 dosimeters are used for measuring the radiation dose used in industrial processes, such as medical device sterilization, surface sterilization, crosslinking and curing of inks and coatings, and food irradiation. B3 dosimeters are not used for
+                                  personnel monitoring, radiation safety, or nuclear power industries.</p>
+                                <p>B3 dosimeters can be used to measure ionizing radiation doses from gamma, X-ray and electron beam sources, including low energy electron sources, with a dose range from &lt;1.0 kGy to &gt; 150 kGy.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingFour">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  How is B3 film measured?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>B3 film is ideally measured in a spectrophotometer, to determine the optical absorbance after irradiation. There is no need to measure the individual thickness of B3 dosimeters because of the consistent uniformity of the B3 film.</p>
+                                <p>The spectrophotometer measurement method is non-destructive so dosimeters can be re-measured. B3 dosimeters are stable for a long time after irradiation if the dosimeters are stored under normal laboratory conditions.</p>
+                                <p>GEX recommends the Thermo Evolution 220 and Genesys 30 spectrophotometers, included as part of the complete DoseControl Dosimetry System.</p>
+                                <p>B3 film can also be measured using specialized software called Ris&oslash;Scan. Ris&oslash;Scan B3 dosimeter measurement software allows users to scan and analyze B3 dosimeter film using high-resolution bitmap scans from a flatbed scanner.</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingEight">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                  Has B3 radiochromic film been tested for performance, and where can I obtain the results?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>B3 radiochromic dosimetry has been heavily characterized over the commonly used application ranges with published data references dating back to the 1970s.</p>
+                                <p>Each batch of B3 dosimeters is characterized for the repeatability of specific net absorbance by analyzing the data from the sets of dosimeters irradiated during the calibration at each dose value.</p>
+                                <p>Appropriate documented information regarding the effects of temperature, humidity, UV light exposure, and post-irradiation stability of B3 dosimeters are described in the following publication:</p>
+                                <p>Abdel-Fattah A. A. and Miller A. (1996);
+                                  <em>Temperature, Humidity, and Time. Combined Effects on Radiochromic Film Dosimeters</em>; Radiation Physics and Chem. Vol. 47, No. 4 pp 611-621, Elsevier Science Ltd. Pergamon Press, Great Britain.</p>
+                                <p>Contact GEX for a concise set of recommended practices or rules to use with B3 radiochromic film dosimetry in order to obtain optimum performance results and discuss your specific dosimetry requirements.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingThirteen">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                  How can I determine if a B3 dosimetry system is appropriate for my application?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseThirteen" class="collapse" role="tabpanel" aria-labelledby="headingThirteen" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>The B3 dosimeter is the preferred product choice for most applications and dose ranges from &lt;1.0kGy to &gt;150kGy used in commercial routine irradiation processes. Our alanine dosimetry option is an excellent product choice for low dose
+                                  applications below 5.0kGy.</p>
+                                <p>When choosing a dosimetry system for you application, an appropriate dosimeter should:</p>
+                                <ul>
+                                  <li>Be able to measure the full range of dose to be applied in routine irradiation product processing, equipment characterization, and process testing.</li>
+                                  <li>Have the physical dimensions and characteristics necessary for successful measurement results.</li>
+                                  <li>Be versatile and able to be securely fixed against the product surface(s) or wherever dose is to be measured.</li>
+                                </ul>
+                                <p>GEX technical experts can guide you through the selection process, and can define a solution that works for your specific application requirements.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingNine">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                  Are there any known application restrictions for B3?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>B3 is well characterized and established for use in virtually all current radiation processing applications, provided it is calibrated under the approximate conditions of actual use. Use outside of the noted dose range is possible but may have
+                                  limitations.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Benefits section -->
+                          <h3 class="card-title text-center">
+                            Benefits and Advantages of B3 dosimeter products
+                          </h3>
+
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingTen">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                  Why use a radiochromic film dosimeter, such as the B3?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen" data-parent="#accordion">
+                              <div class="card-body">
+                                <ul>
+                                  <li>
+                                    <strong>Superior measurement precision and accuracy.</strong>
+                                    B3 film thickness uniformity results in significantly lower dose measurement variability.</li>
+                                  <li>
+                                    <strong>Stability.</strong>
+                                    B3 dosimeters are completely stable before and after irradiation.</li>
+                                  <li>
+                                    <strong>Usability.</strong>&nbsp; B3 dosimeters are thin enough for use in all radiation processing application, highly flexible, and can be placed directly on products and readily conform to irregular surface geometries.&nbsp;&nbsp;</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingTwelve">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                  What are the advantages of using B3 dosimeters?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseTwelve" class="collapse" role="tabpanel" aria-labelledby="headingTwelve" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>
+                                  <strong>B3 dosimeters are quick and simple to use, easy to integrate into a manufacturing process, and easy to integrate into a software database solution.</strong>
+                                </p>
+                                <ul>
+                                  <li>B3 dosimeters are barcoded to provide faster readability. All doses read by the spectrophotometer for each dosimeter can be directly imported into a database.</li>
+                                </ul>
+                                <ul>
+                                  <li>B3 dosimeters are significantly faster to read when compared to other systems.</li>
+                                </ul>
+                                <ul>
+                                  <li>B3 dosimeters are thin, flexible and are featured in an array of dosimeter products designed for specific measurement activities.</li>
+                                </ul>
+                                <p>
+                                  <strong>B3 dosimeters provide unsurpassed quality assurance</strong>
+                                </p>
+                                <ul>
+                                  <li>The B3 dosimeter exceeds standards of accuracy and precision that is set to meet the stringent dosimetry demands of the sterilization and food irradiation applications.</li>
+                                </ul>
+                                <ul>
+                                  <li>Due to the B3&rsquo;s material uniformity, there is significantly lower dose measurement uncertainty.</li>
+                                </ul>
+                                <ul>
+                                  <li>B3 dosimeters are completely stable before irradiation, and can be used right off the shelf.&nbsp;</li>
+                                </ul>
+                                <ul>
+                                  <li>Because the B3 dosimeter is thin, it can be used in a wide variety of electron beam processes.</li>
+                                </ul>
+                                <ul>
+                                  <li>All B3 dosimeters are traceable to the original source and placement in the manufacturing process, because each dosimeter is barcoded and numbered.</li>
+                                </ul>
+                                <p>
+                                  <strong>B3 dosimeters are a cost-effective solution</strong>
+                                </p>
+                                <ul>
+                                  <li>Because B3 dosimeters have such a high thickness uniformity and are stable before irradiation, there is no need to have to measure individual thickness or monitor pre-irradiation background absorbance values, saving valuable time.</li>
+                                </ul>
+                                <ul>
+                                  <li>Because B3 dosimeters can be measured quickly, this saves related labor costs.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingFourteen">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                  Can GEX assist customers with the successful implementation of a B3 dosimetry system?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseFourteen" class="collapse" role="tabpanel" aria-labelledby="headingFourteen" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>Yes. Complete B3 Dosimetry System implementation and validation guides and documentation are standard with the purchase of B3 products. GEX offers comprehensive customer support for system implementation and validation.</p>
+                                <p>GEX also offers an on-site service IQ/OQ for dosimetry systems, for an additional charge. Dosimeter batch calibration services are also available. For more information about the On-site IQ/OQ Service or Dosimeter Batch Calibration services, please contact sales <a href="./index.html#contact">here.</a> </p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                            <!-- History and Development section -->
+                          <h3 class="card-title text-center">
+                            History and Development of B3 dosimeter products
+                          </h3>
+                            <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingFive">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                  When was B3 film developed and who was responsible for its development?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>Arne Miller, Director of the High Dose Reference Laboratory at Ris&oslash; National Laboratory, now the Danish Technical University (DTU), was responsible for the development of B3 radiochromic film in 1976. In an effort to create a
+                                  next-generation radiochromic dosimeter with improved stability and other advancements, Mr. Miller collaborated with Dr. William McLaughlin, of NIST, who originally identified and investigated the potential of radiochromic film as a dosimeter
+                                  material.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card card-collapse">
+                            <div class="card-header" role="tab" id="headingSix">
+                              <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                  Why was B3 film developed?
+                                  <i class="material-icons">keyboard_arrow_down</i>
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
+                              <div class="card-body">
+                                <p>B3 film was developed as a next-generation radiochromic film dosimeter, with a wide dose range, measured at a single wavelength, featuring stability and measurement accuracy advantages over existing radiochromic film dosimeters.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <!-- end product sub sections -->
+                </div>
+              </div>
+              <!-- ********* end Details Section ********* -->
+            </div>
+          </div>
+
+        
+<!-- ********* LARGE FOOTER ********* -->
+<footer class="footer footer-white footer-big">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+          <hr>
+          <div class="copyright pull-center">
+            <p>&#xA9;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              GEX Corporation. All Rights Reserved. Photo by Luana Azevedo on Unsplash.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Company</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./company.html#contactus">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#location">
+                Location
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#relationship">
+                Working With Us
+              </a>
+            </li>
+            <li>
+              <a href="./quality.html">
+                Quality
+              </a>
+            </li>
+            <li>
+              <a href="./support.html">
+                Customer Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Purchase</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./purchase.html#howto">
+                How To
+              </a>
+            </li>
+            <li>
+              <a href="./purchase.html#shipping">
+                Shipping
+              </a>
+            </li>
+            <li>
+              <a href="./pricelist.html">
+                Pricelist
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Library</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./faq.html">
+                Fundamentals
+              </a>
+            </li>
+            <li>
+              <a href="./doclibrary.html">
+                Document Library
+              </a>
+            </li>
+            <li>
+              <a href="./videolibrary.html">
+                Video Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Products</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./systems.html">
+                Dosimetry Systems
+              </a>
+            </li>
+            <li>
+              <a href="./dosimeters.html">
+                Dosimeters
+              </a>
+            </li>
+            <li>
+              <a href="./indicators.html">
+                Radiation Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./temperature.html">
+                Temperature Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./calibrations.html">
+                Calibration Services
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- ********* BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+<footer class="footer footer-black">
+  <div class="container">
+    <a class="footer-brand" href="#pablo">GEX Corporation</a>
+    <ul class="pull-center">
+      <li>
+        <a href="./policies.html#cookie">
+          Cookies Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#privacy">
+          Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#terms">
+          Terms &amp; Conditions
+        </a>
+      </li>
+
+    </ul>
+    <ul class="social-buttons float-right">
+
+      <li>
+        <a class="btn btn-link btn-linkedin" href="https://www.linkedin.com/company/gex-corporation" role="button">
+          <i class="fa fa-linkedin-square"></i>
+          Connect with Linkedin
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-link btn-youtube" href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q/" role="button">
+        
+          <i class="fa fa-youtube-play"></i>
+          Youtube Channel
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!-- ********* END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+
+<!-- endscripts.nunjucks -->
+<!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+  <!--	Plugin for Small Gallery in Product Page -->
+  <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+  </script>
+<!-- *** END MATERIAL DESIGN CORE -->
+<!-- google -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- List.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<!-- custom -->
+<script src="./assets/js/custom.js"></script>
+<script src="./assets/js/table-custom.js"></script>
+<!-- html5shiv -->
+<script src="./assets/js/pluins/html5shiv.min.js"></script>
+
+
+
+
+
+</body>
+</html>

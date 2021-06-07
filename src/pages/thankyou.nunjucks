@@ -1,0 +1,41 @@
+<!-- support.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+</head>
+<body class="login-page ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter" style="background-image: url(&apos;./assets/img/handshake.jpg&apos;); background-size: cover; background-position: top center;">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-4 col-sm-6 ml-auto mr-auto">
+                    <div class="card card-signup">
+                        
+                            <div class="card-header card-header-primary text-center">
+                                <h4 class="card-title">Your form has been submitted.</h4>
+                                <h6 class="card-title">Thank you!</h6>
+                                
+                            </div>
+                            
+                            <div class="card-body">
+                                <p class="description text-center">GEX customer service will review your request and will be in touch as soon as possible.</p>
+                               
+                            </div>
+                            <div class="footer text-center">
+                                <a href="./index.html" class="btn btn-danger btn-link btn-wd btn-lg">Return to GEX website</a>
+                            </div>
+                        
+                    </div>
+                </div>
+        
+      </div>
+    </div>
+
+  </div>
+
+
+
+{% endblock %}

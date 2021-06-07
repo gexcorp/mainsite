@@ -1,0 +1,918 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+ =========================================================
+ Material Kit PRO - v2.2.0
+ =========================================================
+
+ Product Page: https://www.creative-tim.com/product/material-kit-pro
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ Coded by Creative Tim
+
+ =========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+  <meta
+    name="keywords"
+    content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+  <meta name="msvalidate.01" content="65AA01A3161EE872D7D09D23458BB5CE"/>
+  <meta name="yandex-verification" content="6980595247a97dc7"/>
+  <title>
+    GEX Corporation - the Dosimetry Company
+  </title>
+  <!-- *** Global site tag (gtag.js) - Google Analytics *** -->
+  
+   <!-- *** END Global site tag (gtag.js) - Google Analytics *** -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <!-- custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet"/>
+  <!-- vertical nav CSS -->
+  <link href="./assets/css/vertical-nav.css" rel="stylesheet"/>
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- *** cookie banner *** -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#edeff5",
+            "text": "#838391"
+          },
+          "button": {
+            "background": "#4b81e8"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+          "link": "Learn More...",
+          "href": "./policies.html"
+        }
+      })
+    });
+  </script>
+  <!-- *** google structured data *** -->
+  <script type="application/ld+json">
+    {
+      "@type": "Company",
+      "name": "GEX Corporation",
+      "description": "The Dosimetry Company",
+      "url": "https://www.gexcorp.com",
+      "logo": "https://www.gexcorp.com/assets/img/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-303-400-9640",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+
+</head>
+
+
+
+
+
+
+</head>
+<body class="about-us ">
+
+  <!-- navigation.nunjucks -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+  <div class="container">
+    <div class="navbar-translate">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt="GEX Corp logo" class="img-fluid"></a>
+      <a class="navbar-brand" href="./index.html">GEX CORPORATION</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a href="./company.html" class="nav-link">
+            Company
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./support.html" class="nav-link">
+            Support
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./purchase.html" class="nav-link">
+            Purchase
+          </a>
+        </li>
+
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Products
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./systems.html" class="dropdown-item">
+              <i class="material-icons">horizontal_split</i>
+              Dosimetry Systems
+            </a>
+            <a href="./dosimeters.html" class="dropdown-item">
+              <i class="material-icons">dashboard</i>
+              Dosimeters
+            </a>
+            <a href="./indicators.html" class="dropdown-item">
+              <i class="material-icons">picture_in_picture</i>
+              Radiation Indicators
+            </a>
+            <a href="./temperature.html" class="dropdown-item">
+              <i class="material-icons">warning</i>
+              Temperature Indicators
+            </a>
+            <a href="./calibrations.html" class="dropdown-item">
+              <i class="material-icons">timeline</i>
+              Calibrations
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Library
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./faq.html" class="dropdown-item">
+              <i class="material-icons">info</i>
+              Fundamentals
+            </a>
+            <a href="https://library.gexcorp.com/" class="dropdown-item">
+              <i class="material-icons">view_list</i>
+              Document Library
+            </a>
+            <a href="./videolibraryTable.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Instruction Videos
+            </a>
+            <a href="./videolibrary.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Product Gallery
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Fundamentals of Dosimetry</h1>
+          <!-- <h4></h4> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+    <div class="container">
+      <!-- features section -->
+      <div class="features-2">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info info-horizontal">
+              <div class="icon icon-success">
+                <i class="material-icons">arrow_forward_ios</i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Basic Dosimetry Principals</h4>
+                <p>Learn the some fundamental concepts behind radiation dosimetry.</p>
+                <a href="#faq-fundamentals">Find out more...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info info-horizontal">
+              <div class="icon icon-primary">
+                <i class="material-icons">question_answer</i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Dosimetry Terminology</h4>
+                <p>An overview of important terminology used in the industry.</p>
+                <a href="#faq-terminology">Find out more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- collapse -->
+        <div id="collapse">
+          <div id="faq-fundamentals" class="title">
+            <h3 class="title text-success">
+              <i class="material-icons">arrow_forward_ios</i>&nbsp;&nbsp;Dosimetry Fundamentals</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div id="accordion" role="tablist">
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is radiation processing?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      Radiation processing is a term describing a vast number of industrial applications where ionizing radiation from gamma, electron beam, or X-ray sources is used to achieve a desirable effect in a product. A good example is the medical device
+                      manufacturing industry, in which radiation is used to sterilize medical devices. A large variety of industries use radiation processing for such activities as microbial reduction, polymer modification, curing of inks and coatings, phytosanitization
+                      and many others.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What is dosimetry?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      Dosimetry is the measurement of absorbed radiation dose and the science of dose measurement. The absorbed dose is defined as the quantity of ionizing radiation imparted per unit mass of a specified material. (ASTM E170)
+                      <ol>
+                        <li>SI Unit for absorbed dose is the gray (Gy)</li>
+                        <li>1 Gy = 1 Joule per kilogram</li>
+                        <li>Absorbed dose received by a material depends on the composition of the material. Therefore dose is typically expressed in a standard material as ‘dose to water’.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingThree">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What is dosimetry used for in radiation processing?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      Dosimetry is used for process validation as well as quality control and quality assurance of the ongoing process.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingFour">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Why is dosimetry important?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                      The measurement of radiation dose is an essential tool for determining, validating and maintaining the radiation process outputs. Along with other controls, dosimetry helps assure that medical devices are sterile, that food is safe for consumers, and
+                      manufactured products meet quality expectations.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingFive">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        What dose ranges are used in radiation processing?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                      Doses delivered to products in industrial processes vary widely depending on the application and range from 10 Gy to 800 kGy (kilogray) or more. In some processes it can be very difficult to measure the dose due to practical reasons.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingSix">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        What dosimetry system is used for radiation processing?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                      There is not a single measurement system with a capability spanning the radiation processing range or that is practical for use in every application. Different systems are used for different dose ranges, and dosimetry system selection is dependent
+                      upon the specific factors and requirements of each process and application.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingSeven">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        What are some specific examples of how dosimetry is used in an radiation processing?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordion">
+                    <div class="card-body">
+                      <ol>
+                        <li>To “characterize” the radiation processing facility; which means to validate that the installed process equipment meets specification (IQ, OQ).</li>
+                        <li>To determine a maximum dose that will not adversely affect the product’s form, fit or function.</li>
+                        <li>To establish the dose needed to achieve the desired change in the product (e.g. sterility).</li>
+                        <li>To establish processing parameters for products; that is, validating the product configurations and process parameters to be used for routine production (PQ).</li>
+                        <li>Routine Process Monitoring and Process Control (QA and QC).</li>
+                        <li>Re-validation of the process system after maintenance or repair.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingEight">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        What is a dosimeter?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordion">
+                    <div class="card-body">
+                      A dosimeter is a device that, when irradiated, exhibits a quantifiable change in some property of the device that can be related to absorbed dose in a given material using appropriate analytical instrumentation and techniques.(ASTM E170)
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingNine">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        What is a dosimetry “system”?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+                    <div class="card-body">
+                      Dose is measured using a dosimetry system. A dosimetry system consists of dosimeters, measurement instruments and their associated reference standards, and procedures for the system’s use. A dosimetry system takes the name of the dosimeter used in
+                      the system and the proper function of the entire system is integral to the dose measurement.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingTen">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        Are there different types or classes of dosimetry systems and how are they used?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen" data-parent="#accordion">
+                    <div class="card-body">
+                      There are two classes of dosimetry systems that are of interest to industry. (References: ASTM E-2628 Sections 6.3.1 and 6.3.2 and ICRU 80 Section 5)
+                      <ul>
+                        <li>Reference Dosimetry System – used to characterize or monitor radiation sources at laboratories and used to calibrate laboratory internal dosimetry systems. Also used to ‘transfer’ dose to routine dosimetry systems at industrial facilities through
+                          a calibration method.</li>
+                        <li>Routine Dosimetry Systems – used to measure dose at radiation processing facilities.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingEleven">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                        What is the dosimeter response?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseEleven" class="collapse" role="tabpanel" aria-labelledby="headingEleven" data-parent="#accordion">
+                    <div class="card-body">
+                      The response of a dosimeter is the change in the signal or indication of the dosimeter, as measured by the dosimetry system. Often the normalized signal (signal change per unit mass or unit thickness) is used as the response.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="headingTwelve">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                        What is dosimetry system batch calibration, and why is this necessary?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTwelve" class="collapse" role="tabpanel" aria-labelledby="headingTwelve" data-parent="#accordion">
+                    <div class="card-body">
+                      Dosimetry batch calibration is the process where the response of a dosimetry system is characterized through comparison with a traceable reference (standard). The calibration method for the dosimetry system is designed to ensure the integrity of the
+                      measurements made with the user’s dosimetry system. Dosimetry Systems must be calibrated for each batch of dosimeters. In addition, a separate calibration is required for each measurement instrument.
+                      <br>
+                      All dosimetry systems must be calibrated traceable to a national or international standard. Dosimeter manufacturers may provide response functions on their websites or in product literature, but these are for general information only. Therefore, the
+                      end-user must calibrate the measurement system as a whole (the dosimetry system) and ensure that the calibration is suitable for the conditions of use.
+                      <br>
+                      Routine dosimetry systems should be calibrated in accordance with the requirements of ISO/ASTM 51261. Reference dosimetry systems should be calibrated in a manner to meet the requirements of ISO 17025.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end faq -->
+        <br>
+
+        <br>
+        <!-- begin terminology -->
+
+        <div id="collapse">
+          <div id="faq-terminology" class="title">
+            <h3 class="title text-primary">
+              <i class="material-icons">question_answer</i>&nbsp;&nbsp;Dosimetry Terminology</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div id="accordian2" role="tablist">
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termOne">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" href="#collapseTermOne" aria-expanded="true" aria-controls="collapseTermOne">
+                        Dose
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermOne" class="collapse show" role="tabpanel" aria-labelledby="termOne" data-parent="#accordian2">
+                    <div class="card-body">
+                      A quantity of ionizing radiation energy imparted per unit mass of a specified material.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termTwo">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermTwo" aria-expanded="false" aria-controls="collapseTermTwo">
+                        Dosimetry
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermTwo" class="collapse" role="tabpanel" aria-labelledby="termTwo" data-parent="#accordian2">
+                    <div class="card-body">
+                      A practice of using dosimeters and dosimetry systems to quantify absorbed-dose from sources of ionizing radiation.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termThree">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermThree" aria-expanded="false" aria-controls="collapseTermThree">
+                        Dosimeter
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermThree" class="collapse" role="tabpanel" aria-labelledby="termThree" data-parent="#accordian2">
+                    <div class="card-body">
+                      A device that, when irradiated, exhibits a quantifiable change in some property of the device that can be related to absorbed dose in a given material using appropriate analytical instrumentation and techniques.
+                      <br>
+
+                      Discussion: The term “device” is used in order to describe both large dosimeters such as a calorimeter as well as small dosimeters fabricated from pieces of material such as PMMA chips, alanine films and pellets or radiochromic film pieces. The
+                      packaging materials and conditioned environment surrounding the dosimeter comprise a complete dosimeter. Since we cannot measure the actual dose absorbed the irradiated materials and materials interfaces themselves, dosimeter are used as surrogates
+                      and must be of a size and composition approximately equivalent to the materials and interfaces they represent.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termFour">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermFour" aria-expanded="false" aria-controls="collapseTermFour">
+                        Dosimetry system
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermFour" class="collapse" role="tabpanel" aria-labelledby="termFour" data-parent="#accordian2">
+                    <div class="card-body">
+                      System used for measuring absorbed dose, consisting of (a.) dosimeters, (b.) measurement instruments and their associated reference standards, and (c.) procedures for use of the system.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termFive">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermFive" aria-expanded="false" aria-controls="collapseTermFive">
+                        Reference Dosimetry System
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermFive" class="collapse" role="tabpanel" aria-labelledby="termFive" data-parent="#accordian2">
+                    <div class="card-body">
+                      A dosimetry system generally having the highest metrological quality available at a given location or in a given organization, from which measurements made there are derived.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termSix">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermSix" aria-expanded="false" aria-controls="collapseTermSix">
+                        Routine Dosimetry System
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermSix" class="collapse" role="tabpanel" aria-labelledby="termSix" data-parent="#accordian2">
+                    <div class="card-body">
+                      A dosimetry system calibrated against a reference standard dosimetry system and used for routine absorbed dose measurements, including dose mapping and process monitoring.A dosimetry system used for day-to-day monitoring and control of an industry
+                      irradiation process
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termSeven">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermSeven" aria-expanded="false" aria-controls="collapseTermSeven">
+                        Dosimeter System Characterization
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermSeven" class="collapse" role="tabpanel" aria-labelledby="termSeven" data-parent="#accordian2">
+                    <div class="card-body">
+                      A determination of performance characteristics, such as useful dose range, reproducibility and the effects of influence quantities, for a dosimeter/dosimetry system under defined conditions. Discussion: Characterization is carried out in order to
+                      determine the practices and procedures necessary to control the influence quantities or factors that effect dosimetry results such that the dosimetry system produces results within a normally expected range of performance.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termEight">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermEight" aria-expanded="false" aria-controls="collapseTermEight">
+                        Calibration (of a dosimetry system)
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermEight" class="collapse" role="tabpanel" aria-labelledby="termEight" data-parent="#accordian2">
+                    <div class="card-body">
+                      Set of operations that establish, under specified conditions, the relationship between values of quantities indicated by a measuring instrument or measuring system, or values represented by a material measure or a reference material, and the
+                      corresponding values realized by (dose) standards.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termNine">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermNine" aria-expanded="false" aria-controls="collapseTermNine">
+                        Calibration Curve
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermNine" class="collapse" role="tabpanel" aria-labelledby="termNine" data-parent="#accordian2">
+                    <div class="card-body">
+                      Mathematical expression of the relation between dosimeter response and corresponding value of dose certified traceable to a national or international standard dose.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termTen">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermTen" aria-expanded="false" aria-controls="collapseTermTen">
+                        Traceability
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermTen" class="collapse" role="tabpanel" aria-labelledby="termTen" data-parent="#accordian2">
+                    <div class="card-body">
+                      A property of the result of a measurement or the value of a standard whereby it can be related to stated references, usually national or international standards, through an unbroken chain of comparison, all having stated uncertainties. Discussion:
+                      The unbroken chain of comparisons is called a ‘traceability chain’. Traceability is a requirement of any measurement management system.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termEleven">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermEleven" aria-expanded="false" aria-controls="collapseTermEleven">
+                        Uncertainty (of dose estimate)
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermEleven" class="collapse" role="tabpanel" aria-labelledby="termEleven" data-parent="#accordian2">
+                    <div class="card-body">
+                      A parameter associated with the result of a calculation (“dose estimate”) that characterizes the spread of values that could reasonably be attributed to the derived quantity (“dose”).
+                      <br>
+                      Note: A statement of uncertainty is required in order to provide meaning to a dose measurement. An uncertainty statement defines the quality of a measurement in terms of calculated limits (typically ±4-7% for a routine dosimetry system) within which
+                      the “true” value of the estimated dose is expected to be found with a specified level of confidence (typically approximately 95% or =2). Refer to the ISO/ASTM 51705 uncertainties document for guidance.
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-collapse">
+                  <div class="card-header" role="tab" id="termTwelve">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseTermTwelve" aria-expanded="false" aria-controls="collapseTermTwelve">
+                        What is dosimetry system batch calibration, and why is this necessary?
+                        <i class="material-icons">keyboard_arrow_down</i>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTermTwelve" class="collapse" role="tabpanel" aria-labelledby="termTwelve" data-parent="#accordian2">
+                    <div class="card-body">
+                      Dosimetry batch calibration is the process where the response of a dosimetry system is characterized through comparison with a traceable reference (standard). The calibration method for the dosimetry system is designed to ensure the integrity of the
+                      measurements made with the user’s dosimetry system. Dosimetry Systems must be calibrated for each batch of dosimeters. In addition, a separate calibration is required for each measurement instrument.
+                      <br>
+                      All dosimetry systems must be calibrated traceable to a national or international standard. Dosimeter manufacturers may provide response functions on their websites or in product literature, but these are for general information only. Therefore, the
+                      end-user must calibrate the measurement system as a whole (the dosimetry system) and ensure that the calibration is suitable for the conditions of use.
+                      <br>
+                      Routine dosimetry systems should be calibrated in accordance with the requirements of ISO/ASTM 51261. Reference dosimetry systems should be calibrated in a manner to meet the requirements of ISO 17025.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end terminology -->
+      </div>
+      <!-- end collapsed section container -->
+      <br>
+      <!-- <a href="#top">back to top</a> -->
+      <br>
+    </div>
+  </div>
+
+
+<!-- ********* LARGE FOOTER ********* -->
+<footer class="footer footer-white footer-big">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+          <hr>
+          <div class="copyright pull-center">
+            <p>&#xA9;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              GEX Corporation. All Rights Reserved. Photo by Luana Azevedo on Unsplash.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Company</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./company.html#contactus">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#location">
+                Location
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#relationship">
+                Working With Us
+              </a>
+            </li>
+            <li>
+              <a href="./quality.html">
+                Quality
+              </a>
+            </li>
+            <li>
+              <a href="./support.html">
+                Customer Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Purchase</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./purchase.html#howto">
+                How To
+              </a>
+            </li>
+            <li>
+              <a href="./purchase.html#shipping">
+                Shipping
+              </a>
+            </li>
+            <li>
+              <a href="./pricelist.html">
+                Pricelist
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Library</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./faq.html">
+                Fundamentals
+              </a>
+            </li>
+            <li>
+              <a href="./doclibrary.html">
+                Document Library
+              </a>
+            </li>
+            <li>
+              <a href="./videolibrary.html">
+                Video Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Products</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./systems.html">
+                Dosimetry Systems
+              </a>
+            </li>
+            <li>
+              <a href="./dosimeters.html">
+                Dosimeters
+              </a>
+            </li>
+            <li>
+              <a href="./indicators.html">
+                Radiation Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./temperature.html">
+                Temperature Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./calibrations.html">
+                Calibration Services
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- ********* BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+<footer class="footer footer-black">
+  <div class="container">
+    <a class="footer-brand" href="#pablo">GEX Corporation</a>
+    <ul class="pull-center">
+      <li>
+        <a href="./policies.html#cookie">
+          Cookies Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#privacy">
+          Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#terms">
+          Terms &amp; Conditions
+        </a>
+      </li>
+
+    </ul>
+    <ul class="social-buttons float-right">
+
+      <li>
+        <a class="btn btn-link btn-linkedin" href="https://www.linkedin.com/company/gex-corporation" role="button">
+          <i class="fa fa-linkedin-square"></i>
+          Connect with Linkedin
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-link btn-youtube" href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q/" role="button">
+        
+          <i class="fa fa-youtube-play"></i>
+          Youtube Channel
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!-- ********* END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+
+<!-- endscripts.nunjucks -->
+<!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+  <!--	Plugin for Small Gallery in Product Page -->
+  <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+  </script>
+<!-- *** END MATERIAL DESIGN CORE -->
+<!-- google -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- List.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<!-- custom -->
+<script src="./assets/js/custom.js"></script>
+<script src="./assets/js/table-custom.js"></script>
+<!-- html5shiv -->
+<script src="./assets/js/pluins/html5shiv.min.js"></script>
+
+
+
+
+
+</body>
+</html>

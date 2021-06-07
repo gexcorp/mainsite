@@ -1,0 +1,159 @@
+<!-- not-found-page.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+</head>
+<body class="login-page ">
+<!-- navigation logo only -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+  <div class="container">
+    <div class="navbar-translate">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt="GEX Corp logo" class="img-fluid"></a>
+      <a class="navbar-brand" href="./index.html">GEX CORPORATION</a>      
+    </div>
+  </div>
+</nav>
+
+  <div class="page-header header-filter" style="background-image: url(&apos;./assets/img/bg12.jpg&apos;); background-size: cover; background-position: top center;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-8 ml-auto mr-auto">
+            <div class="card card-signup">
+                 <!-- ********* Card Header ********* -->       
+                <div class="card-header card-header-primary text-center">
+                    <h6 class="card-title text-warning">404 ERROR</h6> 
+                    <h4 class="card-title">Whoops! Can't find what you are looking for?</h4>
+                    <h6 class="card-title">Try one of these links:</h6>               
+                </div>
+                            <!-- ********* Card Body: Page links ********* -->
+                            <div class="card-body" id="lost-links">
+                                
+                                
+
+                                <div class="row">
+                                    <div class="col-6">
+                                    <h5>Company</h5>
+                                    <ul class="links-vertical">
+                                        <li>
+                                        <a href="./company.html#contactus">
+                                            Contact Us
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./company.html#location">
+                                            Location
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./company.html#relationship">
+                                            Working With Us
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./quality.html">
+                                            Quality
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./support.html">
+                                            Customer Support
+                                        </a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                
+
+                                    <div class="col-6">
+                                    <h5>Purchase</h5>
+                                    <ul class="links-vertical">
+                                        <li>
+                                        <a href="./purchase.html#howto">
+                                            How To
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./purchase.html#shipping">
+                                            Shipping
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./pricelist.html">
+                                            Pricelist
+                                        </a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    
+                                    <div class="col-6">
+                                    <h5>Library</h5>
+                                    <ul class="links-vertical">
+                                        <li>
+                                        <a href="./faq.html">
+                                            Fundamentals
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./doclibrary.html">
+                                            Document Library
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./videolibrary.html">
+                                            Video Gallery
+                                        </a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                    
+
+                               
+                                    <div class="col-6">
+                                    <h5>Products</h5>
+                                    <ul class="links-vertical">
+                                        <li>
+                                        <a href="./systems.html">
+                                            Dosimetry Systems
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./dosimeters.html">
+                                            Dosimeters
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./indicators.html">
+                                            Radiation Indicators
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./temperature.html">
+                                            Temperature Indicators
+                                        </a>
+                                        </li>
+                                        <li>
+                                        <a href="./calibrations.html">
+                                            Calibration Services
+                                        </a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </div>
+
+
+
+                            <div class="footer text-center">
+                                <a href="./index.html" class="btn btn-primary btn-link btn-wd btn-lg">Return to GEX website homepage</a>
+                            </div>
+                        
+                    </div>
+                </div>
+        
+      </div>
+    </div>
+  </div>
+    </div>
+
+{% endblock %}

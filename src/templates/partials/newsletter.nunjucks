@@ -1,0 +1,45 @@
+<!-- ********* NEWSLETTER SUBSCRIBE LINE ********* -->
+<div class="subscribe-line subscribe-line-image" style="background-image: url(&apos;assets/img/background_greygrid.jpg&apos;);">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="text-center">
+          <h3 class="title">Subscribe to our Newsletter</h3>
+          <p class="description">
+            Join our newsletter and stay current in the radiation processing industry! We hate spam too, so no worries about this.
+          </p>
+        </div>
+        <div class="card card-raised card-form-horizontal">
+          <div class="card-body ">
+            <!-- begin mc_embed signup -->
+            <div id="mc_embed_signup">
+              <form action="https://gexcorp.us9.list-manage.com/subscribe/post?u=d011a062ec1b9d66bf2c3f0cb&amp;id=4f08355f85" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+                <div class="row" id="mc_embed_signup_scroll">
+                  <div class="col-lg-8 col-md-6 ">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="material-icons">mail</i>
+                        </span>
+                      </div>
+                      <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Your Email..." required="required">
+                    </div>
+
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d011a062ec1b9d66bf2c3f0cb_4f08355f85" tabindex="-1" value="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 ">
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-block" onclick="submitForm()">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,116 @@
+<!-- systems.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Complete Dosimetry Systems</h1>
+          <h6>Built for the rigours of radiation process applications</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+
+    <!-- start product section -->
+    <!-- ********* PROJECTS 3 ********* -->
+    <div class="projects-3 section-dark" id="projects-3">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-5 ml-auto">
+            <div class="card card-plain">
+              <a href="./dosecontrol.html">
+                <div class="card-header card-header-image">
+                  <img src="./assets/img/DoseControl_system.jpg">
+                </div>
+              </a>
+              <div class="card-body ">
+                <h6 class="card-category">B3 | PMMA | FWT | CTA</h6>
+                <a href="./dosecontrol.html">
+                  <h4 class="card-title">DoseControl<sup>&reg;</sup>
+                    Dosimetry System</h4>
+                </a>
+                <p class="card-description">
+                  The DoseControl<sup>&reg;</sup>
+                  dosimetry system integrates a powerful 21CFR Part 11 conforming dosimetry software with a Thermo Scientific spectrophotometer, controlling the measurement process and making it simple to create and maintain dosimetry records. This system is a
+                  versatile solution for industrial routine dosimetry applications, and can accommodate several different types of dosimeters, such as B3, FWT, and Harwell PMMA Red and Amber Perspex, and CTA.
+                </p>
+                <a href="./dosecontrol.html" class="btn btn-rose btn-round">More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mr-auto">
+            <div class="card card-plain">
+              <a href="./cta.html">
+                <div class="card-header card-header-image">
+                  <img src="./assets/img/CTA_system.jpg">
+                </div>
+              </a>
+              <div class="card-body ">
+                <h6 class="card-category">CTA</h6>
+                <a href="./doseASAP.html">
+                  <h4 class="card-title">dos'ASAP CTA Dosimetry System</h4>
+                </a>
+                <p class="card-description">
+                  Fast, precise, and perfect for routine use in industrial irradiation processing applications, Dos’ASAP is a complete dosimetry system for CTA dosimetry.
+                </p>
+                <a href="./dosASAP.html" class="btn btn-rose btn-round">More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 ml-auto">
+            <div class="card card-plain">
+              <a href="./risoscan.html">
+                <div class="card-header card-header-image">
+                  <img src="./assets/img/risoscan-system_2018.jpg">
+                </div>
+              </a>
+              <div class="card-body ">
+                <h6 class="card-category">B3 film</h6>
+                <a href="./risoscan.html">
+                  <h4 class="card-title">B3 Ris&oslash;Scan Dosimetry System</h4>
+                </a>
+                <p class="card-description">
+                  A convenient software solution to analyze B3 film using a flatbed scanner. Ideal for IQ/OQ and PQ dose mapping, and optimized for B3 film.
+                </p>
+                <a href="./risoscan.html" class="btn btn-rose btn-round">More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mr-auto">
+            <div class="card card-plain">
+              <a href="./aerede.html">
+                <div class="card-header card-header-image">
+                  <img src="./assets/img/alanine_system.jpg">
+                </div>
+              </a>
+              <div class="card-body ">
+                <h6 class="card-category">Alanine</h6>
+                <a href="./aerede.html">
+                  <h4 class="card-title">Aer’EDE Alanine EPR Dosimetry System</h4>
+                </a>
+                <p class="card-description">
+                  Aer’EDE is a complete alanine-EPR dosimetry system for routine dosimetry in industrial irradiation facilities, or for use as an in-house alanine reference dosimetry system. The Aer’EDE alanine system is third-validated validated for compliance with
+                  FDA 21 CFR part 11, ISO, EN, and ISO/ASTM standards on dosimetry.
+                </p>
+                <a href="./aerede.html" class="btn btn-rose btn-round">More...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ********* END PROJECTS 3 ********* -->
+
+  </div>
+
+{% endblock %}

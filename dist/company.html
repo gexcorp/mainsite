@@ -1,0 +1,743 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+ =========================================================
+ Material Kit PRO - v2.2.0
+ =========================================================
+
+ Product Page: https://www.creative-tim.com/product/material-kit-pro
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ Coded by Creative Tim
+
+ =========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+  <meta
+    name="keywords"
+    content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+  <meta name="msvalidate.01" content="65AA01A3161EE872D7D09D23458BB5CE"/>
+  <meta name="yandex-verification" content="6980595247a97dc7"/>
+  <title>
+    GEX Corporation - the Dosimetry Company
+  </title>
+  <!-- *** Global site tag (gtag.js) - Google Analytics *** -->
+  
+   <!-- *** END Global site tag (gtag.js) - Google Analytics *** -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <!-- custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet"/>
+  <!-- vertical nav CSS -->
+  <link href="./assets/css/vertical-nav.css" rel="stylesheet"/>
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- *** cookie banner *** -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#edeff5",
+            "text": "#838391"
+          },
+          "button": {
+            "background": "#4b81e8"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+          "link": "Learn More...",
+          "href": "./policies.html"
+        }
+      })
+    });
+  </script>
+  <!-- *** google structured data *** -->
+  <script type="application/ld+json">
+    {
+      "@type": "Company",
+      "name": "GEX Corporation",
+      "description": "The Dosimetry Company",
+      "url": "https://www.gexcorp.com",
+      "logo": "https://www.gexcorp.com/assets/img/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-303-400-9640",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+
+</head>
+
+
+
+
+
+</head>
+<body class="about-us ">
+
+  <!-- navigation.nunjucks -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+  <div class="container">
+    <div class="navbar-translate">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt="GEX Corp logo" class="img-fluid"></a>
+      <a class="navbar-brand" href="./index.html">GEX CORPORATION</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a href="./company.html" class="nav-link">
+            Company
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./support.html" class="nav-link">
+            Support
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./purchase.html" class="nav-link">
+            Purchase
+          </a>
+        </li>
+
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Products
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./systems.html" class="dropdown-item">
+              <i class="material-icons">horizontal_split</i>
+              Dosimetry Systems
+            </a>
+            <a href="./dosimeters.html" class="dropdown-item">
+              <i class="material-icons">dashboard</i>
+              Dosimeters
+            </a>
+            <a href="./indicators.html" class="dropdown-item">
+              <i class="material-icons">picture_in_picture</i>
+              Radiation Indicators
+            </a>
+            <a href="./temperature.html" class="dropdown-item">
+              <i class="material-icons">warning</i>
+              Temperature Indicators
+            </a>
+            <a href="./calibrations.html" class="dropdown-item">
+              <i class="material-icons">timeline</i>
+              Calibrations
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Library
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./faq.html" class="dropdown-item">
+              <i class="material-icons">info</i>
+              Fundamentals
+            </a>
+            <a href="https://library.gexcorp.com/" class="dropdown-item">
+              <i class="material-icons">view_list</i>
+              Document Library
+            </a>
+            <a href="./videolibraryTable.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Instruction Videos
+            </a>
+            <a href="./videolibrary.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Product Gallery
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">About GEX</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+    <div class="container">
+      <!-- ********* three sections ********* -->
+      <div class="section text-center">
+        <div class="features">
+          <div class="row">
+            <div style="margin: auto;">
+              <p style="text-align: center; color: red;">23 Mar 2020 - <b>Current information regarding GEX business operations during the COVID-19 emergency <a href="https://www.gexcorp.com/pdf/23 Mar 2020 Memo COVID19 statement.pdf">click here.</a></b></p>
+            </div>
+            <h5>Since 1991, GEX is a single source provider of a complete range of dosimetry products and services for the radiation processing industry. We serve the complete spectrum of gamma, e-beam, and x-ray radiation process applications, such as medical
+              device sterilization, surface decontamination, the curing of inks and coatings, and food irradiation.</h5>
+            <div class="col-md-3">
+              <div class="info">
+                <div class="icon icon-danger">
+                  <i class="material-icons">list_alt</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Total Quality Assurance</h4>
+                  <p>We maintain a zero defect goal in the manufacture and distribution of our products.
+                  </p>
+                  <p>ISO 9001:2015 compliant Quality System.</p>
+                  <!-- <a href="#pricelist">Find more...</a> -->
+                  <a href="./quality.html">Go to...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="info">
+                <div class="icon icon-info">
+                  <i class="material-icons">group_work</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Working with Us</h4>
+                  <p>What to expect when you work with GEX.</p>
+                  <a href="#relationship">Go to...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="info">
+                <div class="icon icon-danger">
+                  <i class="material-icons">contacts</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Contact Us</h4>
+                  <p>Contact information for all GEX departments.</p>
+
+                  <a href="#contactus">Go to...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="info">
+                <div class="icon icon-success">
+                  <i class="material-icons">location_on</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Company Location</h4>
+                  <p>Location details for our headquarters and manufacturing facility.</p>
+                  <a href="#location">Go to...</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- ********* END 3 sections ********* -->
+      <!-- ********* FEATURES 4 ********* -->
+      <div id="contactus" class="features-4">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h2 class="title">Contact Us</h2>
+        </div>
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+              <h5 class="description text-center">Please send an email to the appropriate department for prompt service, or contact our staff by phone during office hours.</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 ml-auto mr-auto">
+
+              <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                  <i class="material-icons">mail</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Send us an email</h4>
+                  <p>
+                    <strong>GEX Sales</strong>
+                    - For new customers, quotes, pricing checks, lead times, distributorships, etc.
+                    <br>
+                    <a href="mailto:sales@gexcorp.com">&rarr;&nbsp;Click here.</a>
+                  </p>
+                  <p>
+                    <strong>Customer Support</strong>
+                    - For all Customer Support issues, such as product/process questions, technical questions, etc.
+                    <br>
+                    <a href="./support.html">&rarr;&nbsp;Go to Customer Support Page.</a>
+                  </p>
+                  <p>
+                    <strong>Accounting</strong>
+                    - For invoices, billing questions, credit card payments, wire transfers, remittances.
+                    <br>
+                    <a href="mailto:accounting@gexcorp.com">&rarr;&nbsp;Click here.</a>
+                  </p>
+                  <p>
+                    <strong>Existing Orders</strong>
+                    - For Purchase Orders, order updates, tracking information.
+                    <br>
+                    <a href="mailto:orders@gexcorp.com">&rarr;&nbsp;Click here.</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ml-auto mr-auto">
+              <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                  <i class="material-icons">phone</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Give us a ring</h4>
+                  <p>
+                    GEX Telephone
+                    <br>
+                    <strong>+1 303.400.9640</strong>
+                    <br>
+                    Mon - Fri, 8:00-16:00
+                  </p>
+                  <p>
+                    GEX Facsimile
+                    <br>
+                    <strong>+1 303.400.9831</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="location" class="features-4">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h2 class="title">Our Location</h2>
+        </div>
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-sm-4">
+
+              <h4 class="info-title">
+                Our Address</h4>
+              <p>7330 South Alton Way,</p>
+              <p>Suite 12-i</p>
+              <p>Centennial, CO 80112 USA</p>
+              <a href="tel:13034009640">
+                <h6>Tel: 1 303.400.9640</h6>
+              </a>
+
+            </div>
+            <div class="col-sm-8">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196676.48078561304!2d-105.02350813808391!3d39.625627418474245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c85d1aa7f13b9%3A0x8a59474de568925f!2sGEX+Corporation!5e0!3m2!1sen!2sus!4v1532030525983"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen="allowfullscreen"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- ********* END FEATURES 4 ********* -->
+
+      <!-- BEGIN SHIPPING section -->
+      <div id="relationship" class="features-2">
+        <div class="text-center">
+
+          <h2 class="title">What GEX Provides to Our Customers</h2>
+          <h4>Regardless of your application, we can provide a solution to fit your specific requirements. Using the steps below, we can assure our customers get the correct dosimetry solution that meets the requirements of industry and international standards.</h4>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ml-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-primary">
+                <i class="material-icons">question_answer</i>
+
+              </div>
+              <div class="description">
+                <h4 class="info-title">Step 1: Determine requirements</h4>
+                <p>Let GEX help you determine your specific application requirements.
+                </p>
+                <h6>
+                  <a href="pdf/100-124 P8100 Radiation Indicators PSU_C.pdf" target="_blank">Download Requirements Guide</a>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mr-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-info">
+                <i class="material-icons">list</i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Step 2: Selection</h4>
+                <p>GEX can help you select and compare systems based on your specific requirements.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ml-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-success">
+                <i class="material-icons">check_circle</i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Step 3: Purchase</h4>
+                <p>Ensure that you get what you need, when you need it</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mr-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-rose">
+                <i class="material-icons">launch</i>
+
+              </div>
+              <div class="description">
+                <h4 class="info-title">Step 4: Install</h4>
+                <p>Understand the important steps when installing a system</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ml-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-default">
+                <i class="material-icons">timeline</i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Step 5: Calibration</h4>
+                <p>Develop a calibration method specific to the application needs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mr-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-danger">
+                <i class="material-icons">perm_data_setting</i>
+
+              </div>
+              <div class="description">
+                <h4 class="info-title">Step 6: Use &#38; Maintenance</h4>
+                <p>Customer support and training. And understanding how to maintain and what to expect from your system</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END shipping -->
+      <!-- end sections -->
+    </div>
+  </div>
+</div>
+</div>
+<!-- googlemap.nunjucks -->
+<script>
+  function initMap() {
+    var gexLocation = {
+      lat: 39.584363,
+      lng: -104.8810292
+    };
+    var directionsService = new google.maps.DirectionsService;
+    var directionsDisplay = new google.maps.DirectionsRenderer;
+    var map = new google.maps.Map(document.getElementById('map2'), {
+      zoom: 7,
+      center: gexLocation
+    });
+    directionsDisplay.setMap(map);
+
+    var onChangeHandler = function () {
+      calculateAndDisplayRoute(directionsService, directionsDisplay);
+    };
+    document.getElementById('start').addEventListener('change', onChangeHandler);
+    document.getElementById('end').addEventListener('change', onChangeHandler);
+  }
+
+  function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+    directionsService.route({
+      origin: document.getElementById('start').value,
+      destination: document.getElementById('end').value,
+      travelMode: 'DRIVING'
+    }, function (response, status) {
+      if (status === 'OK') {
+        directionsDisplay.setDirections(response);
+      } else {
+        window.alert('Directions request failed due to ' + status);
+      }
+    });
+  }
+
+  var labels = 'GEX Corp.';
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc318HqxDtYZcNnN3GpiJNbs4-6qwgX8U&callback=initMap" async="async" defer="defer"></script>
+
+
+<!-- ********* LARGE FOOTER ********* -->
+<footer class="footer footer-white footer-big">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+          <hr>
+          <div class="copyright pull-center">
+            <p>&#xA9;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              GEX Corporation. All Rights Reserved. Photo by Luana Azevedo on Unsplash.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Company</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./company.html#contactus">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#location">
+                Location
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#relationship">
+                Working With Us
+              </a>
+            </li>
+            <li>
+              <a href="./quality.html">
+                Quality
+              </a>
+            </li>
+            <li>
+              <a href="./support.html">
+                Customer Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Purchase</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./purchase.html#howto">
+                How To
+              </a>
+            </li>
+            <li>
+              <a href="./purchase.html#shipping">
+                Shipping
+              </a>
+            </li>
+            <li>
+              <a href="./pricelist.html">
+                Pricelist
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Library</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./faq.html">
+                Fundamentals
+              </a>
+            </li>
+            <li>
+              <a href="./doclibrary.html">
+                Document Library
+              </a>
+            </li>
+            <li>
+              <a href="./videolibrary.html">
+                Video Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Products</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./systems.html">
+                Dosimetry Systems
+              </a>
+            </li>
+            <li>
+              <a href="./dosimeters.html">
+                Dosimeters
+              </a>
+            </li>
+            <li>
+              <a href="./indicators.html">
+                Radiation Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./temperature.html">
+                Temperature Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./calibrations.html">
+                Calibration Services
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- ********* BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+<footer class="footer footer-black">
+  <div class="container">
+    <a class="footer-brand" href="#pablo">GEX Corporation</a>
+    <ul class="pull-center">
+      <li>
+        <a href="./policies.html#cookie">
+          Cookies Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#privacy">
+          Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#terms">
+          Terms &amp; Conditions
+        </a>
+      </li>
+
+    </ul>
+    <ul class="social-buttons float-right">
+
+      <li>
+        <a class="btn btn-link btn-linkedin" href="https://www.linkedin.com/company/gex-corporation" role="button">
+          <i class="fa fa-linkedin-square"></i>
+          Connect with Linkedin
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-link btn-youtube" href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q/" role="button">
+        
+          <i class="fa fa-youtube-play"></i>
+          Youtube Channel
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!-- ********* END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+
+<!-- endscripts.nunjucks -->
+<!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+  <!--	Plugin for Small Gallery in Product Page -->
+  <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+  </script>
+<!-- *** END MATERIAL DESIGN CORE -->
+<!-- google -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- List.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<!-- custom -->
+<script src="./assets/js/custom.js"></script>
+<script src="./assets/js/table-custom.js"></script>
+<!-- html5shiv -->
+<script src="./assets/js/pluins/html5shiv.min.js"></script>
+
+
+
+
+
+</body>
+</html>

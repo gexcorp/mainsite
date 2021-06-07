@@ -1,0 +1,179 @@
+<!-- dosecontrol-software.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url(./assets/img/background_greygrid.jpg);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">DoseControl<sup>&reg;</sup>
+            Software</h1>
+          <h6>21 CFR part 11 compliant software for the DoseControl Dosimetry System</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised main-product">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-8 ml-auto mr-auto">
+
+          <h4 class="info-title">Features:</h4>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Provides user access and permissions control via local admin or LDAP with active directory.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Verification of spectrophotometer serial number, wavelength, and spectral bandwidth with each measurement to match dosimeter batch calibration configuration.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Manages and controls the measurement process flow in accordance with user-determined practices including rereads.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Version control of dosimetry measurement reports (print, export data).</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>21 CFR part 11 compliant</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Administration of irradiation pathways, dosimeter batches, spectrophotometer fleet, laser micrometers, and dosimetry system calibrations.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Integrates with customer’s enterprise databases (optional) to pull data into dosimetry reports (e.g. dose specifications) or push data back.</p>
+
+            </div>
+          </div>
+
+          <hr>
+          <h4 class="info-title">Benefits:</h4>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Automatic selection of batch calibration curve for each report based on user input or stored data (configurable).</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Uniformity in measurement results – Every measurement follows the same process, as defined by your software administrator.
+              </p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Eliminates user error by controlling workflow and eliminating decisions.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Verifiable electronic audit trail – who did what, when, and why.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Verifiable electronic audit trail – who did what, when, and why.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Data security managed by corporate IT policies.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <p>Easy to use with a modern user interface in Windows&reg;.</p>
+
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <!-- <div class="icon icon-primary"> <i class="material-icons">check_circle</i> </div> -->
+            {# <div class="description"> #}
+            <!-- <p class="info-title">Easy to Use</h4> -->
+            {# <h6> #}
+            {# <a class="btn btn-info btn-just-icon" href="pdf/100-124 P8100 Radiation Indicators PSU_C.pdf" target="_blank" role="button"><i class="fas fa-file-download fa-sm"></i></a> #}
+
+            {# &nbsp;&nbsp;Product Information Sheet #}
+
+            {# </h6> #}
+            {# </div> #}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ********* END FEATURES 3 ********* -->
+
+  </div>
+
+{% endblock %}

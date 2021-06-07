@@ -1,0 +1,122 @@
+<!-- aerede.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Aer&rsquo;EDE Alanine EPR Dosimetry System</h1>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+
+    <!-- start product section -->
+    <!-- ********* FEATURES 3 ********* -->
+    <div class="features-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="basic-product">
+            <img src="./assets/img/alanine_system.jpg" alt="alanine dosimetry system" class="img-raised rounded img-fluid">
+
+          </div>
+
+        </div>
+        <div id="product-details" class="col-md-6">
+          <div>
+
+            <p>GEX partners with A&#233;rial Centre de Resources Technologiques of France to provide a solution for alanine EPR dosimetry. Aer&rsquo;EDE is a complete alanine-EPR dosimetry system for routine dosimetry in industrial irradiation facilities, or for
+              use as an in-house alanine reference dosimetry system. The Aer&rsquo;EDE alanine system is third-validated validated for compliance with FDA 21 CFR part 11, ISO, EN, and ISO/ASTM standards on dosimetry.
+            </p>
+          </div>
+
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Ideal for low dose applications</h4>
+              <p>Alanine-EPR dosimetry is suitable for use as a routine dosimetry system for gamma, electron beam, or X-ray applications that require a dose range from &lt;10 Gy to 150 kGy. The Aer'EDE system can be used as a alanine reference dosimetry system
+                from &lt;10 Gy to greater than 100 kGy. Alanine pellet dosimeters are not used for personnel monitoring, radiation safety, or nuclear power industries.</p>
+              <p>
+                The Aer&rsquo;EDE Alanine-EPR dosimetry solution is ideal for low dose applications, such as food irradiation.
+              </p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">About the Aer&rsquo;EDE dosimetry system:</h4>
+              <ul>
+                <li>Uses A&#233;rial alanine pellets or blister packs</li>
+                <li>Includes complete dosimetry system:
+                  <ul>
+                    <li>Magnettech spectrometer – MS 5000</li>
+                    <li>Aerial Aer&rsquo;EDE dosimetry software</li>
+                    <li>A complete set of standard operating instructions</li>
+                    <li>Integrates into your facility or plant network</li>
+                  </ul>
+                </li>
+                <li>On-site installation and training certification</li>
+                <li>Lifetime support</li>
+              </ul>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="material-icons">check_circle</i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">About the Aer&rsquo;ODE dosimetry software:</h4>
+              <ul>
+                <li>Integrated and automated with spectometer.
+                </li>
+                <li>Validated FDA 21 CFR Part 11, ISO 11137 compliant database software
+                </li>
+                <li>Controls the spectrometer</li>
+                <li>Performs dosimetry system calibration, process validations (loading pattern, report edition)</li>
+                <li>Can be developed and customized according to specific industry needs</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <!-- product sheet -->
+          <div class="info info-horizontal">
+
+            <div class="description">
+              <h6>
+                <a class="btn btn-info btn-just-icon" href="pdf/GEX-Aerial AerEDE_100-359RevB.pdf" target="_blank" role="button">
+                  <i class="material-icons">description</i>
+                </a>
+                &nbsp;&nbsp;Aer&rsquo;EDE Features/Benefits (PowerPoint Slides)
+              </h6>
+              <h6>
+                <a class="btn btn-info btn-just-icon" href="pdf/100-362AerEDESYSAerialBrochure_120915.pdf" target="_blank" role="button">
+                  <i class="material-icons">description</i>
+                </a>
+                &nbsp;&nbsp;Aer&rsquo;EDE System Brochure PDF
+              </h6>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ********* END FEATURES 3 ********* -->
+
+  </div>
+
+{% endblock %}

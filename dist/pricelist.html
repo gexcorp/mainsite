@@ -1,0 +1,1235 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+ =========================================================
+ Material Kit PRO - v2.2.0
+ =========================================================
+
+ Product Page: https://www.creative-tim.com/product/material-kit-pro
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ Coded by Creative Tim
+
+ =========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+  <meta
+    name="keywords"
+    content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+  <meta name="msvalidate.01" content="65AA01A3161EE872D7D09D23458BB5CE"/>
+  <meta name="yandex-verification" content="6980595247a97dc7"/>
+  <title>
+    GEX Corporation - the Dosimetry Company
+  </title>
+  <!-- *** Global site tag (gtag.js) - Google Analytics *** -->
+  
+   <!-- *** END Global site tag (gtag.js) - Google Analytics *** -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <!-- custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet"/>
+  <!-- vertical nav CSS -->
+  <link href="./assets/css/vertical-nav.css" rel="stylesheet"/>
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- *** cookie banner *** -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#edeff5",
+            "text": "#838391"
+          },
+          "button": {
+            "background": "#4b81e8"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+          "link": "Learn More...",
+          "href": "./policies.html"
+        }
+      })
+    });
+  </script>
+  <!-- *** google structured data *** -->
+  <script type="application/ld+json">
+    {
+      "@type": "Company",
+      "name": "GEX Corporation",
+      "description": "The Dosimetry Company",
+      "url": "https://www.gexcorp.com",
+      "logo": "https://www.gexcorp.com/assets/img/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-303-400-9640",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+
+</head>
+
+
+
+
+
+
+</head>
+<body class="about-us ">
+
+  <!-- navigation.nunjucks -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+  <div class="container">
+    <div class="navbar-translate">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt="GEX Corp logo" class="img-fluid"></a>
+      <a class="navbar-brand" href="./index.html">GEX CORPORATION</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a href="./company.html" class="nav-link">
+            Company
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./support.html" class="nav-link">
+            Support
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./purchase.html" class="nav-link">
+            Purchase
+          </a>
+        </li>
+
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Products
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./systems.html" class="dropdown-item">
+              <i class="material-icons">horizontal_split</i>
+              Dosimetry Systems
+            </a>
+            <a href="./dosimeters.html" class="dropdown-item">
+              <i class="material-icons">dashboard</i>
+              Dosimeters
+            </a>
+            <a href="./indicators.html" class="dropdown-item">
+              <i class="material-icons">picture_in_picture</i>
+              Radiation Indicators
+            </a>
+            <a href="./temperature.html" class="dropdown-item">
+              <i class="material-icons">warning</i>
+              Temperature Indicators
+            </a>
+            <a href="./calibrations.html" class="dropdown-item">
+              <i class="material-icons">timeline</i>
+              Calibrations
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Library
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./faq.html" class="dropdown-item">
+              <i class="material-icons">info</i>
+              Fundamentals
+            </a>
+            <a href="https://library.gexcorp.com/" class="dropdown-item">
+              <i class="material-icons">view_list</i>
+              Document Library
+            </a>
+            <a href="./videolibraryTable.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Instruction Videos
+            </a>
+            <a href="./videolibrary.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Product Gallery
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');"></div>
+
+  <div class="main main-raised">
+    <div class="container">
+      <div class="about-description text-center">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h1 class="title">Standard Products &amp; Services Pricelist</h1>
+            <h4 class="description">Prices effective January 1, 2021.</h4>
+            <br>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="container">
+      <!-- inset pricelist list.js -->
+      <div id="pricelist">
+        <!-- table seach and sort controls -->
+        <div class="row justify-content-center">
+          <!-- sort buttons -->
+          <div id="sort-btn">
+            <button class="sort btn btn-success" data-sort="number">Sort by product number</button>
+            <button class="sort btn btn-info" data-sort="name">Sort by product name</button>
+            <button class="sort btn btn-default" data-sort="type">Sort by product type</button>
+          </div>
+        </div>
+        <!-- search -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">
+                      search
+                    </i>
+                  </span>
+                </div>
+                <input id="search-field" type="text" class="search form-control" placeholder="Search...">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th class="text-center">No.</th>
+              <th>Product Name</th>
+              <th class="text-center">Type</th>
+              <th>Description</th>
+              <th class="text-center">Price</th>
+            </tr>
+          </thead>
+          <!-- IMPORTANT, class="list" have to be at tbody -->
+          <tbody class="list">
+            <tr>
+              <td class="number">B3000</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">1000 B3WINdose</td>
+              <td class="price">&#36;450.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3000DS</td>
+              <td class="name">B3DoseStix Radiochromic Film Dosimeters</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">1000 B3 DoseStix</td>
+              <td class="price">&#36;510.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3000PP</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">1000 B3WINdose in poly sleeve</td>
+              <td class="price">&#36;1,280.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3001</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">1 dosimeter/pouch, 500 pouches/box</td>
+              <td class="price">&#36;695.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3002</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">2 dosimeter/pouch, 500 pouches/box</td>
+              <td class="price">&#36;965.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3106</td>
+              <td class="name">10 inch Uniformity Measurement Strip Array</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">10 B3WINdose dosimeters/strip, 3 strips/package, 6 pkgs/box</td>
+              <td class="price">&#36;245.00</td>
+              </td>
+            </tr>
+            <tr>
+              <td class="number">B3110</td>
+              <td class="name">Energy Wedge Card Array</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">B3 Wedge Array Card for P4701 Ris&oslash; Wedge. 1 array card/package, 6 packages/box</td>
+              <td class="price">&#36;215.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3200</td>
+              <td class="name">100 - 300 keV Energy Measurement Stack</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">26 B3Windose dosimeters per stack, 1 stack per package, 6 packages/box</td>
+              <td class="price">&#36;260.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3001DS</td>
+              <td class="name">B3DoseStix Radiochromic Film Dosimeters</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">DoseStix dosimeters - 1 per pouch, 300 pouches/box</td>
+              <td class="price">&#36;385.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3002DS</td>
+              <td class="name">B3DoseStix Radiochromic Film Dosimeters</td>
+              <td class="type">B3-old pkg</td>
+              <td class="description">DoseStix dosimeters - 2 per pouch, 200 pouches/box</td>
+              <td class="price">&#36;395.00</td>
+            </tr>
+            
+            <tr>
+              <td class="number">*B3000*</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">2000 B3WINdose</td>
+              <td class="price">&#36;895.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3000-INT*</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">4000 B3WINdose</td>
+              <td class="price">&#36;1,795.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3000CP*</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">5000 B3WINdose</td>
+              <td class="price">&#36;1,745.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3000DS*</td>
+              <td class="name">B3DoseStix Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">1000 B3 DoseStix</td>
+              <td class="price">&#36;510.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3000PP*</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">2000 WINdose in poly envelope</td>
+              <td class="price">&#36;2,550.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3001*</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">1 dosimeter/pouch, 1000 pouches/box</td>
+              <td class="price">&#36;1,385.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3001DS*</td>
+              <td class="name">B3 DoseStix Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">1 dosimeter/pouch, 500 pouches/box</td>
+              <td class="price">&#36;645.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3002*</td>
+              <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">2 dosimeter/pouch, 1000 pouches/box</td>
+              <td class="price">&#36;1,930.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3002DS*</td>
+              <td class="name">B3 DoseStix Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">2 dosimeter/pouch, 500 pouches/box</td>
+              <td class="price">&#36;980.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3003DS*</td>
+              <td class="name">B3 DoseStix Radiochromic Film Dosimeters</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">3 dosimeter/pouch, 300 pouches/box</td>
+              <td class="price">&#36;640.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3106*</td>
+              <td class="name">10 inch Uniformity Measurement Strip Array</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">40 strips x 10 in. (25.4cm) of WINdose dosimeters, 2 strips/pouch, 20 pouches/box</td>
+              <td class="price">&#36;535.00</td>
+              </td>
+            </tr>
+            <tr>
+              <td class="number">*B3110*</td>
+              <td class="name">Energy Wedge Card Array</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">B3 Wedge Array Card for P4701 Ris&oslash; Wedge. 1 array card/package, 20 packages/box</td>
+              <td class="price">&#36;715.00</td>
+            </tr>
+            <tr>
+              <td class="number">*B3150*</td>
+              <td class="name">Energy Wedge Card Array</td>
+              <td class="type">B3-new 2020 pkg</td>
+              <td class="description">B3 Wedge Array Card for P4705 GEX Wedge. 1 array card/package, 20 packages/box</td>
+              <td class="price">&#36;715.00</td>
+            </tr>
+            
+            <tr>
+              <td class="number">B3100</td>
+              <td class="name">Roll of B3 film</td>
+              <td class="type">B3</td>
+              <td class="description">18cm wide by 40m length</td>
+              <td class="price">&#36;3,150.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3101</td>
+              <td class="name">Roll of B3 film</td>
+              <td class="type">B3</td>
+              <td class="description">2cm wide by 40m length</td>
+              <td class="price">&#36;550.00</td>
+            </tr>
+            <tr>
+              <td class="number">B3102</td>
+              <td class="name">Roll of B3 film</td>
+              <td class="type">B3</td>
+              <td class="description">26.5mm wide by 1m length</td>
+              <td class="price">&#36;43.50</td>
+            </tr>
+            <tr>
+              <td class="number">B3103</td>
+              <td class="name">B3 Film Sheets</td>
+              <td class="type">B3</td>
+              <td class="description">18cm by 28cm - 3 sheets/package</td>
+              <td class="price">&#36;300.00</td>
+            </tr>
+          
+            <tr>
+              <td class="number">BFTR-125</td>
+              <td class="name">Roll CTA Dosimeter Film on Plastic Reel</td>
+              <td class="type">CTA</td>
+              <td class="description">8mm x 100m</td>
+              <td class="price">&#36;910.00</td>
+            </tr>
+            <tr>
+              <td class="number">B6001</td>
+              <td class="name">Ris&oslash; Calorimeter</td>
+              <td class="type">CALORIMETER</td>
+              <td class="description">Polystyrene 5 MeV (3.0 - 40 kGy)</td>
+              <td class="price">&#36;835.00</td>
+            </tr>
+            <tr>
+              <td class="number">B6002</td>
+              <td class="name">Ris&oslash; Calorimeter</td>
+              <td class="type">CALORIMETER</td>
+              <td class="description">Polystyrene 10MeV (3.0 - 40 kGy)</td>
+              <td class="price">&#36;835.00</td>
+            </tr>
+            <tr>
+              <td class="number">B6004</td>
+              <td class="name">Ris&oslash; Calorimeter</td>
+              <td class="type">CALORIMETER</td>
+              <td class="description">Graphite 10 MeV (1.5 - 15 kGy)</td>
+              <td class="price">&#36;835.00</td>
+            </tr>
+            <tr>
+              <td class="number">B6005</td>
+              <td class="name">Replacement foam jacket for calorimeter</td>
+              <td class="type">CALORIMETER</td>
+              <td class="description">Replacement foam jacket for calorimeter</td>
+              <td class="price">&#36;95.00</td>
+            </tr>
+            <tr>
+              <td class="number">D2100</td>
+              <td class="name">DoseControl Dosimetry Software</td>
+              <td class="type">DOSECONTROL</td>
+              <td class="description">Annual Basic license</td>
+              <td class="price">quote only</td>
+            </tr>
+            <tr>
+              <td class="number">D2102</td>
+              <td class="name">DoseControl Dosimetry Software</td>
+              <td class="type">DOSECONTROL</td>
+              <td class="description">Annual Premiere license</td>
+              <td class="price">quote only</td>
+            </tr>
+            <tr>
+              <td class="number">D2104</td>
+              <td class="name">DoseControl Dosimetry Software</td>
+              <td class="type">DOSECONTROL</td>
+              <td class="description">Annual Enterprise license</td>
+              <td class="price">quote only</td>
+            </tr>
+            <tr>
+              <td class="number">P4300</td>
+              <td class="name">Thermo Scientific Evolution 220 spectrophotometer</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">Thermo Scientific Evolution 220 spectrophotometer</td>
+              <td class="price">&#36;10,865.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4380</td>
+              <td class="name">Thermo Evolution 220 Validation Package</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">Thermo Evolution 220 Validation Package</td>
+              <td class="price">&#36;2,635.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4310</td>
+              <td class="name">Mercury Lamp</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">primary standard wavelength verification accessory</td>
+              <td class="price">&#36;1,645.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4320-NIST</td>
+              <td class="name">CVC carousel</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">automated performance verification accessory - traceable to NIST</td>
+              <td class="price">&#36;4,710.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4330</td>
+              <td class="name">Dosimeter Holder Baseplate for Evolution 220</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">with beam tubes</td>
+              <td class="price">&#36;1,140.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4332</td>
+              <td class="name">B3 DoseStix dosimeter holder</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">B3 DoseStix dosimeter holder</td>
+              <td class="price">&#36;1,335.00</td>
+            </tr>
+            
+            <tr>
+              <td class="number">P4334</td>
+              <td class="name">B3 WINdose/FWT dosimeter holder</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">B3 WINdose/FWT dosimeter holder</td>
+              <td class="price">&#36;1,560.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4336</td>
+              <td class="name">PMMA dosimeter holder</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">Red/Amber Perspex</td>
+              <td class="price">&#36;1,625.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4350</td>
+              <td class="name">Metralight Laser micrometer</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">Metralight Laser micrometer</td>
+              <td class="price">&#36;9,055.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4355</td>
+              <td class="name">Custom Gage Blocks</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">for Metralight Laser micrometer</td>
+              <td class="price">&#36;1,245.00</td>
+            </tr>
+            
+            <tr>
+              <td class="number">P4390</td>
+              <td class="name">Matrix 120 barcode scanner and Evo220 mount</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">Matrix 120 barcode scanner and mount (internal to Evolution 220)</td>
+              <td class="price">&#36;2,450.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4501</td>
+              <td class="name">Hinged Film Dosimeter Holder</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">8mm aperture</td>
+              <td class="price">&#36;385.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4502</td>
+              <td class="name">Hinged Film Dosimeter Holder</td>
+              <td class="type">DOSECONTROL-EVO220</td>
+              <td class="description">2.5mm aperture</td>
+              <td class="price">&#36;385.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4400-EU</td>
+              <td class="name">Genesys 30 Spectrophotometer</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">with Type C Euro plug</td>
+              <td class="price">&#36;3,440.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4400-US</td>
+              <td class="name">Genesys 30 Spectrophotometer</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">US plug type</td>
+              <td class="price">&#36;3,440.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4140</td>
+              <td class="name">G20 Tungsten-Halogen Lamp Assembly</td>
+              <td class="type">DOSECONTROL-GEN20</td>
+              <td class="description">Replacement lamp for Genesys 20 spectrophotometer</td>
+              <td class="price">&#36;26.50</td>
+            </tr>
+            <tr>
+              <td class="number">P4401</td>
+              <td class="name">G30 Tungsten-Halogen Lamp Assembly</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">Replacement for Genesys 30 spectrophotometer, Pre-aligned</td>
+              <td class="price">&#36;163.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4405</td>
+              <td class="name">Dosimeter Holder base system</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">with enclosed light tubes</td>
+              <td class="price">&#36;1,585.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4410</td>
+              <td class="name">DoseStix Dosimeter Holder</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">DoseStix Dosimeter Holder</td>
+              <td class="price">&#36;745.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4420</td>
+              <td class="name">WINdose Dosimeter Holder</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">WINdose Dosimeter Holder</td>
+              <td class="price">&#36;1,395.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4390</td>
+              <td class="name">Matrix 120 barcode scanner and GENESYS30 mount</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">Matrix 120 barcode scanner and mount (internal to GENESYS 30)</td>
+              <td class="price">&#36;2,450.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4201</td>
+              <td class="name">Barcode Reader</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">CCD 1D Barcode Reader Attachment with Stand</td>
+              <td class="price">&#36;250.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4205</td>
+              <td class="name">Premium Barcode Reader</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">CCD 1D/2D Barcode Reader Attachment with Stand</td>
+              <td class="price">&#36;380.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4220</td>
+              <td class="name">Spectrophotometer Calibration Standard Set</td>
+              <td class="type">DOSECONTROL-GEN30</td>
+              <td class="description">with NIST traceability certificate</td>
+              <td class="price">&#36;1,465.00</td>
+            </tr>
+            <tr>
+              <td class="number">S5200</td>
+              <td class="name">Ris&oslash;Scan Dosimetry Software Program</td>
+              <td class="type">B3</td>
+              <td class="description">includes a B3 Film Reference Calibration Set</td>
+              <td class="price">&#36;4,650.00</td>
+            </tr>
+            <tr>
+              <td class="number">S5210</td>
+              <td class="name">Film tablet</td>
+              <td class="type">B3</td>
+              <td class="description">for Ris&oslash;Scan Dosimetry Software Program</td>
+              <td class="price">&#36;895.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4801</td>
+              <td class="name">Digital Timer with Alarm</td>
+              <td class="type">HEAT</td>
+              <td class="description">Digital Timer with Alarm</td>
+              <td class="price">&#36;75.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4850</td>
+              <td class="name">Dosimeter heat treatment system</td>
+              <td class="type">HEAT</td>
+              <td class="description">30L forced air incubator (U.S.)</td>
+              <td class="price">&#36;2,615.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4850-P</td>
+              <td class="name">Dosimeter heat treatment system</td>
+              <td class="type">HEAT</td>
+              <td class="description">Premium 30L forced air incubator (U.S.)</td>
+              <td class="price">&#36;3,465.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4855</td>
+              <td class="name">Dosimeter heat treatment system</td>
+              <td class="type">HEAT</td>
+              <td class="description">55L forced air incubator (U.S.)</td>
+              <td class="price">&#36;3,170.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4855-P</td>
+              <td class="name">Dosimeter heat treatment system</td>
+              <td class="type">HEAT</td>
+              <td class="description">Premium 55L forced air incubator (U.S.)</td>
+              <td class="price">&#36;4,015.00</td>
+              
+            </tr>
+            <tr>
+              <td class="number">P4900-EU</td>
+              <td class="name">Hybex Micro-Incubator Heat Treatment System with Timer</td>
+              <td class="type">HEAT</td>
+              <td class="description">EU with Heat Block</td>
+              <td class="price">&#36;4,995.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4900-UK</td>
+              <td class="name">Hybex Micro-Incubator Heat Treatment System with Timer</td>
+              <td class="type">HEAT</td>
+              <td class="description">UK with Heat Block</td>
+              <td class="price">&#36;4,995.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4900-US</td>
+              <td class="name">Hybex Micro-Incubator Heat Treatment System with Timer</td>
+              <td class="type">HEAT</td>
+              <td class="description">US with Heat Block</td>
+              <td class="price">&#36;4,995.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4900HB</td>
+              <td class="name">Hybex Heat Block only</td>
+              <td class="type">HEAT</td>
+              <td class="description">Heat Block</td>
+              <td class="price">&#36;1,685.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4900RHB</td>
+              <td class="name">Reworked Hybex Heat Block</td>
+              <td class="type">HEAT</td>
+              <td class="description">Heat Block</td>
+              <td class="price">&#36;385.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4901</td>
+              <td class="name">Jenco Digital Thermometer</td>
+              <td class="type">HEAT</td>
+              <td class="description">for use with P4900</td>
+              <td class="price">&#36;485.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4902</td>
+              <td class="name">T-Type Thermocouple B3 Probe</td>
+              <td class="type">HEAT</td>
+              <td class="description">for use with P4900 and P4901</td>
+              <td class="price">&#36;51.75</td>
+            </tr>
+            <tr>
+              <td class="number">P4701</td>
+              <td class="name">Ris&oslash; Energy Measurement Wedge</td>
+              <td class="type">EBEAM</td>
+              <td class="description">Ris&oslash; 2-Piece Aluminum Energy Measurement Wedge (4.5-10 MeV)</td>
+              <td class="price">&#36;1,350.00</td>
+            </tr>
+            <tr>
+              <td class="number">P4705</td>
+              <td class="name">GEX Energy Measurement Wedge</td>
+              <td class="type">EBEAM</td>
+              <td class="description">GEX 2-Piece Aluminum Energy Measurement Wedge (1.8-4.0 MeV)</td>
+              <td class="price">&#36;1,745.00</td>
+            </tr>
+            <tr>
+              <td class="number">P8005</td>
+              <td class="name">PENVAC Dosimeter Handling Tool</td>
+              <td class="type">TOOL</td>
+              <td class="description">with 2 sets of anti-static suction cups</td>
+              <td class="price">&#36;82.50</td>
+            </tr>
+            <tr>
+              <td class="number">P8006</td>
+              <td class="name">Dosimeter Handling Forceps</td>
+              <td class="type">TOOL</td>
+              <td class="description">Fine Point, curved, 4.5 inches</td>
+              <td class="price">&#36;46.50</td>
+            </tr>
+            <tr>
+              <td class="number">P8003</td>
+              <td class="name">Irreversible Temperature Indicators</td>
+              <td class="type">INDICATOR</td>
+              <td class="description">27.5&deg;C - 65.0&deg;C in 2.5&deg;C intervals. 10 labels per pkg.</td>
+              <td class="price">&#36;47.75</td>
+            </tr>
+            <tr>
+              <td class="number">P8101</td>
+              <td class="name">Radiation Indicator Dots</td>
+              <td class="type">INDICATOR</td>
+              <td class="description">Yellow/Purple color change - 1,000 per roll - (no core; dispenser box)</td>
+              <td class="price">&#36;29.25</td>
+            </tr>
+            <tr>
+              <td class="number">P8102</td>
+              <td class="name">Radiation Indicator Dots</td>
+              <td class="type">INDICATOR</td>
+              <td class="description">Yellow/Purple color change - 5,000 per roll - (2” cardboard core)</td>
+              <td class="price">&#36;132.00</td>
+            </tr>
+            
+            <tr>
+              <td class="number">P8104</td>
+              <td class="name">Radiation Indicator Dots</td>
+              <td class="type">INDICATOR</td>
+              <td class="description">Yellow/Purple Radiation Indicator Dots - 5,000 per roll - 10mm diameter, dual row - (2” cardboard core)</td>
+              <td class="price">&#36;122.50</td>
+            </tr>
+            <tr>
+              <td class="number">P1000-D</td>
+              <td class="name">Disk Type Aerial Alanine Pellet Holder - ABS</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;67.25</td>
+            </tr>
+            <tr>
+              <td class="number">P1000-V</td>
+              <td class="name">Vial Type Aerial Alanine Pellet Holder - Polystyrene</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;77.65</td>
+            </tr>
+            <tr>
+              <td class="number">P1010</td>
+              <td class="name">Standard Capacity Risø Gamma Calibration Phantom Holder</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;435.00</td>
+            </tr>
+            <tr>
+              <td class="number">P1011</td>
+              <td class="name">Small Capacity Risø Gamma Calibration Phantom Holder</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;435.00</td>
+            </tr>
+            <tr>
+              <td class="number">P1020</td>
+              <td class="name">10 MeV Electron Beam Ris&oslash; Calibration Phantom Holder</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;435.00</td>
+            </tr>
+            <tr>
+              <td class="number">P1030</td>
+              <td class="name">5 MeV Electron Beam Ris&oslash; Calibration Phantom Holder</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;435.00</td>
+            </tr>
+            <tr>
+              <td class="number">P1050</td>
+              <td class="name">GEX 5 MeV Electron Beam Phantom (SS)</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;785.00</td>
+            </tr>
+            <tr>
+              <td class="number">P1060</td>
+              <td class="name">GEX 10 MeV Electron Beam Phantom (SS)</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;845.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1000-DTU</td>
+              <td class="name">Alanine Pellet Transfer Dosimeter for In-situ Calibration</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">Ris&oslash; (each)</td>
+              <td class="price">&#36;320.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1000L</td>
+              <td class="name">Alanine Film Transfer Dosimeter for In-situ Calibration (for low energy)</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">Ris&oslash; (each)</td>
+              <td class="price">&#36;330.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1000-X</td>
+              <td class="name">Alanine Film Transfer Dosimeter for In-situ Calibration (for low energy)</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">GEX (each)</td>
+              <td class="price">&#36;320.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1001</td>
+              <td class="name">Calibration Laboratory Gamma Dose Point</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">Ris&oslash; (each)</td>
+              <td class="price">&#36;320.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1002</td>
+              <td class="name">10 MeV Electron Beam Calibration Dose Point</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">Ris&oslash; (each)</td>
+              <td class="price">&#36;495.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1101</td>
+              <td class="name">Dosimeter Batch Calibration Service Package</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">Calibration plan, curve fitting, calibration report summary, dose look-up table (and software update if applicable).</td>
+              <td class="price">&#36;1,340.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1101A</td>
+              <td class="name">Dosimeter Batch Calibration Service Package</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">2 additional data fits added to S1101</td>
+              <td class="price">&#36;255.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1102</td>
+              <td class="name">Dosimeter Batch Calibration Audit Service Package</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">Audit plan, audit report summary, analysis of audit data and current calibration.</td>
+              <td class="price">&#36;465.00</td>
+            </tr>
+            <tr>
+              <td class="number">S1103</td>
+              <td class="name">D&micro; method calculation service charge for applicable S1000L calibrations</td>
+              <td class="type">CALIBRATION</td>
+              <td class="description">Specialized Ris&oslash; service for low energy electron beam dosimetry.</td>
+              <td class="price">&#36;810.00</td>
+            </tr>
+            <tr>
+              <td class="number">S4320</td>
+              <td class="name">Recertification of Thermo Spectronic Standards Set (P4220)</td>
+              <td class="type">RECERTIFICATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;820.00</td>
+            </tr>
+            <tr>
+              <td class="number">S4380</td>
+              <td class="name">On-site Thermo Scientific Tech Validation for Evolution 220 Spectrophotometer</td>
+              <td class="type">RECERTIFICATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;3,005.00</td>
+            </tr>
+            <tr>
+              <td class="number">S4500</td>
+              <td class="name">Re-Calibration of CVC (P4320)</td>
+              <td class="type">RECALIBRATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;1,050.00</td>
+            </tr>
+            <tr>
+              <td class="number">S4701</td>
+              <td class="name">Re-certification of the Ris&oslash; 2-Piece Aluminum Energy Measurement Wedge</td>
+              <td class="type">RECERTIFICATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;490.00</td>
+            </tr>
+            <tr>
+              <td class="number">S5220</td>
+              <td class="name">Re-certification of the Ris&oslash; Film Tablet</td>
+              <td class="type">RECERTIFICATION</td>
+              <td class="description"></td>
+              <td class="price">&#36;595.00</td>
+            </tr>
+            <tr>
+              <td class="number">S6000</td>
+              <td class="name">Four-Day Hands-On Dosimetry Workshop</td>
+              <td class="type">EXPERTISE</td>
+              <td class="description"></td>
+              <td class="price">TBA</td>
+            </tr>
+            <tr>
+              <td class="number">S9000</td>
+              <td class="name">Senior Scientist Hourly</td>
+              <td class="type">EXPERTISE</td>
+              <td class="description"></td>
+              <td class="price">&#36;330.00</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+      <!-- end table -->
+      <!-- end pricelist -->
+      <br>
+      <br>
+    </div>
+    <!-- end container holder -->
+
+  </div>
+  <!-- end main section-->
+
+
+<!-- ********* LARGE FOOTER ********* -->
+<footer class="footer footer-white footer-big">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+          <hr>
+          <div class="copyright pull-center">
+            <p>&#xA9;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              GEX Corporation. All Rights Reserved. Photo by Luana Azevedo on Unsplash.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Company</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./company.html#contactus">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#location">
+                Location
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#relationship">
+                Working With Us
+              </a>
+            </li>
+            <li>
+              <a href="./quality.html">
+                Quality
+              </a>
+            </li>
+            <li>
+              <a href="./support.html">
+                Customer Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Purchase</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./purchase.html#howto">
+                How To
+              </a>
+            </li>
+            <li>
+              <a href="./purchase.html#shipping">
+                Shipping
+              </a>
+            </li>
+            <li>
+              <a href="./pricelist.html">
+                Pricelist
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Library</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./faq.html">
+                Fundamentals
+              </a>
+            </li>
+            <li>
+              <a href="./doclibrary.html">
+                Document Library
+              </a>
+            </li>
+            <li>
+              <a href="./videolibrary.html">
+                Video Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Products</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./systems.html">
+                Dosimetry Systems
+              </a>
+            </li>
+            <li>
+              <a href="./dosimeters.html">
+                Dosimeters
+              </a>
+            </li>
+            <li>
+              <a href="./indicators.html">
+                Radiation Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./temperature.html">
+                Temperature Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./calibrations.html">
+                Calibration Services
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- ********* BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+<footer class="footer footer-black">
+  <div class="container">
+    <a class="footer-brand" href="#pablo">GEX Corporation</a>
+    <ul class="pull-center">
+      <li>
+        <a href="./policies.html#cookie">
+          Cookies Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#privacy">
+          Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#terms">
+          Terms &amp; Conditions
+        </a>
+      </li>
+
+    </ul>
+    <ul class="social-buttons float-right">
+
+      <li>
+        <a class="btn btn-link btn-linkedin" href="https://www.linkedin.com/company/gex-corporation" role="button">
+          <i class="fa fa-linkedin-square"></i>
+          Connect with Linkedin
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-link btn-youtube" href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q/" role="button">
+        
+          <i class="fa fa-youtube-play"></i>
+          Youtube Channel
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!-- ********* END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+
+<!-- endscripts.nunjucks -->
+<!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+  <!--	Plugin for Small Gallery in Product Page -->
+  <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+  </script>
+<!-- *** END MATERIAL DESIGN CORE -->
+<!-- google -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- List.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<!-- custom -->
+<script src="./assets/js/custom.js"></script>
+<script src="./assets/js/table-custom.js"></script>
+<!-- html5shiv -->
+<script src="./assets/js/pluins/html5shiv.min.js"></script>
+
+
+
+
+
+</body>
+</html>

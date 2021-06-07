@@ -1,0 +1,78 @@
+<!-- calorimeters.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Calorimeters</h1>
+          <h6>A complete line of calorimeters, including graphite and polystyrene models for use in 3.0 MeV to 10 MeV electron beam accelerator systems.
+          </h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="container">
+
+      <!-- ********* Details Section ********* -->
+      <div class="blogs-1" id="blogs-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+              <!-- Calibration Services -->
+              <div id="cal-services" class="card card-plain card-blog">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="card-header card-header-image">
+                      <!-- <a href="#pablito"> -->
+                      <img class="img" src="./assets/img/calorimeter-dosimeters.jpg">
+                      <!-- </a> -->
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <h3 class="card-title">
+                      Calorimeters
+                    </h3>
+                    <h6>Polystyrene calorimeters
+                    </h6>
+                    <p class="card-description">
+                      For use in 3.0 MeV to 10 MeV electron beam accelerator systems, for dose range 3 kGy - 40 kGy. Polystyrene calorimeters, along with a typical high precision ohm-meter, are used to measure resistance values before and after irradiation. The
+                      calorimetric body is surrounded with foam to provide thermal insulation. Each calorimeter is supplied with a formal certification from Risø High Dose Reference Laboratory, along with a copy of the CalDose software.</p>
+
+                    <h6>Graphite calorimeters</h6>
+                    <p class="card-description">
+                      GEX uses formalized calibration procedures to assure highly reproducible results from calibration to calibration. We perform dozens of calibrations and fit hundreds of calibration curves each year. Our full turnkey calibration service package allows
+                      a user to follow either of the two ISO/ASTM 51261 currently recommended calibration methods.
+
+                    </p>
+                    <h6>
+                      <a class="btn btn-info btn-just-icon" href="https://library.gexcorp.com/?wpdmdl=583" target="_blank" role="button">
+                        <i class="material-icons">description</i>
+                      </a>
+
+                      &nbsp;&nbsp;Product Information Sheet PDF
+                    </h6>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********* end Details Section ********* -->
+
+    </div>
+  </div>
+
+{% endblock %}

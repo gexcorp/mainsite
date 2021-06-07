@@ -1,0 +1,216 @@
+<!-- purchase.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/silverpackage.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">About Purchasing</h1>
+          <h6>Find out how to purchase from us, about shipping, and view our product pricelist.</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+    <div class="container">
+      <!-- ********* three sections ********* -->
+      <div class="section text-center">
+        <div class="features">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-info">
+                  <i class="material-icons">group_work</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">How to Purchase</h4>
+                  <p>Details about how to place an order for products or services.</p>
+                  <a href="#howto">Find more...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-success">
+                  <i class="material-icons">location_on</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Shipping</h4>
+                  <p>Details about shipping.</p>
+                  <a href="#shipping">Find more...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-danger">
+                  <i class="material-icons">list_alt</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Pricelist</h4>
+                  <p>GEX pricelist for standard products and services.</p>
+
+                  <a href="./pricelist.html">Go to...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********* END 3 sections ********* -->
+
+      <!-- ********* FEATURES 5 ********* -->
+      <div class="features-5" style="background-image: url(&apos;assets/img/windose-tweezers-sq.jpg&apos;)">
+        <div id="title-purchase" class="col-md-8 ml-auto mr-auto text-center">
+          <h2 class="title">How to Purchase</h2>
+          
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="info">
+
+                <h4 class="info-title">All Customers</h4>
+                <h6>(Except China &#38; Japan, see distributors below)</h6>
+                <h4>Email or fax purchase orders directly to GEX Customer Service. Telephone orders (credit card only) <br>
+                E-mail: <a href="mailto:orders@gexcorp.com" class="text-info">orders@gexcorp.com</a><br>
+                Telephone: <a href="tel:1-303-400-9640" class="text-info">1 303.400.9640 </a><br>
+                Facsimile: 1 303.400.9831
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="info">
+              <!-- ********* T & C ********* -->
+                <h4 class="info-title">Our Sales Terms &#38; Conditions</h4>
+                <h4>
+                Please read our Terms and Conditions, available to view and download here:
+                </h4>
+                <h6>
+                <a class="btn btn-info btn-just-icon" href="pdf/GEX Sales Terms and Conditions 02032018.pdf" target="_blank" role="button">
+                  <i class="material-icons">description</i>
+                </a>
+                &nbsp;&nbsp;GEX Sales Terms &#38; Conditions
+                </h6>
+                <!-- ********* ordering B3 dosimeter ********* -->
+                <h4 class="info-title">Order Scheduling for B3 dosimeters</h4>
+                <h4>
+                Please read our recommendations for scheduling and expected lead time for B3 dosimeter orders:
+                </h4>
+                <h6>
+                <a class="btn btn-info btn-just-icon" href="pdf/GEX Policy Announcement B3 dosimeter provisioning.pdf" target="_blank" role="button">
+                  <i class="material-icons">description</i>
+                </a>
+                &nbsp;&nbsp;Memo: B3 dosimeter orders
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="info">
+
+                <h4 class="info-title">GEX Distributor in China (PRC)</h4>
+                <h4>
+                Sunplume Information Technology (Shanghai) Co., Ltd 尚帕信息科技（上海）有限公司 手机号码: + 86-18616790365&nbsp; <br>
+                Skype: frankyang-s<br> 电子邮箱: <a href="mailto:frankyang@sunplume.com" class="text-info">frankyang@sunplume.com</a><br>
+                公司网址:<br>
+                <a href="http://www.sunplume.com/GEX/index.html" class="text-info">www.sunplume.com/GEX/index.html</a>
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="info">
+                <h4 class="info-title">Distributor in Japan</h4>
+                <h4>Chiyoda Technol Corporation Radioisotope Business Dept.<br>
+                Tel : +81-3-3816-5273 <br>
+                Fax: +81-3-5803-1938 <br>
+                E-mail: <a href="mailto:isotope@c-technol.co.jp" class="text-info">isotope@c-technol.co.jp</a>
+                </h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- ********* END FEATURES 5 ********* -->
+
+      <!-- BEGIN SHIPPING section -->
+      <div id="shipping" class="features-2">
+        <div class="text-center">
+
+          <h3 class="title text-success">About Shipping</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ml-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-info">
+                <i class="material-icons">question_answer</i>
+
+              </div>
+              <div class="description">
+                <h4 class="info-title">General Info</h4>
+                <p>GEX can prepay and add shipping costs to the invoice, or we are happy to ship on a customer&rsquo;s UPS, FedEx, DHL or TNT account. Third Party billing is accepted but must be arranged with GEX Customer Service. Freight forwarding companies can
+                  also be utilized, but these must be arranged with Customer Service at time of order. Customers must provide a complete shipping address, including postal code, telephone number, contact name and email.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mr-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-success">
+                <i class="material-icons">list</i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Requirements</h4>
+                <p>
+                  <ul>
+                    <li>Dosimeters and temperature indicators must be shipped by express Air Freight to remain under the GEX Warranty.</li>
+                    <li>Customer may choose an alternate shipping method, however, the GEX Warranty will not cover dosimeter and temperature indicator items shipped by means other than express air freight.</li>
+                    <li>All dosimeters are shipped with temperature monitoring included.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ml-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-success">
+                <i class="material-icons">local_shipping</i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Domestic Shipping</h4>
+                <p>GEX will ship using UPS or FedEx services. Delivery times will depend on the products ordered as well as the shipping service selected.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mr-auto">
+            <div class="info info-horizontal">
+              <div class="icon icon-rose">
+                <i class="material-icons">flight_takeoff</i>
+
+              </div>
+              <div class="description">
+                <h4 class="info-title">International Shipping</h4>
+                <p>All customs fees, duties, and taxes are the responsibility of the receiver. Unless specified at time of order, GEX will utilize either EXW or FCA Incoterms for international shipments.</p>
+                <p>GEX will not utilize any Incoterms that requires GEX to pay for any customs fees, duties, or taxes (i.e., DDP) unless this is arranged by negiation with GEX Customer Service when the order is placed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END shipping -->
+      <!-- end sections -->
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,196 @@
+<!-- support.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+ 
+</head>
+<body class="about-us ">
+
+  {% include "partials/navigation.nunjucks" %}
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/b3-test.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Customer Support</h1>
+          <h6>Product support for existing GEX customers</h6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+    <div class="container">
+      <!-- subhead section -->
+      <div class="about-description text-center">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <!-- <h1 class="title">Customer Support</h1> <h6>Product support for existing GEX customers</h6> -->
+            <h4 class="description">Our technical experts work with our customers throughout every stage: from defining requirements, to implementation, to calibration, and maintenance. You can expect prompt, accurate and professional service every time you have a question or problem.
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Links to Library -->
+      <div class="team-2" id="team-2">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card card-profile card-plain">
+                <div class="card-header card-header-image">
+                  <a href="./doclibrary.html">
+                    <img class="img" src="./assets/img/documents.jpg">
+                  </a>
+                </div>
+                <div class="card-body ">
+                  <h4 class="card-title">Document Library</h4>
+                  <h6 class="card-category text-muted">Product Info | Technical Reports | Procedures</h6>
+                </div>
+                <div class="card-footer justify-content-center">
+                  <a href="https://library.gexcorp.com" class="btn btn-just-icon btn-primary btn-round">
+                    <i class="fas fa-clipboard-list"></i>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-profile card-plain">
+                <div class="card-header card-header-image">
+                  <a href="./videolibrary.html">
+                    <img class="img" src="./assets/img/video.jpg">
+                  </a>
+                </div>
+                <div class="card-body ">
+                  <h4 class="card-title">How-to Videos</h4>
+                  <h6 class="card-category text-muted">GEX product Video gallery</h6>
+                </div>
+                <div class="card-footer justify-content-center">
+                  <a href="./videolibrary.html" class="btn btn-just-icon btn-primary btn-round">
+                    <i class="fas fa-file-video"></i>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <!-- big contact form -->
+
+      <div class="contactus-1" id="support-contact">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h2 class="title">Contact GEX Customer Support</h2>
+          <h4 class="description">Can't find what you need? Need more assistance? Our staff is here to support you!</h4>
+          
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              {# <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                  <i class="material-icons">mail</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title" id="email-link">Send us an
+                    <a href="mailto:cs@gexcorp.com" target="_blank">email</a>
+                  </h4>
+                  <p>
+                    Customer Support Team</p>
+                </div>
+              </div> #}
+              <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                  <i class="material-icons">phone</i>
+                </div>
+                <div class="description">
+                  <h4 class="info-title">Give us a ring</h4>
+                  <p>
+                    Customer Support Team
+                    <br>
+                    +1 303.400.9640
+                    <br>
+                    Mon - Fri, 8:00-16:00
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-6">
+              <br>
+              <br>
+              <h6 class="description">Support for Existing Customers
+                <br>
+              </h6>
+              <form id="contact-form" action="https://formspree.io/f/xvoazaje" method="POST" data-toggle="validator">
+                <div class="card-header card-header-raised card-header-primary text-center">
+                  <h4 class="card-title">Contact GEX Customer Support</h4>
+                </div>
+                <div class="card-body">
+                  <small id="emailHelp" class="form-text text-muted text-center">We'll never share your information with anyone else.</small>
+                  <div class="row">
+                    <div class="col-md-6">
+
+                      <div class="form-group label-floating is-empty">
+                        <label class="bmd-label-floating">First name</label>
+                        <input type="text" name="firstname" class="form-control" required="required">
+                        <span class="material-input"></span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group label-floating is-empty">
+                        <label class="bmd-label-floating">Last name</label>
+                        <input type="text" name="lastname" class="form-control" required="required">
+                        <span class="material-input"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group label-floating is-empty">
+                        <label class="bmd-label-floating">Company</label>
+                        <input type="text" name="company" class="form-control">
+                        <span class="material-input"></span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group label-floating is-empty">
+                        <label class="bmd-label-floating">Your Email</label>
+                        <input type="email" name="_replyto" class="form-control" required="required">
+                        <span class="material-input"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group label-floating is-empty">
+                    <label for="exampleMessage1" class="bmd-label-floating">Your Message</label>
+                    <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
+                    <span class="material-input"></span>
+                  </div>
+                </div>
+
+                <div class="card-footer justify-content-between">
+                  <div class="form-check">
+                    <input type="hidden" name="_subject" value="New CS submission!"/>
+                    <input type="hidden" name="_next" value="https://gexcorp.com/thankyou.html"/>
+                    <input type="text" name="_gotcha" style="display:none"/>
+                    <button id="salesBtn" type="submit" class="btn btn-primary pull-right">Send Message</button>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end big contact form -->
+      </div>
+    </div>
+  {% endblock %}

@@ -1,0 +1,1593 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+ =========================================================
+ Material Kit PRO - v2.2.0
+ =========================================================
+
+ Product Page: https://www.creative-tim.com/product/material-kit-pro
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ Coded by Creative Tim
+
+ =========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+  <meta
+    name="keywords"
+    content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+  <meta name="msvalidate.01" content="65AA01A3161EE872D7D09D23458BB5CE"/>
+  <meta name="yandex-verification" content="6980595247a97dc7"/>
+  <title>
+    GEX Corporation - the Dosimetry Company
+  </title>
+  <!-- *** Global site tag (gtag.js) - Google Analytics *** -->
+  
+   <!-- *** END Global site tag (gtag.js) - Google Analytics *** -->
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+  <!-- custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet"/>
+  <!-- vertical nav CSS -->
+  <link href="./assets/css/vertical-nav.css" rel="stylesheet"/>
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- *** cookie banner *** -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#edeff5",
+            "text": "#838391"
+          },
+          "button": {
+            "background": "#4b81e8"
+          }
+        },
+        "theme": "classic",
+        "content": {
+          "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+          "link": "Learn More...",
+          "href": "./policies.html"
+        }
+      })
+    });
+  </script>
+  <!-- *** google structured data *** -->
+  <script type="application/ld+json">
+    {
+      "@type": "Company",
+      "name": "GEX Corporation",
+      "description": "The Dosimetry Company",
+      "url": "https://www.gexcorp.com",
+      "logo": "https://www.gexcorp.com/assets/img/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-303-400-9640",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+
+</head>
+
+
+
+
+
+
+</head>
+<body class="about-us ">
+
+  <!-- navigation.nunjucks -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+  <div class="container">
+    <div class="navbar-translate">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt="GEX Corp logo" class="img-fluid"></a>
+      <a class="navbar-brand" href="./index.html">GEX CORPORATION</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a href="./company.html" class="nav-link">
+            Company
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./support.html" class="nav-link">
+            Support
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="./purchase.html" class="nav-link">
+            Purchase
+          </a>
+        </li>
+
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Products
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./systems.html" class="dropdown-item">
+              <i class="material-icons">horizontal_split</i>
+              Dosimetry Systems
+            </a>
+            <a href="./dosimeters.html" class="dropdown-item">
+              <i class="material-icons">dashboard</i>
+              Dosimeters
+            </a>
+            <a href="./indicators.html" class="dropdown-item">
+              <i class="material-icons">picture_in_picture</i>
+              Radiation Indicators
+            </a>
+            <a href="./temperature.html" class="dropdown-item">
+              <i class="material-icons">warning</i>
+              Temperature Indicators
+            </a>
+            <a href="./calibrations.html" class="dropdown-item">
+              <i class="material-icons">timeline</i>
+              Calibrations
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+        <!-- dropdown -->
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            Library
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="./faq.html" class="dropdown-item">
+              <i class="material-icons">info</i>
+              Fundamentals
+            </a>
+            <a href="https://library.gexcorp.com/" class="dropdown-item">
+              <i class="material-icons">view_list</i>
+              Document Library
+            </a>
+            <a href="./videolibraryTable.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Instruction Videos
+            </a>
+            <a href="./videolibrary.html" class="dropdown-item">
+              <i class="material-icons">video_library</i>
+              Product Gallery
+            </a>
+
+          </div>
+        </li>
+        <!-- end dropdown -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h1 class="title">Document Library</h1>
+          <h6>List of available GEX documents. View/Download.</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="container">
+      <div class="about-description text-center">
+        <div class="row">
+          <div class="col-md-10 ml-auto mr-auto text-center">
+
+            <!-- ********* three sections ********* -->
+            <div id="topofpage" class="section text-center">
+              <div class="features">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a href="#product-info">
+                      <div class="info">
+                        <div class="icon icon-info">
+
+                          <i class="fas fa-file"></i>
+
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Product Information Sheets</h4>
+                          <p>Doc# 100-100 to 100-199</p>
+                          <a href="#product-info" class="btn btn-default btn-round" role="button">GO!</a>
+                          
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#tech-info">
+                      <div class="info">
+                        <div class="icon icon-success">
+                          <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Technical Information Reports</h4>
+                          <p>Doc# 100-200 to 100-249</p>
+                          <a href="#tech-info" class="btn btn-default btn-round" role="button">GO!</a>              
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#procedure-info">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Dosimetry Procedures</h4>
+                          <p>Doc# 100-250 to 100-299</p>
+                         <a href="#procedure-info" class="btn btn-default btn-round" role="button">GO!</a>  
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <h6 class="text-info">Some documents in this library may require
+              <a href="https://get.adobe.com/reader/">Adobe Reader</a>
+              to view/download.
+            </h6>
+            <!-- ********* END 3 sections ********* -->
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ********* BEGIN product info sheets ********* -->
+    <div class="section" id="product-info">
+      <div class="container">
+        <div class="title text-center">
+          <h3 class="title text-info">
+            <i class="fas fa-file"></i>&nbsp;&nbsp;Product Information Sheets</h3>
+        </div>
+        <!-- inset doclist list.js -->
+        <div id="doclist">
+          <!-- table seach and sort controls -->
+          <div class="row justify-content-center">
+            <!-- sort buttons -->
+            <div id="sort-btn">
+              <button class="sort btn btn-success" data-sort="number">Sort by document number</button>
+              <button class="sort btn btn-info" data-sort="name">Sort by product name</button>
+              <button class="sort btn btn-default" data-sort="product">Sort by product number</button>
+            </div>
+          </div>
+          <!-- search -->
+          <div class="row">
+            <div class="col-md-4 ml-auto mr-auto text-center">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="material-icons">
+                        search
+                      </i>
+                    </span>
+                  </div>
+                  <input type="text" class="search form-control" placeholder="Search Product Info Sheets...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- doc table Product Info Sheets -->
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th class="text-center">
+                  <h6>Doc. No.</h6>
+                </th>
+                <th>
+                  <h6>Product Name</h6>
+                </th>
+                <th class="text-center">
+                  <h6>Product No.</h6>
+                </th>
+                <th class="text-center">
+                  <h6>Download</h6>
+                </th>
+              </tr>
+            </thead>
+            <!-- IMPORTANT, class="list" have to be at tbody -->
+            <tbody class="list">
+              <tr>
+                <td class="number">100-101</td>
+                <td class="name">B3WINdose Radiochromic Film Dosimeters</td>
+                <td class="product">B3000/B3001/B3002</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-101 B3 3000_PI_112912.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-101</td>
+                <td class="name">B3 Radiochromic Film Dosimeters - B3 DoseStix Dosimeters</td>
+                <td class="product">B3001DS</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-101 B3 3000_PI_112912.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-102</td>
+                <td class="name">Energy Wedge Card Array (B3WINdose Radiochromic Film Dosimeter Array for Ris&oslash; Wedge)</td>
+                <td class="product">B3110/B3112</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-102_B3110-B3112_Wedge_Cards_PI_082304.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-103</td>
+                <td class="name">10 inch Uniformity Measurement Strip ( B3 WINdose Radiochromic Film Dosimeters Array)</td>
+                <td class="product">B3106</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-103_B3106_Strips_PI_082304.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-104</td>
+                <td class="name">100 - 300 keV Energy Measurement Stack ( B3Windose Radiochromic Film Dosimeters)
+                </td>
+                <td class="product">B3200</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-104_B3200_Tall_Energy_Stacks_PI_082304.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="number">100-105</td>
+                <td class="name">50 - 100 keV Energy Measurement Stack (B3Windose Radiochromic Film Dosimeters)</td>
+                <td class="product">B3202</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-105_B3202_Short_Energy_Stacks_PI_082304.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="number">100-106</td>
+                <td class="name">DoseStix Dosimeter Holder (for WINdose-Gen20 System)</td>
+                <td class="product">P4506</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-106_P4506_DoseStix_Holder_PI_082304.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-107</td>
+                <td class="name">Gamma Calibration Phantom</td>
+                <td class="product">P1010/1011</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-107_A P1010 & P1011 Gamma Cal Phantoms.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-108</td>
+                <td class="name">Electron Beam Calibration Phantom</td>
+                <td class="product">P1020/1030</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-108_P1020-P1030_EBeam_Cal_Phantoms_PI_112811.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-109</td>
+                <td class="name">Irreversible Temperature Indicators</td>
+                <td class="product">P8003</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-109_B P8003 Irreversible Temperature Indicators.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-112</td>
+                <td class="name">RS232 Interlink Cable with USB adapter (for WINdose-Gen20 System)</td>
+                <td class="product">P4130</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-112_P4130_RS232_cable_PI_102810.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-113</td>
+                <td class="name">Spectrophotometer Calibration Standard Set with NIST traceability certificate</td>
+                <td class="product">P4220</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-113_B P4220 Spectronic Standards Set 2.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-114</td>
+                <td class="name">Tungsten-Halogen Lamp (for Genesys 20 spectrophotometer)</td>
+                <td class="product">P4140</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-114_P4140_Tungsten-Halogen_Replacement_Lamps_PI_082304.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-115</td>
+                <td class="name">CCD Barcode Reader Attachment (for WINdose-Gen20 System)</td>
+                <td class="product">P4201</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-115_P4201_Bar_Code_Reader_PI_031711.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-116</td>
+                <td class="name">WINdose Dosimeter Holder (for WINdose-Gen20 System)</td>
+                <td class="product">P4502</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-116_P4502_Hinged_Holder_PI_082304.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-117</td>
+                <td class="name">Heat Treatment Incubator System with Timer
+                </td>
+                <td class="product">P4800</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-117_A P4800 Heat Treatment Incubator w Timer.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-118</td>
+                <td class="name">PENvac Dosimeter Handling Tool</td>
+                <td class="product">P8005</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-118_P8005_PENVAC_PI_021413.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-119</td>
+                <td class="name">Ris&oslash; 2 Aluminum Energy Measurement Wedge</td>
+                <td class="product">P4701</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-119_P4701_Energy_Wedge_PI_082304.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-121</td>
+                <td class="name">Ris&oslash; Calorimeter: Polystyrene 5 MeV (3.0 - 40 kGy)</td>
+                <td class="product">B6001/6002/6004</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-121_B6001-B6004_Calorimeters_PI_031611.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-122</td>
+                <td class="name">B3 film - sheets and strips</td>
+                <td class="product">B3100/3102/3103</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-122_B3_Film_Sheets-Strips_PI_042507.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-123</td>
+                <td class="name">Micro-Incubator Heat Treatment System with Timer</td>
+                <td class="product">P4900</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-123_P4900_Micro_Incubator_PI_102908.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-124</td>
+                <td class="name">Radiation Indicators: Yellow to purple color change, reaction begins at 3 kGy</td>
+                <td class="product">P8100</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-124 P8100 Radiation Indicators PSU_C.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-125</td>
+                <td class="name">Digital Thermometer (for use with P4900)</td>
+                <td class="product">P4901</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-125_P4901_Digital_Thermometer_PI_022807.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-126</td>
+                <td class="name">T-Type Thermocouple B3 Probe (for use with P4900 and P4901)</td>
+                <td class="product">P4902</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-126_P4902_T-type_Thermocouple_B3_Probe_PI_022807.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-127</td>
+                <td class="name">Genesys 20 Spectrophotometer</td>
+                <td class="product">P4902</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-127_P4120_Genesys20_PI_090110.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-128</td>
+                <td class="name">Reference DoseStix Dosimeter Holder (for WINdose-Gen20 System)</td>
+                <td class="product">P4508</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-128 P4508 Reference DS Dosimeter Holder_A.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-135</td>
+                <td class="name">Cuvette Covers for Genesys 20 (for WINdose-Gen20 System)</td>
+                <td class="product">P4602/4606</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-135_A Genesys20 Cuvette Cup Covers.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-141</td>
+                <td class="name">GEX Calibration Service and Audit Package</td>
+                <td class="product">S1101/1102</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-141_A S1101 and S1102 GEX Calibration Service and Audit Package.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-142</td>
+                <td class="name">Heat Treatment Incubator</td>
+                <td class="product">P4850</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-142_A P4850 Forced Air Incubator.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-146</td>
+                <td class="name">Radiation Indicators: Yellow to red color change, reaction begins at 10 kGy</td>
+                <td class="product">P8200</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-146 P8200 Radiation Indicators PSU_B.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-153</td>
+                <td class="name">WINdose for Excel 2002 Dosimetry Software Program</td>
+                <td class="product">S5100-2002</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-153 S5100-WINdose for Excel 2002 Manual_100213.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-156</td>
+                <td class="name">Thermo Scientific Evolution 220 spectrophotometer</td>
+                <td class="product">P4300</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-156_C P4300 Evo220 Spectrophotometer.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-157</td>
+                <td class="name">Evo220 Mercury Lamp Accessory</td>
+                <td class="product">P4310</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-157_A P4310 Evo220 Mercury Lamp Accessory.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-158</td>
+                <td class="name">Evo220 Calibration Verification Carousel (CVC)</td>
+                <td class="product">P4310</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-158_A P4320 Evo220 Calibration Verification Carousel (CVC).pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-159</td>
+                <td class="name">Base plate with beam tubes (for DoseControl-Evo 220 System)</td>
+                <td class="product">P4330</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-159_B Evolution 220 Dosimeter Holder System.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-159</td>
+                <td class="name">B3 DoseStix dosimeter holder (for DoseControl-Evo 220 System)</td>
+                <td class="product">P4332</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-159_B Evolution 220 Dosimeter Holder System.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-159</td>
+                <td class="name">B3 WINdose/FWT dosimeter holder (for DoseControl-Evo 220 System)</td>
+                <td class="product">P4334</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-159_B Evolution 220 Dosimeter Holder System.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-159</td>
+                <td class="name">PMMA dosimeter holder - Red/Amber Perspex (for DoseControl-Evo 220 System)</td>
+                <td class="product">P4336</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-159_B Evolution 220 Dosimeter Holder System.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-164</td>
+                <td class="name">Metralight MX-2 Laser micrometer and Gauge Blocks (for DoseControl-Evo 220 System)</td>
+                <td class="product">P4350/4335</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-164_C P4350 P4355 MX2 Metralight Laser Micrometer and Gage Blocks.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-166</td>
+                <td class="name">MS-2 Barcode Scanner (for DoseControl-Evo 220 System)</td>
+                <td class="product">P4360</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-166_B P4360 Microscan MS-2 Barcode Scanner.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-167</td>
+                <td class="name">Genesys 30 Spectrophotometer</td>
+                <td class="product">P4400</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-167_C P4400 GENESYS 30 Spectrophotometer PSU.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-168</td>
+                <td class="name">Genesys 30 Dosimeter Holder System</td>
+                <td class="product">P4405/P4410/P4420</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-168_C GENESYS 30 Dosimeter Holder System PSU.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-169</td>
+                <td class="name">Genesys 30 Replacement Lamp</td>
+                <td class="product">P4401</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-169_C P4401 GENESYS 30 Replacement Lamp PSU.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-170</td>
+                <td class="name">E-Beam Phantom 5 MeV</td>
+                <td class="product">P1050</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-170_B P1050 E-Beam Phantom 5 MeV PSU.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-171</td>
+                <td class="name">E-Beam Phantom 10 MeV</td>
+                <td class="product">P1060</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-171_A P1060 E-Beam Phantom 10 MeV PSU.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+        </div>
+        <!-- end table -->
+      </div>
+      <div class="title text-center">
+        <a href="#topofpage">
+          <h6>Return to top</h6>
+        </a>
+      </div>
+      <!-- end container holder -->
+    </div>
+    <!-- end product info sheets section -->
+    <!-- ************** begin tech reports section ************************* -->
+    <div class="section" id="tech-info">
+      <div class="container">
+        <div class="title text-center">
+          <h3 class="title text-success">
+            <i class="fas fa-file-alt"></i>&nbsp;&nbsp;Technical Information Reports</h3>
+        </div>
+        <!-- inset doclist list.js -->
+        <div id="techlist">
+          <!-- table seach and sort controls -->
+          <div class="row justify-content-center">
+            <!-- sort buttons -->
+            <div id="sort-btn">
+              <button class="sort btn btn-success" data-sort="number">Sort by document number</button>
+              <button class="sort btn btn-info" data-sort="name">Sort by report name</button>
+
+            </div>
+          </div>
+          <!-- search -->
+          <div class="row">
+            <div class="col-md-4 ml-auto mr-auto text-center">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="material-icons">
+                        search
+                      </i>
+                    </span>
+                  </div>
+                  <input type="text" class="search form-control" placeholder="Search Technical Reports...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- doc table TIR -->
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th class="text-center">
+                  <h6>Document No.</h6>
+                </th>
+                <th>
+                  <h6>Product Name</h6>
+                </th>
+
+                <th class="text-center">
+                  <h6>Download</h6>
+                </th>
+              </tr>
+            </thead>
+            <!-- IMPORTANT, class="list" have to be at tbody -->
+            <tbody class="list">
+              <tr>
+                <td class="number">100-201</td>
+                <td class="name">Post-Irradiation Heat Treatment of B3 Dosimeter Products</td>
+                <!-- <td class="product">B3000/B3001/B3002</td> -->
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-201_A Post Irradiation Heat Treatment of B3 Dosimeter Products.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-203</td>
+                <td class="name">Dosimetry System Calibration</td>
+                <!-- <td class="product">B3001DS</td> -->
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-203_Dosimetry_System_Calibration_110608.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-204</td>
+                <td class="name">High Energy Electron Beam Energy Determination</td>
+                <!-- <td class="product">B3110/B3112</td> -->
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-204_High_Energy_Electron_Beam_Energy_Determination_080107.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-205</td>
+                <td class="name">B3 Radiochromic Film Dosimetry</td>
+                <!-- <td class="product">B3110/B3112</td> -->
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-205_B3_Radiochromic_Film_Dosimetry_090110.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-207</td>
+                <td class="name">Dosimetry for Low Energy Electron Beam</td>
+                <!-- <td class="product">B3110/B3112</td> -->
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-207_Dosimetry_For_Low_Energy_Electron_Beam_111008.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-208</td>
+                <td class="name">Analysis of Dosimeter Calibration</td>
+                <!-- <td class="product">B3110/B3112</td> -->
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-208_Analysis_of_Calibration_Measurement_CV_080307.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-209</td>
+                <td class="name">Developing and Using Uncertainty Statements</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-209_Developing_and_Using_Uncertainty_Statements_010307.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-210</td>
+                <td class="name">Genesys 20 - General Practices and Information</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-210 Genesys 20 - General Practices and Information 020315.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-211</td>
+                <td class="name">Calibration of Dosimetry Systems Used in Low Energy Electron Irradiation</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-211_Low_Energy_Ebeam-Traceable_Dosimeter_Calibration_100808.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-212</td>
+                <td class="name">Justification for Spectronic Standards Wavelength Accuracy Test</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-212_Wavelength_Accuracy_Justification_021209.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-213</td>
+                <td class="name">Low Energy Electron Beam (80-300 keV) - Options for Traceable Dosimetry System Calibration</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-213_Low_Energy_Ebeam_Traceable_Calibration_Options_042011.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-215</td>
+                <td class="name">Dosimeter Batch Calibration Curve Fit Analysis</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-215_B Dosimeter Batch Calibration Curve Fit Analysis.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-216</td>
+                <td class="name">Interpreting Tektronix Gage Blocks Thickness Certificates</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-216_A Interpreting Tektronix Gage Block Thickness Certificates.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-217</td>
+                <td class="name">Transfer Alanine Study</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-217_A_Transfer_Standard_Alanine_Study.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-219</td>
+                <td class="name">Performance of P8003 Irreversible Temperature Indicator Label</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-219_A Performance of Irreversible Temperature Indicators.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-221</td>
+                <td class="name">Selecting P.V. Method for the Evolution 220</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-221_A Selecting P.V. Method for the Evolution 220.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              
+              
+
+            </tbody>
+          </table>
+        </div>
+        <!-- end table -->
+
+      </div>
+      <div class="title text-center">
+        <a href="#topofpage">
+          <h6>Return to top</h6>
+        </a>
+      </div>
+      <!-- end container holder -->
+    </div>
+    <!-- ******************** END tech reports section -->
+    <!-- ******************* BEGIN Procedures section ********************-->
+    <div class="section" id="procedure-info">
+      <div class="container">
+        <div class="title text-center">
+          <h3 class="title text-danger">
+            <i class="fas fa-tasks"></i>&nbsp;&nbsp;Dosimetry Procedures</h3>
+        </div>
+        <!-- inset doclist list.js -->
+        <div id="proclist">
+          <!-- table seach and sort controls -->
+          <div class="row justify-content-center">
+            <!-- sort buttons -->
+            <div id="sort-btn">
+              <button class="sort btn btn-success" data-sort="number">Sort by document number</button>
+              <button class="sort btn btn-info" data-sort="name">Sort by procedure name</button>
+              <!-- <button class="sort btn btn-default" data-sort="product">Sort by product number</button> -->
+            </div>
+          </div>
+          <!-- search -->
+          <div class="row">
+            <div class="col-md-4 ml-auto mr-auto text-center">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="material-icons">
+                        search
+                      </i>
+                    </span>
+                  </div>
+                  <input type="text" class="search form-control" placeholder="Search Procedures...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- doc table Procedures -->
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th class="text-center">
+                  <h6>Document No.</h6>
+                </th>
+                <th class="text-center">
+                  <h6>Revision Level</h6>
+                </th>
+                <th>
+                  <h6>Procedure Name</h6>
+                </th>
+                <th class="text-center">
+                  <h6>Download</h6>
+                </th>
+              </tr>
+            </thead>
+            <!-- IMPORTANT, class="list" have to be at tbody -->
+            <tbody class="list">
+              <tr>
+                <td class="number">100-250</td>
+                <td class="text-center">C</td>
+                <td class="name">UV Control and Monitoring</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-250_C_UV_Control_and_Monitoring.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-251</td>
+                <td class="text-center">C</td>
+                <td class="name">Dosimetry System Calibration</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-203_Dosimetry_System_Calibration_110608.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-252</td>
+                <td class="text-center">B</td>
+                <td class="name">
+                  Instruments and Personnel Characterization Form (MS EXCEL)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-252_B_Instruments_and_Personnel_Characterization_Form.xlt" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-253</td>
+                <td class="text-center">B</td>
+                <td class="name">Dosimetry Lab Requirements</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-253_B_Dosimetry_Lab_Requirements.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-254</td>
+                <td class="text-center">F</td>
+                <td class="name">Genesys 20 Calibration and Maintenance</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-254_F Genesys 20 Calibration & Maintenance.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-255</td>
+                <td class="text-center">C</td>
+                <td class="name">Windose for Excel Verification</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-255_C_WINdose_for_Excel_Verification.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-256</td>
+                <td class="text-center">D</td>
+                <td class="name">Dosimeter Stock Receiving Inspection</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-256_D Dosimeter Stock Receiving Inspection.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-257</td>
+                <td class="text-center">D</td>
+                <td class="name">Dosimeter Stock Receiving Inspection Form (MS EXCEL)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-257_D Dosimeter Stock Receiving Inspection Form.xlsx" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-258</td>
+                <td class="text-center">D</td>
+                <td class="name">Measuring GEX Dosimeters</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-258_D_Measuring_GEX_Dosimeters.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-259</td>
+                <td class="text-center">D</td>
+                <td class="name">Investigation of Dosimeter Measurements</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-259_D_Investigation_of_Dosimeter_Measurements.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-260</td>
+                <td class="text-center">C</td>
+                <td class="name">Ebeam Energy Estimation Using the Ris&oslash; Wedge</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-260_C_Ebeam_Energy_Estimation_Using_the_Risoe_Wedge.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-261</td>
+                <td class="text-center">C</td>
+                <td class="name">Ebeam Process Uniformity Measurement</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-261_C_Ebeam_Process_Uniformity_Measurement.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-262</td>
+                <td class="text-center">D</td>
+                <td class="name">Genesys 20 Calibration Verification Form (MS EXCEL)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-262_D Genesys 20 Calibration Verification Form.xlsx" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-263</td>
+                <td class="text-center">C</td>
+                <td class="name">Performing a Dosimeter Batch Calibration</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-263_C_Performing_a_Dosimeter_Batch_Calibration.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-266</td>
+                <td class="text-center">H</td>
+                <td class="name">User Guide for DoseControl Software (.zip)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-266_H DoseControl Software User Guide.pdf.zip" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-267</td>
+                <td class="text-center">B</td>
+                <td class="name">Implementation Guide for the DoseControl Dosimetry System</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-267_B Implementation Guide for the DoseControl Dosimetry System.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-269</td>
+                <td class="text-center">B</td>
+                <td class="name">Spectrophotometer Performance Verification Forms (MS EXCEL)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-269_B Spectrophotometer Performance Verification Forms.xlsx" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-270</td>
+                <td class="text-center">B</td>
+                <td class="name">GENESYS 30 Performance Verification Procedure (.zip)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-270_B GENESYS 30 Performance Verification Procedure.pdf.zip" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-271</td>
+                <td class="text-center">A</td>
+                <td class="name">Evolution220 Performance Verification Procedure</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-271_A Evolution220 Performance Verification Procedure.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-272</td>
+                <td class="text-center">A</td>
+                <td class="name">Spectrophotometer Measurement Repeatability Form (MS EXCEL)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-272_A Spectrophotometer Measurement Repeatability Form.xlsx" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-273</td>
+                <td class="text-center">A</td>
+                <td class="name">Spectrophotometer Measurement Repeatability Test Procedure</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-273_A Spectrophotometer Measurement Repeatability Test Procedure.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-274</td>
+                <td class="text-center">A</td>
+                <td class="name">Integrated Barcode Scanner IQOQ Test Form (MS WORD)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-274_A Integrated Barcode Scanner IQOQ Test Form.docx" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-275</td>
+                <td class="text-center">A</td>
+                <td class="name">Integrated Barcode Scanner IQOQ Test Procedure</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-275_A Integrated Barcode Scanner IQOQ Test Procedure.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-276</td>
+                <td class="text-center">A</td>
+                <td class="name">Heat Treatment Incubator IQOQ Test Procedure</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-276_A Heat Treatment Incubator IQOQ Test Procedure.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-277</td>
+                <td class="text-center">A</td>
+                <td class="name">Incubator IQOQ Test Form (MS EXCEL)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-277_A Incubator IQOQ Test Form.xlsx" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-280</td>
+                <td class="text-center">B</td>
+                <td class="name">DoseControl IQOQ Plan and Protocol (MS WORD)</td>
+                <td class="doc text-center">
+                  <a class="btn btn-default btn-just-icon" href="pdf/100-280_B DoseControl IQOQ Plan and Protocol.docx" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="number">100-282</td>
+                <td class="text-center">A</td>
+                <td class="name">DoseControl Data Integrity and Compliance</td>
+                <td class="doc text-center">
+                  <a class="btn btn-info btn-just-icon" href="pdf/100-282_A DoseControl Data Integrity and Compliance.pdf" target="_blank" role="button">
+                    <i class="fas fa-file-download fa-sm"></i>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end table -->
+
+        <br>
+        <br>
+      </div>
+      <div class="title text-center">
+        <a href="#topofpage">
+          <h6>Return to top</h6>
+        </a>
+      </div>
+      <!-- end container holder -->
+    </div>
+    <!-- ******************* END Procedures section ********************-->
+    <!-- ******************* end main section ********************-->
+  </div>
+  <!-- end main section-->
+
+
+<!-- ********* LARGE FOOTER ********* -->
+<footer class="footer footer-white footer-big">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+          <hr>
+          <div class="copyright pull-center">
+            <p>&#xA9;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              GEX Corporation. All Rights Reserved. Photo by Luana Azevedo on Unsplash.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Company</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./company.html#contactus">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#location">
+                Location
+              </a>
+            </li>
+            <li>
+              <a href="./company.html#relationship">
+                Working With Us
+              </a>
+            </li>
+            <li>
+              <a href="./quality.html">
+                Quality
+              </a>
+            </li>
+            <li>
+              <a href="./support.html">
+                Customer Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Purchase</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./purchase.html#howto">
+                How To
+              </a>
+            </li>
+            <li>
+              <a href="./purchase.html#shipping">
+                Shipping
+              </a>
+            </li>
+            <li>
+              <a href="./pricelist.html">
+                Pricelist
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Library</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./faq.html">
+                Fundamentals
+              </a>
+            </li>
+            <li>
+              <a href="./doclibrary.html">
+                Document Library
+              </a>
+            </li>
+            <li>
+              <a href="./videolibrary.html">
+                Video Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h5>Products</h5>
+          <ul class="links-vertical">
+            <li>
+              <a href="./systems.html">
+                Dosimetry Systems
+              </a>
+            </li>
+            <li>
+              <a href="./dosimeters.html">
+                Dosimeters
+              </a>
+            </li>
+            <li>
+              <a href="./indicators.html">
+                Radiation Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./temperature.html">
+                Temperature Indicators
+              </a>
+            </li>
+            <li>
+              <a href="./calibrations.html">
+                Calibration Services
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<!-- ********* BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+<footer class="footer footer-black">
+  <div class="container">
+    <a class="footer-brand" href="#pablo">GEX Corporation</a>
+    <ul class="pull-center">
+      <li>
+        <a href="./policies.html#cookie">
+          Cookies Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#privacy">
+          Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="./policies.html#terms">
+          Terms &amp; Conditions
+        </a>
+      </li>
+
+    </ul>
+    <ul class="social-buttons float-right">
+
+      <li>
+        <a class="btn btn-link btn-linkedin" href="https://www.linkedin.com/company/gex-corporation" role="button">
+          <i class="fa fa-linkedin-square"></i>
+          Connect with Linkedin
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-link btn-youtube" href="https://www.youtube.com/channel/UCw4k4epIKE8yB7LAUbNUi6Q/" role="button">
+        
+          <i class="fa fa-youtube-play"></i>
+          Youtube Channel
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<!-- ********* END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND ********* -->
+
+<!-- endscripts.nunjucks -->
+<!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+  <!--	Plugin for Small Gallery in Product Page -->
+  <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+  </script>
+<!-- *** END MATERIAL DESIGN CORE -->
+<!-- google -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- List.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<!-- custom -->
+<script src="./assets/js/custom.js"></script>
+<script src="./assets/js/table-custom.js"></script>
+<!-- html5shiv -->
+<script src="./assets/js/pluins/html5shiv.min.js"></script>
+
+
+
+
+
+</body>
+</html>
